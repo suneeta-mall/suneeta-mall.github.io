@@ -12,7 +12,7 @@ Industry adoptation of data-science in last 5 years have been phenomenon. As per
 
 ![Big Data Vs Machine Learning](/images/google-trends-big-data-machine-learning-usa-april-2017.jpg)
 
-In this talk, I covered the 3-R's *Repeatability, Reproducibility, and Replicability* and tools and techniques avaialable to practice reproducible data-science. Slides can be accessed on this [link][yow_2019_slides].
+*The 3-R's of Data-Science - Repeatability, Reproducibility, and Replicability* is [YOW Data 2019 (Sydney)][yow_suneetamall] talk presented in May 2019. In this talk, I covered the 3-R's *Repeatability, Reproducibility, and Replicability* and tools and techniques avaialable to practice reproducible data-science. Slides can be accessed on this [link][yow_2019_slides].
 
 So here I am at YOW Data 2019 (Sydney)!
 <!-- {: .oversized} -->
@@ -21,7 +21,8 @@ So here I am at YOW Data 2019 (Sydney)!
 
 [iclr_repro_challenge]: //reproducibility-challenge.github.io/iclr_2019/
 [jp_utube]: //www.youtube.com/watch?v=Vh4H0gOwdIg
-[#suneetamall]: //twitter.com/search?q=suneetamall
+[yow_suneetamall]: //data.yowconference.com.au/archive-2019/profile/?id=suneetamallhotmailcom
+
 [kdnuggets_2017]: //www.kdnuggets.com/2017/05/machine-learning-overtaking-big-data.html
 [mmcv_2016]://medium.com/mmc-writes/artificial-intelligence-in-the-uk-landscape-and-learnings-from-226-startups-70b9551f3e4c
 [OReilly_2018]: //www.oreilly.com/data/free/evolving-data-infrastructure.csp
