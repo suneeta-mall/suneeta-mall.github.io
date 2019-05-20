@@ -1,0 +1,52 @@
+.posts > .excerpt.post {
+    @extend .sep-bottom;
+    padding-bottom: 2em;
+}
+.posts > .excerpt.post:last-child {
+    padding-bottom: 1em;
+    border-bottom: none;
+}
+
+
+.pagination {
+    @extend .sep-top;
+    margin-top: 1em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+.submenu.info {
+    div {
+        padding: 0.33em;
+        text-align: center;
+    }
+
+    .primary {
+        background: $major-color;
+    }
+
+    .secondary {
+        background: $minor-color;
+    }
+}
+
+
+.date {
+    font-family: $font-head;
+    font-style: italic;
+    flex: 0 0 auto;
+    align-self: stretch;
+}
+
+
+.mini-title, .tags {
+    margin: 0 1em;
+    font-family: $font-head;
+    align-self: stretch;
+}
+
+
+.footnotes {
+    border-top: 1px dashed $border-color;
+}

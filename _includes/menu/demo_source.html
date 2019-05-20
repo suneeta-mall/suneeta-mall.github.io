@@ -1,0 +1,24 @@
+{% if include.demo or include.source %}
+  <div class="submenu info flex mobile-column">
+    {% if include.demo %}
+      <div class="primary flexitem fill">
+        <a href="{{ include.demo }}">{{ site.data.theme.text.project.demo }}</a>
+      </div>
+    {% endif %}
+    {% if include.source %}
+      <div class="secondary flexitem fill">
+        <a href="{{ include.source }}">{{ site.data.theme.text.project.source }}</a>
+      </div>
+    {% endif %}
+    {% if include.vedio %}
+      <div class="primary flexitem fill">
+        <a href="{{ include.vedio }}">{{ site.data.theme.text.talk.vedio }}</a>
+      </div>
+    {% endif %}
+    {% if include.slides %}
+      <div class="secondary flexitem fill">
+        <a href="{{ include.slides }}">{{ site.data.theme.text.talk.slides }}</a>
+      </div>
+    {% endif %}
+  </div>
+{% endif %}
