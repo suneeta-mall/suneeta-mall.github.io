@@ -34,6 +34,7 @@ Publications
 - Folksonomic approach to security systems. [ip.com 2011][000207906]
 - System and method to automatically provide optimal content based on vision and eye movement. [ip.com 2011][000208045]
 - Mechanism to conduct a whiteboard based conference session using gyroscopic enabled mobile devices. [ip.com 2011][000208037]
+- Acceptability indicators in emails. [ip.com 2011][000212197D]
 - An optimized human face detection and feature extraction algorithm. [ip.com 2010][000197147]
 
 
@@ -62,6 +63,7 @@ Books
 [spie_2015]: //www.spiedigitallibrary.org/conference-proceedings-of-spie/9416/941619/Implementation-and-value-of-using-a-split-plot-reader-design/10.1117/12.2083152.short
 [000214706]: //priorart.ip.com/IPCOM/000214706
 [000197147]: //priorart.ip.com/IPCOM/000197147
+[000212197D]: //priorart.ip.com/IPCOM/000212197D
 [000207906]: //priorart.ip.com/IPCOM/000207906
 [000208045]: //priorart.ip.com/IPCOM/000208045
 [000208037]: //priorart.ip.com/IPCOM/000208037
