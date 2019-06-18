@@ -26,6 +26,6 @@ So here I am at YOW Data 2019 (Sydney)!
 [kdnuggets_2017]: //www.kdnuggets.com/2017/05/machine-learning-overtaking-big-data.html
 [mmcv_2016]://medium.com/mmc-writes/artificial-intelligence-in-the-uk-landscape-and-learnings-from-226-startups-70b9551f3e4c
 [OReilly_2018]: //www.oreilly.com/data/free/evolving-data-infrastructure.csp
-[yow_2019_slides]: //github.com/suneeta-mall/slides/3Rs.html
+[yow_2019_slides]: //suneeta-mall.github.io/slides/3Rs.html#/intro
 
 
