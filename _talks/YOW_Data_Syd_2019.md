@@ -1,6 +1,6 @@
 ---
 title: The 3-R's of Data-Science - Repeatability, Reproducibility, and Replicability
-slides: //yowconference.com.au/slides/yowdata2019/SuneetaMall_TheThreeRsofDataScienceRepeatabilityReproducibilityandReplicability.pdf
+slides: //suneeta-mall.github.io/slides/3Rs.html#/intro
 vedio: 
 date: 2019-05-06
 display_date: May 2019
