@@ -1,7 +1,7 @@
 ---
 title: 'Continuous Delivery Meets Custom Kubernetes Controller: A Declarative Configuration Approach to CI/CD'
 slides: //static.sched.com/hosted_files/kccnceu18/f2/Continuous%20Delivery%20Meets%20Custom%20Kubernetes%20Controller-%20A%20Declarative%20Configuration%20Approach%20to%20CICD.pdf
-vedio: //www.youtube.com/watch?v=kBS_Wd41R8k&feature=youtu.be
+video: //www.youtube.com/watch?v=kBS_Wd41R8k&feature=youtu.be
 date: 2018-05-02
 display_date: May 2018
 ---

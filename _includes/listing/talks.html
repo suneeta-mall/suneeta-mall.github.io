@@ -7,7 +7,7 @@
   {% if quota != 0 or include.feature.list contains talk.id %}
     {% include article.html class='post'
                title=talk.title content=talk.excerpt
-               vedio=talk.vedio slides=talk.slides
+               video=talk.video slides=talk.slides
                display_date=talk.display_date
                url=talk.url quota=quota %}
     {% if quota > 0 %}

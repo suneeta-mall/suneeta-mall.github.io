@@ -1,7 +1,7 @@
 ---
 title: The 3-R's of Data-Science - Repeatability, Reproducibility, and Replicability
 slides: //suneeta-mall.github.io/slides/3Rs.html#/intro
-vedio: 
+video: //www.youtube.com/watch?v=ro_iYkv9dUQ
 date: 2019-05-06
 display_date: May 2019
 ---
