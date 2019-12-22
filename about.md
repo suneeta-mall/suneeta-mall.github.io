@@ -22,6 +22,7 @@ Thesis
 
 Publications
 ---------
+- Can a Machine Learn from Radiologists’ Visual Search Behaviour and Their Interpretation of Mammograms—a Deep-Learning Study. [Journal of Digital Imaging 2019][jdi_2019]
 - Missed cancer and visual search of mammograms: what feature-based machine-learning can tell us that deep-convolution learning cannot. [SPIE Medical Imaging 2019][spie_2019]
 - Can digital breast tomosynthesis perform better than standard digital mammography work-up in breast cancer assessment clinic? [European Radiology 2018][eu_rad_2018]
 - A deep (learning) dive into visual search behaviour of breast radiologists. [SPIE Medical Imaging 2018][spie_2018]
@@ -54,6 +55,7 @@ Books
 [thesis]: //ses.library.usyd.edu.au/handle/2123/19987
 [hbti]: //en.wikipedia.org/wiki/Harcourt_Butler_Technical_University
 [patent]: //www.patentsencyclopedia.com/app/20130198208
+[jdi_2019]: //link.springer.com/article/10.1007%2Fs10278-018-00174-z
 [spie_2019]: //www.spiedigitallibrary.org/conference-proceedings-of-spie/10952/1095216/Missed-cancer-and-visual-search-of-mammograms--what-feature/10.1117/12.2512539.full
 [eu_rad_2018]: //dx.doi.org/10.1007/s00330-018-5473-4
 [spie_2018]: //www.spiedigitallibrary.org/conference-proceedings-of-spie/10577/1057708/A-deep-learning-dive-into-visual-search-behaviour-of-breast/10.1117/12.2293366.full
