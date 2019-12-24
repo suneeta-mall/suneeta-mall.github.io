@@ -19,7 +19,7 @@ In [Part 1], the objective will be discuss importance of reproducibility in mach
 
 ## Part 2: Realizing reproducible Machine Learning - with Tensorflow 
 
-The focus of [Part 2] - **realizing reproducible Machine Learning - with Tensorflow** will be writing reproducible machine learning code. [Tensorflow][tensorflow] is being used as machine learning stack for demonstration purposes. This blog can be accessed [here][Part 2]. 
+The focus of [Part 2] will be writing reproducible machine learning code. [Tensorflow][tensorflow] is being used as machine learning stack for demonstration purposes. This blog can be accessed [here][Part 2]. 
 
 ## Part 3: End-to-end reproducible Machine Learning pipelines on Kubernetes
 

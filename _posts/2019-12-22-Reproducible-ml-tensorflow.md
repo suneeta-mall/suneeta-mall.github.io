@@ -6,16 +6,8 @@ tags:
 date: 2019-12-22
 ---
 
-This is *part 1* of technical blog series titled [Reproducibility in Machine Learning]. 
-1. Reproducibility in Machine Learning - Research and Industry
-2. Realizing reproducible Machine Learning - with Tensorflow 
-3. End-to-end reproducible Machine Learning pipelines on Kubernetes
+This is [Part 2] - **Realizing reproducible Machine Learning - with Tensorflow** of technical blog series titled [Reproducibility in Machine Learning]. [Part 1] & [Part 3] can be found [here][Part 1] & [here][Part 3] respectively.      
 
-
-## Part 1: Reproducibility in Machine Learning - Research and Industry
-
-
-## Part 2: Realizing reproducible Machine Learning - with Tensorflow 
 
 ## Part 3: End-to-end reproducible Machine Learning pipelines on Kubernetes
 

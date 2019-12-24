@@ -3,21 +3,15 @@ title: End-to-end reproducible Machine Learning pipelines on Kubernetes
 tags:
   - machine-learning
   - AI   
+  - Kubernetes 
 date: 2019-12-23
 ---
 
-This is *part 1* of technical blog series titled [Reproducibility in Machine Learning]. 
-1. Reproducibility in Machine Learning - Research and Industry
-2. Realizing reproducible Machine Learning - with Tensorflow 
-3. End-to-end reproducible Machine Learning pipelines on Kubernetes
+This is [Part 3] - **End-to-end reproducible Machine Learning pipelines on Kubernetes** of technical blog series titled [Reproducibility in Machine Learning]. [Part 1] & [Part 2] can be found [here][Part 1] & [here][Part 2] respectively.
 
 
 ## Part 1: Reproducibility in Machine Learning - Research and Industry
 
-
-## Part 2: Realizing reproducible Machine Learning - with Tensorflow 
-
-## Part 3: End-to-end reproducible Machine Learning pipelines on Kubernetes
 
 
 
