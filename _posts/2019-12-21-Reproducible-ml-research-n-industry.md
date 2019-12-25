@@ -147,11 +147,34 @@ As Lecun said in his [International Solid State Circuit Conference in San Franci
 ### 4. Extensibility
 
 Reproducibility in preceding layers are needed to build out and extend. Can we build a building outline model if we cant 
-repeatedly generate roof semantics as shown in figure 5? 
+repeatedly generate roof semantics as shown in figure 5? What if we keep getting different size for same roof?
 ![](/images/extensibility.jpeg)
 *Figure 5: Extending ML*
+
+Extensibility is essential to utilizing ML outputs for consumption. As it is, raw outputs from ML is rarely usable by 
+end-user. Most ML outputs need to be post-processed and augmented to be consumption ready. 
   
-[//]: # (//TODO: Data generation, correction with GAN) 
+### 4. Data harvesting
+
+>The world’s most valuable resource is no longer oil, but data! <sub>- [economist.com][imp_data]</sub>
+
+To train a successful ML algorithms large dataset is mostly needed - this is specially true for deep-learning. 
+Obtaining large volumes of training data, however, is not always easy - it can be quite expensive. In some cases 
+the occurrences of scenario can be so rare that obtaining large will take forever or simply not possible. 
+For e.g. [Merkel-cell carcinoma][rare_cancer] - a type of skin cancer that's very rare.
+
+For this reason, data harvesting a.k.a. synthetic data generation is considered. 
+Tirthajyoti Sarkar, author of [Data Wrangling with Python: Creating actionable data from raw sources][data_python_sarkar], wrote 
+an excellent post on [data harvesting][synthetic_data_generation] using scikit that cover this topic in detail. 
+However, more recently, Generative Adversarial Networks [(GAN)][gan_goodfellow] by [Ian Goodfellow][goodfellow] is being
+heavily used for this purpose. [Synthetic Data for Deep Learning] is an excellent review article that covers this topic 
+in detail for deep-learning.
+
+Give ML models e.g. [(GAN)][gan_goodfellow] are being used to generate training data now, its all the more important 
+reproducibility in their application is ensured. Lets say, we obtained near perfect golden goose model upon training. 
+Storage caught proverbial fire, and we lost this golden goose model along with data. 
+we had to regenerate the synthetic data and obtain same model but the synthetic data is not quite the same anymore and
+we lost the golden goose! 
 
 
 ## Challenges in realizing reproducible ML
@@ -159,15 +182,18 @@ repeatedly generate roof semantics as shown in figure 5?
 Reproducible ML does not come in easy. A wise man once said:
 > When you want something, all the universe conspires in helping you to achieve it. <sub>- [The Alchemist] by Paulo Coelho</sub>
 
-But when it comes to Reproducible ML its quite the contrary. Every single resource and techniques 
-(Hardware, Software, Algorithms, Process & Practice, Data) needed to realize ML poses 
-some kind of challenge in meeting reproducibility (see figure 6).
+But when it comes to reproducible ML its quite the contrary. Every single resource and techniques 
+(Hardware, Software, Algorithms, Process & Practice, Data) needed to realize ML poses some kind of challenge in meeting 
+reproducibility (see figure 6).
 
 <!-- {: .oversized} -->
 > ![](/images/reproducible-challenge.jpeg)
 *Figure 6: Overview of challenges in reproducibile ML*
 
 ### 1. Hardware
+
+Complex computation needed by ML operation now a days runs in order of giga/tera floating point operations (GFLOPS/TFLOPS). 
+ML algorithms are quite data and compute hungry, thus needing high parallelism and multiple CPUs to complete in reasonable time frame.  
 
 ### 2. Software
 
@@ -204,4 +230,10 @@ The research community is quite divided when it comes to defining reproducibilit
 [ai_fail_cancer]: //www.theverge.com/2018/7/26/17619382/ibms-watson-cancer-ai-healthcare-science
 [ai_fail_aws]: //medium.com/syncedreview/2018-in-review-10-ai-failures-c18faadf5983
 [The Alchemist]: //www.amazon.com/Alchemist-Paulo-Coelho/dp/0061122416
-
+[rare_cancer]: //www.cancer.gov/types/skin/patient/merkel-cell-treatment-pdq
+[synthetic_data_generation]: //towardsdatascience.com/synthetic-data-generation-a-must-have-skill-for-new-data-scientists-915896c0c1ae
+[imp_data]: //www.economist.com/leaders/2017/05/06/the-worlds-most-valuable-resource-is-no-longer-oil-but-data
+[data_python_sarkar]: //www.amazon.com.au/Data-Wrangling-Python-Creating-actionable-ebook/dp/B07JF26NGJ
+[Synthetic Data for Deep Learning]: //arxiv.org/abs/1909.11512
+[gan_goodfellow]: ://arxiv.org/abs/1406.2661
+[goodfellow]: //en.wikipedia.org/wiki/Ian_Goodfellow
