@@ -7,8 +7,6 @@ tags:
 date: 2019-12-21
 ---
 
----
-
 This is [Part 1] - **Reproducibility in Machine Learning - Research and Industry** of technical blog series titled [Reproducibility in Machine Learning]. [Part 2] & [Part 3] can be found [here][Part 2] & [here][Part 3] respectively.      
 
 ---
@@ -62,6 +60,8 @@ plt.ylabel('Quantitative measure of diabetes progression')
 plt.xlabel('One of six blood serum measurements of patients')
 plt.show()
 ```
+*A linear regression example on [Scikit Diabetes Dataset]*
+
 Above ML code is NOT reproducible. Every run will give different results: **a)** The data distribution will vary and 
 **b)** Obtained slop and intercept will vary. See Figure 3.
 
@@ -101,6 +101,8 @@ plt.ylabel('Quantitative measure of diabetes progression')
 plt.xlabel('One of six blood serum measurements of patients')
 plt.show()
 ```
+*A reproducible linear regression example on [Scikit Diabetes Dataset]*
+
 Seeding random state is not the only challenges in writing reproducible ML. In fact, there are several reasons why reproducibility 
 in ML is so hard to achieve. But I will go into that a bit later in section `Challenges in realizing reproducible ML`. 
 First question should be  "why reproducibility matters in ML"? 
@@ -109,12 +111,12 @@ First question should be  "why reproducibility matters in ML"?
 
 >Non-reproducible single occurrences are of no significance to science. <sub>- Popper (The logic of Scientific Discovery)</sub>
 
-Importance of reproducibility is increasingly getting recognized since [Nature's Survey (2016)] reported a `reproducibility crisis` 
-summarizing in  survey report that 70% of researchers have failed to reproduce another scientist's experiments, and 
+Importance of reproducibility is increasingly getting recognized since [Nature's Survey (2016)] reported a `reproducibility crisis`. 
+As per this survey report, 70% of researchers have failed to reproduce another scientist's experiments, and 
 more than 50% have failed to reproduce their own experiments. With more than half of participating scientist agreeing to 
 the presence of reproducibility crisis, it is indeed very real. Dr. Joelle Pineau, an Associate Professor at McGill University and lead for 
 Facebook’s Artificial Intelligence Research lab, covered the reproducibility crisis in her talk at 
-International Conference on Learning Representations (ICLR) 2018 [you tube][jp_talk]. She is focussed in nipping  
+International Conference on Learning Representations (ICLR) 2018 [you tube][jp_talk]. She is determined to nip  
 this crisis in bud from AI research [src][nature_jp]. Its not just her several, AI research groups are coming up with measures to
 ensure reproducibility (example below):
 - [Model Card] at Google
@@ -122,7 +124,7 @@ ensure reproducibility (example below):
 - [ICLR Reproducibility Challenge] at ICLR
 - [Show your work] at Allen Institute of Artificial Intelligence
 
-Why reproducibility matters:
+Aside from being of `no use if cant be reproduced`, as Popper suggested in above quote, why does reproducibility matters?
 
 ### 1. Understanding, Explaining, Debugging and Reverse Engineering
 
@@ -310,25 +312,26 @@ a linage with data provenance to ML processes. In short, an end to end provenanc
 
 > A model is rarely deployed twice. <sub>[Talby, 2018][Talby]</sub>
 
-One of the reason for why a model rarely gets deployed more than once [ref][Talby] is `Concept drift`. Our concept of 
-[things and stuff][things_stuff] keeps evolving. Dont believe me? figure 9 shows how we envisaged car 18's to now when we say 
-car we mostly imagine solar power possibly self driving cars!
+One of the reason for why a model rarely gets deployed more than once <sup>[ref][Talby]</sup> is `Concept drift`. Our concept of 
+[things and stuff][things_stuff] keeps evolving. Dont believe me? figure 9 shows how we envisaged car 18's to now. Our current
+evolving impression of car is solar power self driving cars!
 
 <!-- {: .oversized} -->
 > ![](/images/concept-drift.jpeg)
 *Figure 9: Our evolving concept of `car`*
 
 So, now we dont just have to manage reproducibility over one model but many! Because, our model needs to continually keep learning 
-in whats more commonly known in ML field as `Continual learning` [more info][or_continuous-learning]. An interesting review
+in a more commonly known term in ML as `Continual learning` [more info][or_continuous-learning]. An interesting review
 paper on this topic is [here][cl_paper].
 
-
-In fact, Continual learning is so recognized that support for easy iteration & continuous improvement were the top two
-features industry voted as their main focus with ML as per Dresner Advisory Services’6th annual 2019 Data Science and Machine Learning [Market Study].
 
 <!-- {: .oversized} -->
 > ![](/images/dvs.jpg)
 *Figure 10: Top features - Dresner Advisory Services Data Science and Machine Learning [Market Study]*
+
+In fact, Continual learning is so recognized that support for easy iteration & continuous improvement were the top two
+features industry voted as their main focus with ML as per Dresner Advisory Services’6th annual 2019 Data Science and Machine Learning [Market Study] (see figure 10).
+
 
 
 
