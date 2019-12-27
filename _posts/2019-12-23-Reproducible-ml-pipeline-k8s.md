@@ -1,9 +1,10 @@
 ---
 title: End-to-end reproducible Machine Learning pipelines on Kubernetes
 tags:
-  - machine-learning
+  - Machine-learning
   - AI   
   - Kubernetes 
+  - Reproducible-ml
 date: 2019-12-23
 ---
 

@@ -1,9 +1,10 @@
 ---
 title: Reproducibility in Machine Learning blog series
 tags:
-  - machine-learning
+  - Machine-learning
   - AI
   - Kubernetes  
+  - Reproducible-ml
 date: 2019-12-20
 ---
 

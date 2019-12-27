@@ -1,8 +1,9 @@
 ---
 title: Realizing reproducible Machine Learning - with Tensorflow
 tags:
-  - machine-learning
+  - Machine-learning
   - AI   
+  - Reproducible-ml
 date: 2019-12-22
 ---
 
