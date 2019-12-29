@@ -1,5 +1,5 @@
 ---
-title: End-to-end reproducible Machine Learning pipelines on Kubernetes
+title: Replicability - an extension to reproducibility
 tags:
   - Machine-learning
   - AI   

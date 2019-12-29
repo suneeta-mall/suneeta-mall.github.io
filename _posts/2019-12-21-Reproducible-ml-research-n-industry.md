@@ -333,7 +333,9 @@ In fact, Continual learning is so recognized that support for easy iteration & c
 features industry voted as their main focus with ML as per Dresner Advisory Services’6th annual 2019 Data Science and Machine Learning [Market Study] (see figure 10).
 
 
+---
 
+Next part of technical blog series, [Reproducibility in Machine Learning], is [Realizing reproducible Machine Learning - with Tensorflow][Part 2].       
 
 
 

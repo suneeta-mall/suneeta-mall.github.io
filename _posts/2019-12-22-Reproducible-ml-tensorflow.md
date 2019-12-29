@@ -9,6 +9,14 @@ date: 2019-12-22
 
 This is [Part 2] - **Realizing reproducible Machine Learning - with Tensorflow** of technical blog series titled [Reproducibility in Machine Learning]. [Part 1] & [Part 3] can be found [here][Part 1] & [here][Part 3] respectively.      
 
+---
+
+>![](/images/ai-workflow.jpg)
+*Figure 1: Machine Learning explained by XKCD*
+
+
+
+
 
 ## Part 3: End-to-end reproducible Machine Learning pipelines on Kubernetes
 
