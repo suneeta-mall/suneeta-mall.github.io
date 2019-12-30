@@ -13,6 +13,10 @@ This is [Part 3] - **End-to-end reproducible Machine Learning pipelines on Kuber
 
 ## Part 1: Reproducibility in Machine Learning - Research and Industry
 
+A standard machine learning workflow 
+
+>![](/images/ai-workflow.jpg)
+*Figure 1: Machine Learning explained by XKCD*
 
 
 
