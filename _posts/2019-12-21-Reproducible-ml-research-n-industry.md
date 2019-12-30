@@ -208,7 +208,7 @@ reproducibility (see figure 6).
 
 <!-- {: .oversized} -->
 > ![](/images/reproducible-challenge.jpeg)
-*Figure 6: Overview of challenges in reproducibile ML*
+*Figure 6: Overview of challenges in reproducible ML*
 
 ### 1. Hardware
 
