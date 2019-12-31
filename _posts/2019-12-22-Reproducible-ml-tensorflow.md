@@ -105,7 +105,7 @@ we will only discuss data and model training part of it. The remaining workflow 
 
 ### Data
 
-The soource dataset is [Oxford Pet dataset][oxford-petset] which contains multitude labels e.g. class outcome, pixelwise label, bounding boxes etc.
+The source dataset is [Oxford Pet dataset][oxford-petset] which contains multitude labels e.g. class outcome, pixelwise label, bounding boxes etc.
 First step is to process this data to generate the trainable dataset. In the example code, this is done by 
 [download_petset.py](https://github.com/suneeta-mall/e2e-ml-on-k8s/blob/master/app/download_petset.py) script. 
 

@@ -117,7 +117,7 @@ more than 50% have failed to reproduce their own experiments. With more than hal
 the presence of reproducibility crisis, it is indeed very real. Dr. Joelle Pineau, an Associate Professor at McGill University and lead for 
 Facebook’s Artificial Intelligence Research lab, covered the reproducibility crisis in her talk at 
 International Conference on Learning Representations (ICLR) 2018 [you tube][jp_talk]. She is determined to nip  
-this crisis in bud from AI research [src][nature_jp]. Its not just her several, AI research groups are coming up with measures to
+this crisis in bud from AI research<sup>[src][nature_jp]</sup>. Its not just her, several AI research groups are coming up with measures to
 ensure reproducibility (example below):
 - [Model Card] at Google
 - [Reproducibility Checklist] at NeurIPS 
@@ -180,8 +180,9 @@ end-user. Most ML outputs need to be post-processed and augmented to be consumpt
 
 To train a successful ML algorithms large dataset is mostly needed - this is specially true for deep-learning. 
 Obtaining large volumes of training data, however, is not always easy - it can be quite expensive. In some cases 
-the occurrences of scenario can be so rare that obtaining large will take forever or simply not possible. 
-For e.g. [Merkel-cell carcinoma][rare_cancer] - a type of skin cancer that's very rare.
+the occurrences of scenario can be so rare that obtaining large dataset will either take forever or is simply not possible. 
+For e.g. dataset for [Merkel-cell carcinoma][rare_cancer], a type of skin cancer that's very rare, 
+will be very challenging to procure.
 
 For this reason, data harvesting a.k.a. synthetic data generation is considered. 
 Tirthajyoti Sarkar, author of [Data Wrangling with Python: Creating actionable data from raw sources][data_python_sarkar], wrote 
@@ -191,10 +192,10 @@ heavily used for this purpose. [Synthetic Data for Deep Learning] is an excellen
 in detail for deep-learning.
 
 Give ML models e.g. [(GAN)][gan_goodfellow] are being used to generate training data now, its all the more important 
-reproducibility in their application is ensured. Lets say, we obtained near perfect golden goose model upon training. 
-Storage caught proverbial fire, and we lost this golden goose model along with data. 
-we had to regenerate the synthetic data and obtain same model but the synthetic data is not quite the same anymore and
-we lost the golden goose! 
+that reproducibility in such application is ensured. Lets say, we trained a near perfect golden goose model on data 
+(including  some synthetic). But the storage caught proverbial fire, and we lost this golden goose model along with data.
+Now, we have to regenerate the synthetic data and obtain same model but the synthetic data generation process is not quite reproducible.
+Thus, we lost the golden goose! 
 
 
 ## Challenges in realizing reproducible ML
@@ -222,7 +223,8 @@ But these efficiencies in floating point computations both at CPU & GPU level co
 - CPU
 
 >Using Intra-ops (within an operation) and inter-ops (amongst multiple operations) parallelism on CPU can sometimes give different 
-results on different run. One such example is using OpenMP for (intra-ops) parallelization. See this excellent talk by [Corden 2018][corden] for 
+results on different run. One such example is using OpenMP for (intra-ops) parallelization. See this excellent talk by titled
+>"Corden’s Consistency of Floating Point Results or Why doesn’t my application always give"  [Corden 2018][corden] for 
 more in depth insight into this. Also see wandering precision [blog][nag].
 
 - GPU
@@ -232,14 +234,17 @@ more in depth insight into this. Also see wandering precision [blog][nag].
 >such examples. Some algorithms e.g. vector normalization, due to reduction operations, can also be non-reproducible.
 > See [reproducible summation paper][reproducible_ops] for more info.  
 
-> Changing GPU architecture may lead to different results too due differences in SEM and also sometime architecture specific optimizations.
->See [Corden's Consistency of Floating Point Results o rWhy doesn’t my application always give the same answer][corden] for more details.
+> Changing GPU architecture may lead to different results too. The differences in SEM, or architecture specific optimizations 
+> are couple of reasons why the differences may arise.
+
+See [Corden's Consistency of Floating Point Results or Why doesn’t my application always give the same answer][corden] for more details.
  
 ### 2. Software
 
 Its not just hardware. Some software's offering high level abstraction or APIs for performing intensive computation do not guarantee reproducibility
 in their routines. For instance NVIDIA's popular cuda based deep learning library [cudnn] do not guarantee reproducibility
-in some of their routines e.g. cudnnConvolutionBackwardFilter [ref][cudnn_repo]. Popular deep learning libraries such as 
+in some of their routines e.g. cudnnConvolutionBackwardFilter>sup>[ref][cudnn_repo]</sup>.
+Popular deep learning libraries such as 
 tensorflow<sup>[ref 1][tensorflow_missing_doco],[ref 2][tensorflow_determinism]</sup>, pytorch<sup>[ref][pytorch_ref]</sup> 
 also do not guarantee 100% reproducibility.  
 
@@ -293,7 +298,7 @@ Can we ever win with this seed setting?
 
 ### 5. Data
 
-> no input is ever really independent. <sub>[Scully et. al 2015][scully_2015]</sub>
+> No input is ever really independent. <sub>[Scully et. al 2015][scully_2015]</sub>
 
 Data is main input to ML algorithms and these algorithms are just compute hungry but also **data hungry**. So we are 
 really talking about big data. When data volume is large, we are dealing with all sorts of challenges:

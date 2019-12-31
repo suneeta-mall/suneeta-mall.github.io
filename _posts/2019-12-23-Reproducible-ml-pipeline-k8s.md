@@ -14,8 +14,9 @@ This is [Part 3] - **End-to-end reproducible Machine Learning pipelines on Kuber
 
 
 **C**hange **A**nything **C**hanges **E**verything (CAKE) principle <sub>-[Scully et al][scully_2015]</sub> is 
-real in ML. Also, 100% reproducible ML code comes at a cost of speed - something not at disposal for us. We need
-to version control everything - so we explain, understand and reclaim ML outcome.
+real in ML. Also, 100% reproducible ML code comes at a cost of speed - a non-negotiable aspect in today's time. 
+If  we cannot be 100% and change is evident, then the only way to maintaining explainability, understanding, trust 
+&  confidence is through version control everything. 
 
 >![](/images/git_2x.png)
 *Figure 1: Version control explained by [XKCD][git_xkcd]*
@@ -289,6 +290,9 @@ transform:
   image: suneetamall/e2e-ml-on-k8s:1
 ---
 ```
+
+This pipeline creates ML workflow, with artifact dependency shown in above figure 7, wherein full provenance across 
+data, processes and outcome is maintained along with respective lineage.   
 
 ---
 
