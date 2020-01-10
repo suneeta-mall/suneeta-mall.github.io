@@ -9,13 +9,12 @@ date: 2020-01-10
 ---
 
 This list includes books that a) I have truly enjoyed reading and highly admire or b) Eagerly 
-looking forward to reading. It has seven sections:
+looking forward to reading. It has six sections:
 
-- Abstract Programming
+- Abstract Programming/AI
 - Kubernetes
 - Machine Learning, AI, Deep Learning
 - Statistics
-- Programming Practices
 - Parenting
 - Miscellaneous
 
@@ -33,6 +32,11 @@ looking forward to reading. It has seven sections:
 >![](/images/books/Seibel.jpg)
 *[Coders at Work: Reflections on the Craft of Programming] Authored by Peter Seibel*
  
+>![](/images/books/Pearl.jpg) 
+*[The Book of Why: The New Science of Cause and Effect] Authored by Judea Pearl*
+
+>![](/images/books/Martin.jpg)
+*[Clean Code]  Authored by Robert C. Martin*
 
 ## 2. Kubernetes
 
@@ -87,12 +91,7 @@ looking forward to reading. It has seven sections:
 >![](/images/books/Hestie2.jpg)
 *[Introduction to Statistical Learning]  Authored by Trevor Hastie et al.*
 
-## 5. Programming Practices
-
->![](/images/books/Martin.jpg)
-*[Clean Code]  Authored by Robert C. Martin*
-
-## 6. Parenting
+## 5. Parenting
 
 >![](/images/books/Pasek.jpg)
 *[Becoming Brilliant: What Science Tells Us About Raising Successful Children] Authored by Roberta Golinkoff, Kathryn Hirsh-Pasek*
@@ -104,10 +103,7 @@ looking forward to reading. It has seven sections:
 *[The Psychology of Babies: How relationships support development from birth to two] Authored by Lynne Murray* 
 
 
-## 7. Miscellaneous
-
->![](/images/books/Pearl.jpg) 
-*[The Book of Why: The New Science of Cause and Effect] Authored by Judea Pearl*
+## 6. Miscellaneous
 
 >![](/images/books/Jamail.jpg) 
 *[The End of Ice: Bearing Witness and Finding Meaning in the Path of Climate Disruption] Authored by Dahr Jamail*
