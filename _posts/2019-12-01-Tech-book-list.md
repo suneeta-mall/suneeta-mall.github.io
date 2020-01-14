@@ -5,7 +5,7 @@ tags:
   - Data-science  
   - Book
   - Technology
-date: 2020-01-10
+date: 2019-12-01
 ---
 
 This list includes books that a) I have truly enjoyed reading and highly admire or b) Eagerly 
