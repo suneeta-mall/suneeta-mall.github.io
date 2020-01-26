@@ -6,6 +6,7 @@ tags:
 date: 2019-09-10
 ---
 
+- [Google Dataset Search]
 - [Wikipedia ML dataset]
 - [Pathmind]'s aggregation
 - [Computer Vision Online] aggregated source
@@ -13,6 +14,7 @@ date: 2019-09-10
 - [Hackernoon Rare dataset]
 - [Analytics vidhya]'s list of 25 sets
 
+[Google Dataset Search]: https://datasetsearch.research.google.com
 [Wikipedia ML dataset]: https://en.wikipedia.org/wiki/List_of_datasets_for_machine-learning_research
 [Pathmind]: https://pathmind.com/wiki/open-datasets
 [Multimedia dataset]: https://lionbridge.ai/datasets/20-best-image-datasets-for-computer-vision/

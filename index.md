@@ -5,22 +5,34 @@ feature:
   posts:
     latest: 1
     list:
-      - "/2012/09/13/recursion-on-integral"
-      - "/2013/01/02/latex-optional-argument-in-python"
-      - "/2014/07/23/mozart-symphony-no-25"
-      - "/2015/08/13/death-and-cosmos-yolo"
-      - "/2016/03/08/lets-write-something-into-books"
-      - "/2017/05/18/cafe-terrace-at-night"
-      - "/2018/09/18/sweep-line-algorithm-for-segments-intersection"
-      - "/2018/09/28/avenue-q"
+      - "/2019-12-20-Reproducibility-in-machine-learning.md"
+      - "/2019-12-23-Reproducible-ml-pipeline-k8s.md"    
+      - "/2019-12-22-Reproducible-ml-tensorflow.md"
+      - "/2019-12-21-Reproducible-ml-research-n-industry.md"
+      - "/2019-12-01-Tech-book-list.md"
+      - "/2019-09-10-OpenSource-ML-Datadet-links.md"
+      - "/2012-12-28-daminis.md"
+      - "/2010-04-04-aint-no-dr-seuss.md"
+      - "/2010-04-09-one-bright-dawn.md"
+
   projects:
-    latest: 0
+    latest: 1
     list:
-      - "/projects/KCD"
+      - "/projects/reproducible-ml.md"       
+      - "/projects/KCD.md"      
+      - "/projects/gatling-on-ecs.md"
+      - "/projects/goreportcardlite.md"    
   talks:
-    latest: 0
+    latest: 1
     list:
-      - "/talks/KubeCon-Europe-2018"      
+      - "/talks/Strata_Data_AI_US_2020.md"
+      - "/talks/KubernetesSydneyForum_AU_2019.md"     
+      - "/talks/KubeCon_US_2019.md"       
+      - "/talks/YOW_Data_Syd_2019.md"  
+      - "/talks/SPIE-2019.md"      
+      - "/talks/KubeCon-Europe-2018.md"  
+      - "/talks/SPIE-2018.md"            
+      - "/talks/SPIE-2015.md"
 ---
 
 {% comment %}
