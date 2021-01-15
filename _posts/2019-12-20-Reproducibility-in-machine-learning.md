@@ -13,17 +13,17 @@ This technical blog series titled "Reproducibility in Machine Learning" is going
 2. Realizing reproducible Machine Learning - with Tensorflow 
 3. End-to-end reproducible Machine Learning pipelines on Kubernetes
 
-Some of the content of this blog series have been covered in KubeCon US 2019 - a Kubernetes conference 2019. Details
+Some of the content of this blog series has been covered in KubeCon US 2019 - a Kubernetes conference 2019. Details
 of this talk can be found [here][KubeCon US 2019] with recording available [here][kubecon_us_talk].  
 
 
 ## Part 1: Reproducibility in Machine Learning - Research and Industry
 
-In [Part 1], the objective will be discuss importance of reproducibility in machine learning. It will also cover where both research and industry are stands in writing reproducible ML. This blog can be accessed [here][Part 1].
+In [Part 1], the objective will be to discuss the importance of reproducibility in machine learning. It will also cover where both research and industry are stand in writing reproducible ML. This blog can be accessed [here][Part 1].
 
 ## Part 2: Realizing reproducible Machine Learning - with Tensorflow 
 
-The focus of [Part 2] will be writing reproducible machine learning code. [Tensorflow][tensorflow] is being used as machine learning stack for demonstration purposes. This blog can be accessed [here][Part 2]. 
+The focus of [Part 2] will be writing reproducible machine learning code. [Tensorflow][tensorflow] is being used as a machine learning stack for demonstration purposes. This blog can be accessed [here][Part 2]. 
 
 ## Part 3: End-to-end reproducible Machine Learning pipelines on Kubernetes
 

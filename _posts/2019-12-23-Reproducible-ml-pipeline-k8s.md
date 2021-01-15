@@ -22,7 +22,7 @@ If  we cannot be 100% and change is evident, then the only way to maintaining ex
 *Figure 1: Version control explained by [XKCD][git_xkcd]*
 
 In this post, we will be looking at building an end to end fully automated ML pipeline that can maintain full provenance
-across entire ML system. In my view, a standard machine learning workflow looks like one below: 
+across the entire ML system. In my view, a standard machine learning workflow looks like the one below: 
 
 >![](/images/ai-workflow.jpg)
 *Figure 2: Machine Learning end to end system*
@@ -31,8 +31,8 @@ So we will be working towards building this system with full provenance over it.
 semantic segmentation example][e2e-ml-on-k8s] based on [Oxford Pet dataset][oxford-petset] 
 
 To build this ML workflow, we will be using [Kubernetes](https://kubernetes.io/) - a container orchestration platform. 
-On top of [Kubernetes](https://kubernetes.io/), we wll be running [Pachyderm](https://github.com/pachyderm/pachyderm) 
-a software that will do the heavy lifting of maintaining provenance across data, artifacts and ml processes.
+On top of [Kubernetes](https://kubernetes.io/), we will be running [Pachyderm](https://github.com/pachyderm/pachyderm) 
+software that will do the heavy lifting of maintaining provenance across data, artifacts, and ml processes.
 
 ## What to version control
 
@@ -42,19 +42,19 @@ In [part 1] of this blog series, we discussed above the challenges, shown in fig
 > ![](/images/reproducible-challenge.jpeg)
 *Figure 3: Overview of challenges in reproducible ML*
 
-Presence of these challenges in system wide view of ML is shown in figure 4.
+The presence of these challenges in the system-wide view of ML is shown in figure 4.
 
 <!-- {: .oversized} -->
 > ![](/images/what-t--vcs.jpg)
 *Figure 4: What to version control?*
 
-But first lets talk about creating the environment, infrastructure and versioning it.   
+But first, let's talk about creating the environment, infrastructure, and versioning it.   
 
 ### 1. Versioning environment
 
 Using [gitops](https://www.weave.works/technologies/gitops/) environment and any changes associated with it can be version controlled.
-In this sample, we will be using [ArgoCD](https://argoproj.github.io/argo-cd/) to implement gitops workflow (figure 5)
-which will see our environment config moved to be alongside of code repository (figure 6).   
+In this sample, we will be using [ArgoCD](https://argoproj.github.io/argo-cd/) to implement GitOps workflow (figure 5)
+which will see our environment config moved to be alongside the code repository (figure 6).   
 
 > ![](/images/gitops.png)
 *Figure 5: Gitops*
@@ -69,30 +69,29 @@ kubectl apply –f https://raw.githubusercontent.com/suneeta-mall/e2e-ml-on-k8s/
 > ![](/images/env-as-code.jpg)
 *Figure 6: Gitops on environment config*
 
-Once the Argo apps are created, following softwares will be installed on the cluster:
-- Kubernetes: 1.14.7 (tested on this version, in theory should work with other versions too!)
+Once the Argo apps are created, the following software will be installed on the cluster:
+- Kubernetes: 1.14.7 (tested on this version, in theory, should work with other versions too!)
 - ArgoCD: 1.2.3
 - Kubeflow: 0.6.2
-> Kubeflow is ML toolkit designed to being variety of ML related [Kubernetes] based softwares together.
+> Kubeflow is an ML toolkit designed to bring a variety of ML related [Kubernetes] based software together.
 - Seldon 0.4.1 (upgraded from packaged version on kubeflow 0.6.2)
-> Seldon is model serving software
+> Seldon is a model serving software
 - Pachyderm: 1.9.7
-> Pachyderm offers git like repository that can hold data even big data. It also offers automated repository capability
-> that `act` on input and generate data thus holding versioned copy of this generated data. Together with these 
->constructs it can be used to create pipeline DAG like processes with provenance across graph input, transformation spec, output
+> Pachyderm offers a git like a repository that can hold data even big data. It also offers automated repository capability
+> that `act` on input and generate data thus holding a versioned copy of this generated data. Together with these 
+>constructs, it can be used to create pipeline DAG like processes with provenance across graph input, transformation spec, output
 
 
 Any change on this configuration repository will then trigger a cluster update keeping environment in synced with versioned
 config. 
 
-### 2. Versioning data, process and artifacts
+### 2. Versioning data, process, and artifacts
 
 > ![](/images/artifact.jpg)
 *Figure 7: Artifact view of Machine Learning end to end system (shown in figure 2)*
 
-Pachyderm pipeline specification for end to end ML workflow capability shown in figure 2 is available [here](https://github.com/suneeta-mall/e2e-ml-on-k8s/blob/master/cluster-conf/k8s/ml-workflow/pachyderm-specs.yaml).
-The generated artifacts/data as a result of this ML workflow is shown in figure 7 above. These artifacts and thier association 
-with other processes are also highlighted in figure 7. 
+Pachyderm pipeline specification for an end to end ML workflow capability shown in figure 2 is available [here](https://github.com/suneeta-mall/e2e-ml-on-k8s/blob/master/cluster-conf/k8s/ml-workflow/pachyderm-specs.yaml).
+The generated artifacts/data as a result of this ML workflow is shown in figure 7 above. These artifacts and their association with other processes are also highlighted in figure 7. 
 
 ```yaml
 ---
@@ -292,7 +291,7 @@ transform:
 ```
 
 This pipeline creates ML workflow, with artifact dependency shown in above figure 7, wherein full provenance across 
-data, processes and outcome is maintained along with respective lineage.   
+data, processes, and outcomes are maintained along with respective lineage.   
 
 ---
 

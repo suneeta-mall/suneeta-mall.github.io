@@ -49,8 +49,16 @@ Books
 - IBM Redbooks: Creating Plugins for Lotus Notes, Sametime, and Symphony. [IBM RedBook 2011][ibm_redbook]
 - Face-Off: collection of 21 self-composed poems. [Poems, 2009][faceoff]
 
+Published courses
+---------
+- Reproducible Deep Learning is published on [O'reilly][oreilly] platform as an interactive katacoda scenario series. It is four parts course:
+    - [Reproducible Deep Learning: Semantic Segmentation on Oxford Pets Dataset]
+    - [Reproducible Deep Learning: Identifying the Reproducibility Challenge]
+    - [Reproducible Deep Learning: Random Seeds and Process-Parallelism]
+    - [Reproducible Deep Learning: Achieving 100% Reproducibility]
 
 
+[oreilly]: //oreilly.com
 [sydu]: //sydney.edu.au/
 [thesis]: //ses.library.usyd.edu.au/handle/2123/19987
 [hbti]: //en.wikipedia.org/wiki/Harcourt_Butler_Technical_University
@@ -71,3 +79,7 @@ Books
 [000208037]: //priorart.ip.com/IPCOM/000208037
 [ibm_redbook]: //www-10.lotus.com/ldd/ddwiki.nsf/xpDocViewer.xsp?lookupName=IBM+Redbooks%3A+Creating+Plugins+for+Lotus+Notes%2C+Sametime%2C+and+Symphony#action=openDocument&content=catcontent&ct=redbooks
 [faceoff]: //www.amazon.com/Face-Off-Suneeta-Mall/dp/8184650892
+[Reproducible Deep Learning: Semantic Segmentation on Oxford Pets Dataset]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091219/
+[Reproducible Deep Learning: Identifying the Reproducibility Challenge]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091226/
+[Reproducible Deep Learning: Random Seeds and Process-Parallelism]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091233/
+[Reproducible Deep Learning: Achieving 100% Reproducibility]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091240/
