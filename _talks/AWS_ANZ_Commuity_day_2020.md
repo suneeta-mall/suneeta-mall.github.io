@@ -13,6 +13,10 @@ Nearmap AI: The story of data curation to power deep learning
 
 Using deep learning techniques, Nearmap AI converts visual content into semantic knowledge to power decisions in a wide range of organisations and varied business use cases. In this talk we will focus heavily on how we utilise AWS technologies to build systems that allow us to curate ground truth. We will talk more about how we continually grow this dataset and manage the challenges around efficiency and quality. Furthermore, we will touch upon how we are evolving our system to scale to an ever growing list of semantic attributes
 
+Slides can be found [here][slides] and [video]: 
+[![Talk](http://img.youtube.com/vi/JuHBJk2uuD8/0.jpg)](https://www.youtube.com/watch?v=JuHBJk2uuD8)
 
 
 [AWS Community Day 2020]: //aws-communityday-specialedition.splashthat.com
+[slides]: //www.youtube.com/watch?v=JuHBJk2uuD8
+[video]: //www.youtube.com/watch?v=JuHBJk2uuD8

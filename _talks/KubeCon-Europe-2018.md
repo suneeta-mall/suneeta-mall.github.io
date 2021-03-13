@@ -12,9 +12,15 @@ At Nearmap, we have been working on an open source CI/CD solution for Kubernetes
 <!-- {: .oversized} -->
 > ![](/images/kube_con_eu_2018.jpg)
 
+Slides can be found [here][slides] and [video]: 
+[![Talk](http://img.youtube.com/vi/kBS_Wd41R8k/0.jpg)](https://www.youtube.com/watch?v=kBS_Wd41R8k)
+
+
 [#suneetamall]: //twitter.com/search?q=suneetamall
 [kcd]: //github.com/nearmap/kcd
 [cvmanager]: //github.com/nearmap/cvmanager
 [kubecon_eu_2018]: //events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/
 [kubecon_eu_kcd]: //kccnceu18.sched.com/event/DquY/continuous-delivery-meets-custom-kubernetes-controller-a-declarative-configuration-approach-to-cicd-suneeta-mall-simon-cochrane-nearmap-intermediate-skill-level-slides-attached
 [nearmap_blog_kcd]: //nearmap.io/2018/04/cvmanager-intro/
+[video]: //www.youtube.com/watch?v=kBS_Wd41R8k&feature=youtu.be
+[slides]: //static.sched.com/hosted_files/kccnceu18/f2/Continuous%20Delivery%20Meets%20Custom%20Kubernetes%20Controller-%20A%20Declarative%20Configuration%20Approach%20to%20CICD.pdf

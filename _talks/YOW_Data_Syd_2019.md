@@ -18,6 +18,10 @@ So here I am at YOW Data 2019 (Sydney)!
 <!-- {: .oversized} -->
 > ![](/images/yow_data_syd_2019.jpeg)
 
+Slides can be found [here][slides] and [video]: 
+[![Talk](http://img.youtube.com/vi/ro_iYkv9dUQ/0.jpg)](https://www.youtube.com/watch?v=ro_iYkv9dUQ)
+
+
 
 [iclr_repro_challenge]: //reproducibility-challenge.github.io/iclr_2019/
 [jp_utube]: //www.youtube.com/watch?v=Vh4H0gOwdIg
@@ -28,4 +32,6 @@ So here I am at YOW Data 2019 (Sydney)!
 [OReilly_2018]: //www.oreilly.com/data/free/evolving-data-infrastructure.csp
 [yow_2019_slides]: //suneeta-mall.github.io/slides/3Rs.html#/intro
 
+[slides]: //suneeta-mall.github.io/slides/3Rs.html#/intro
+[video]: //www.youtube.com/watch?v=ro_iYkv9dUQ
 

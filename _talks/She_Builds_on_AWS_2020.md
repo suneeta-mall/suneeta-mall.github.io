@@ -15,8 +15,11 @@ A short video celebrating She build program can be found [here][she_build_promo]
 Here's the blurb: 
 Using deep learning techniques, Nearmap AI converts visual content into semantic knowledge to power decisions in a wide range of organisations and varied business use cases. In this talk we will focus heavily on how we utilise AWS technologies to build systems that allow us to curate  a reliable ground truth that is driven by human and algorithmic input. We will talk more about how we continually grow this dataset and manage the challenges around efficiency and quality. Furthermore, we will touch upon how we are evolving our system to scale to an ever growing list of semantic attributes, and continual improvement of the performance of our models.
 
+Slides can be found [here][slides] and [video][slides]: 
+[![Talk](http://img.youtube.com/vi/4X3Xhv8F_dA/0.jpg)](https://www.youtube.com/watch?v=4X3Xhv8F_dA)
 
 
 [AWS]: //aws.com 
 [She Builds Day]: //aws-shebuildsday.splashthat.com
 [she_build_promo]: //www.linkedin.com/posts/kim-bonilla_aws-awscommunity-womenintechnology-activity-6722278511270248448-frXY
+[slides]: //www.youtube.com/watch?v=4X3Xhv8F_dA
