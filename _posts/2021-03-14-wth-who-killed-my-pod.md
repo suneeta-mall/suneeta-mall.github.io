@@ -419,6 +419,7 @@ Remember, part `b` of our problem in `takeaway 7` i.e. `b) Allocation of what we
 
 Why was it happening in the first place, and why it's controlled with overcommit disabled. I won't lie, it still happens but far less infrequent!  
 > it's not fixed yet!
+
 Oh! the fun never ends! All the places we go! 
 I will cover this later, ahem ahem, when I know the answer! Pretty sure it's some nasty behavior of Tensorflow 2, and the investigation is _underway_!
 
