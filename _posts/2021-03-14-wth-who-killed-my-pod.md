@@ -121,7 +121,7 @@ Now, the `limit is not always a hard cut-off. As documented in google's blog of 
     
 
 
-### So why the pods were killed App's on Kube: day 1 diagnosis
+### So why the pods are getting killed? 
 
 The app was initially deployed with `Burstable` QoS with Memory requirements set at request: 4Gi, limit: 7Gi, and 
 CPU set at 2 for both requests, limits (see fig 2). The nodes were AWS `r5.2xlarge` type with 8 CPU, 64GB RAM, running Debian/Linux.
@@ -287,7 +287,7 @@ But before we look into this, let's do a bit of a deep dive into related concept
     When system or memory controller related OOM is suspected, based on `oom_score` (with adjustment `oom_score_adj`), `oom-killer` is invoked on the highest
     score process and its children. 
     
-    
+### So why the pods are getting killed? 
     
 In my case, memory cgroup ran out of memory and my stack trace confirms this (see fig 10). It tells me that the application container was 
 killed because it was consuming 1.5MB shy of memory set as limit (31457280 KB).
@@ -296,7 +296,9 @@ killed because it was consuming 1.5MB shy of memory set as limit (31457280 KB).
 *Figure 10: Kernel log part 1*
 
 OK! this explains the OOMKill but why:
+
 a. My monitoring only shows 29GB as max memory surge!
+
 b. I never noticed beyond 9GB usage in local/testing/profiling and all the jazz!
 
 > ![](/images/oom/2efa70f25d30b6e591150bc7a03e76e9-sticker.jpg)
@@ -385,11 +387,11 @@ system config needs to be updated in `/etc/sysctl.conf` to persist the setting a
 
 On `Kube`, [kops] provisioned clusters, these settings need to be supplied through [sysctlparameters] config but these are only supported from kube 1.17 and higher! Safe [sysctl parameters can be set at pod level][sysctl config on pods] however
 our setting is not (obviously) supported at the pod level.
-One cant use [additionaluserdata] for this either, as these settings are overridden when kops provision node as Kube node!
+One can't use [additionaluserdata] for this either, as these settings are overridden when kops provision node as Kube node!
 
-And, to make helluva fun, this cluster is currently at 1.12! Heya, Mr. Murphy!
+And, to make it a helluva fun, this cluster is currently at 1.12! Heya, Mr. Murphy!
 
-> ![](/images/oom/mrmurphy.jpeg)
+> ![](/images/oom/mrmurphy.jpg)
 
 So, I say our my prayers, and turn to bash:
 ```bash
