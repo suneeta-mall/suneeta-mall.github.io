@@ -59,7 +59,7 @@ Let me explain a few things about the failure first:
     It communicates through container runtime to manage the container lifecycle. It can kill and almost always kills badly behaving pods!  
 
     > ![](/images/oom/CRI.png)
-    *Figure 4: Container runtime interface. Image Credit: [Ian Lewis]! Borrowed from his 4 part container runtime series [container runtime] that I highly recommend watching*
+    *Figure 4: Container runtime interface. Image Credit: [Ian Lewis]! Borrowed from his 4 part container runtime series [container runtime] that I highly recommend reading*
 
     1.3. OS kernel: The OS kernel is responsible for the life cycle of processes running on the host. 
     It is `the mighty power that be` for all the processes on the host including the container process and its children.
@@ -76,10 +76,10 @@ Essentially, I am ruling out the manual kill because that was simply not the cas
 
 1. [control groups][cgroups] are a Linux kernel feature that allows processes to be organized into hierarchical groups whose usage of various types of resources (memory, CPU, and so on) can then be limited and monitored. The cgroups interface is provided through a pseudo-filesystem called cgroupfs. You may have heard about `/sys/fs/cgroup/`! 
  
-[Liz Rice] did an excellent demonstration of [what it means to run a container and how they work][container from scratch] that I highly recommend
-going through. Don't forget playing with the [demo code][source]. It gives a foundational understanding of cgroups's role in all things containers.
+    [Liz Rice] did an excellent demonstration of [what it means to run a container and how they work][container from scratch] that I highly recommend
+    going through. Don't forget playing with the [demo code][source]. It gives a foundational understanding of cgroups's role in all things containers.
 
-2. `Kubelet` not only interfaces container runtime but also has `cAdvisor` [**C**ontainer **Advisor**][Container Advisor] integrated within. 
+2. `Kubelet` not only interfaces container runtime but also has `cAdvisor`(for [**C**ontainer **Advisor**][Container Advisor]) integrated within. 
 Note `kubelet` is a service running on the host and it operates at the host level, not the pod. 
 With `cAdvisor` it captures resource utilization, statistics about [control group][cgroups] of all container processes on the host.
 
