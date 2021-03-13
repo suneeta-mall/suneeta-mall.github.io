@@ -3,7 +3,7 @@ title: WTH! Who killed my pod - Whodunit?
 tags:
   - Kubernetes
   - OOM
-date: 2021-03-05
+date: 2021-03-14
 ---
 
 A few days ago, I deployed a brand new application onto a self-managed Kubernetes cluster (hereafter referred to as Kube). 
