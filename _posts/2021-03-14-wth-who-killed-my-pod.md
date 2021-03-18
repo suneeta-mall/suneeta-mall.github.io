@@ -14,8 +14,8 @@ But, I could not figure out what the fudge was going on actually!
 Besides, this app has been thoroughly tested and profiled and ran fine on bare metal and virtual environments.
 
 So this was me, a few days ago!.
-<!-- {: .oversized} -->
-> ![](/images/oom/4201968f94aacab1c0190d9688daba00-sticker.jpg)
+<!-- > ![](/images/oom/4201968f94aacab1c0190d9688daba00-sticker.jpg)-->
+> ![](https://media4.giphy.com/media/z9AUvhAEiXOqA/giphy-downsized.gif)
 
 This sparked a massive hunt for the culprit, and some interesting insights were discovered. Worth noting, similar investigating
 has also been done on by [Line Corp][line-eng-qos] in their excellent blog however, I have a different story to tell!
@@ -74,16 +74,30 @@ Essentially, I am ruling out the manual kill because that was simply not the cas
 
 ### Deep-dive into factors at play here
 
-1. [control groups][cgroups] are a Linux kernel feature that allows processes to be organized into hierarchical groups whose usage of various types of resources (memory, CPU, and so on) can then be limited and monitored. The cgroups interface is provided through a pseudo-filesystem called cgroupfs. You may have heard about `/sys/fs/cgroup/`! 
+1. Container runtime mixes two capabilities: 
+
+    a) Running containers: Comes from open container initiative (OCI) (about 2013) open sourced by Docker called "runc". It provides ability to run containers.
+
+    b) Image management: How images are packed, unpacked, pushed, pulled etc comes under this umbrella. A good example for this is "containerd".          
+
+    > ![](/images/oom/docker_stack.jpeg)
+    *Figure 5: Docker stack! Image credit: internet*
+    
+    There are several other implementation for runtime than runc+containerd like rkt but for me, its `runc+containerd` in play.
+    
+2. [control groups][cgroups] are a Linux kernel feature that allows processes to be organized into hierarchical groups whose usage of various types of resources (memory, CPU, and so on) can then be limited and monitored. The cgroups interface is provided through a pseudo-filesystem called cgroupfs. You may have heard about `/sys/fs/cgroup/`! 
  
     [Liz Rice] did an excellent demonstration of [what it means to run a container and how they work][container from scratch] that I highly recommend
     going through. Don't forget playing with the [demo code][source]. It gives a foundational understanding of cgroups's role in all things containers.
-
-2. `Kubelet` not only interfaces container runtime but also has `cAdvisor`(for [**C**ontainer **Advisor**][Container Advisor]) integrated within. 
+    
+    > ![](https://wizardzines.com/zines/containers/samples/cgroups.jpg)
+    *Figure 6: CGroup in picture! Image credit: [zines] by [Julia Evans]*
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+3. `Kubelet` (see fig 4) not only interfaces container runtime but also has `cAdvisor`(for [**C**ontainer **Advisor**][Container Advisor]) integrated within. 
 Note `kubelet` is a service running on the host and it operates at the host level, not the pod. 
 With `cAdvisor` it captures resource utilization, statistics about [control group][cgroups] of all container processes on the host.
 
-3. Kubernetes manages the resource for containers using `cgroups` that guarantees resource isolation and restrictions. 
+4. Kubernetes manages the resource for containers using `cgroups` that guarantees resource isolation and restrictions. 
 Kube can allocate X amount of resources to a container and allow the resources to grow until a pre-existing limit is reached or no more is left on the host to use.
 Kube provides these [requests and limits] semantic on containers which are used to enforce the said limit on process hierarchy for each container via cgroups.
 Now, the `limit is not always a hard cut-off. As documented in google's blog of [best practices resource requests and limits], there are two types of resources:
@@ -94,20 +108,20 @@ Now, the `limit is not always a hard cut-off. As documented in google's blog of 
 
     `Takeaway 2`: It's not the CPU limit, but the memory limit that we need to focus on.
 
-4. Kubernetes classifies pod into three categories based on the quality of service (QoS) they provide:
+5. Kubernetes classifies pod into three categories based on the quality of service (QoS) they provide:
     
     4.1 _Guaranteed_ pods are those who's resource request and limit are just the same. These are the best kind of workload from Kube's viewpoint as they are easier to allocate and plan for resource-wise. These pods are guaranteed to not be killed until they exceed their limits.
     > ![](/images/oom/qos-guranteed.jpg)
-    *Figure 5: Guaranteed QoS pod example*
+    *Figure 7: Guaranteed QoS pod example*
 
     4.2 _Best-Effort_ pods are those where no resource requirements are specified. These are the lowest priority pods and the first to get killed if the system runs out of memory. 
     > ![](/images/oom/qos-best%20effort.jpg)
-    *Figure 6: Best-Effort QoS pod example*
+    *Figure 8: Best-Effort QoS pod example*
 
-    4.3 _Burstable_ pods are those whose resource request and limit are defined in a range (fig 6), with limit treated as max if undefined. 
+    4.3 _Burstable_ pods are those whose resource request and limit are defined in a range (fig 9), with limit treated as max if undefined. 
     These are the kind of workloads that are more likely to be killed when the host system is under load and they exceed their requests and no Best-Effort pods exist. 
     > ![](/images/oom/qos-bustable.jpg)
-    *Figure 7: Burstable QoS pod example*
+    *Figure 9: Burstable QoS pod example*
 
 
     ```
@@ -151,11 +165,11 @@ Hows the app doing with the new revised configuration: `still getting OOMKilled 
 
 > ![](/images/oom/34b8525b2cff89f7f25f2f70d62c5014-sticker.png)
 
-Meanwhile, we uncovered random memory surges in some pods (see figure 8). These surges occurred very rarely and did not match
+Meanwhile, we uncovered random memory surges in some pods (see figure 10). These surges occurred very rarely and did not match
 to the duration of out-of-memory kill events. In fact, the frequency of OOM was much higher than these memory surges. 
 
 > ![](/images/oom/memory-spike.jpg)
-*Figure 8: The notorious spike of memory use on pod*
+*Figure 10: The notorious spike of memory use on pod*
 
 While these surges are worth investigating, they are still within the request/limit range (28.x Gi suurge on 31Gi request).
 So they still don't justify the OOM event.
@@ -275,10 +289,10 @@ But before we look into this, let's do a bit of a deep dive into related concept
    
     _On Kube_
     
-    Kebelet watches for `kmsg` and handles messages that will translate to OOMEvent/OOMKillEvent in Kube event stream which is then handled appropriately to trigger OOMKill. More interesting details of how this happens can be found [here][line-eng-qos] (also shown in borrowed fig 9). 
+    Kebelet watches for `kmsg` and handles messages that will translate to OOMEvent/OOMKillEvent in Kube event stream which is then handled appropriately to trigger OOMKill. More interesting details of how this happens can be found [here][line-eng-qos] (also shown in borrowed fig 11). 
 
     > ![](/images/oom/workflow-4-1024x816.png)
-    *Figure 9: OOM handling workflow on Kubernetes. Image credit: [Line Corp][line-eng-qos]*
+    *Figure 11: OOM handling workflow on Kubernetes. Image credit: [Line Corp][line-eng-qos]*
 
     As mentioned in `takeway 3 & 4`, this workflow however was not triggered in our case, we are did not record any Kube related OOM events or even kubelet receiving
     any related messages.
@@ -289,11 +303,11 @@ But before we look into this, let's do a bit of a deep dive into related concept
     
 ### So why the pods are getting killed? 
     
-In my case, memory cgroup ran out of memory and my stack trace confirms this (see fig 10). It tells me that the application container was 
+In my case, memory cgroup ran out of memory and my stack trace confirms this (see fig 12). It tells me that the application container was 
 killed because it was consuming 1.5MB shy of memory set as limit (31457280 KB).
 
 > ![](/images/oom/log-part-1.jpg)
-*Figure 10: Kernel log part 1*
+*Figure 12: Kernel log part 1*
 
 OK! this explains the OOMKill but why:
 
@@ -333,17 +347,17 @@ I need to explain this because it will be shown in the following log.
     |unevictable   | number of bytes of memory that cannot be reclaimed (mlocked etc).|
 
 
-Now, as discussed previously, the swap is not being used in this system. See the second part of the logs in fig 11. 
+Now, as discussed previously, the swap is not being used in this system. See the second part of the logs in fig 13. 
 You will note, there are two containers recorded and their memory stats is a capture - a) the pause container and b) the app container. 
-We can ignore the pause, it's tiny and looking very healthy. But look at the stats for app pod in fig 11 (below)!
+We can ignore the pause, it's tiny and looking very healthy. But look at the stats for app pod in fig 13 (below)!
 At the time my app was killed, it held about 29GB in hugepages and only 1.3GB extra in RSS. 
 That's huge and remember monitoring it not picking it for some reason! It captured 29GB but not 31GB! Perhaps its picking only `rss_huge` and
 presenting it as `rss` erroneously! `¯\_(ツ)_/¯`! Yes, we have a problem but this monitoring issue is for another day!
 
 > ![](/images/oom/log-part-2.jpg)
-*Figure 11: Kernel log part 2*
+*Figure 13: Kernel log part 2*
 
-Notice the blue arrow in fig 11, its capturing page info by both the pause container process and app container process. These are page info and not
+Notice the blue arrow in fig 13, its capturing page info by both the pause container process and app container process. These are page info and not
 and need to be multiplied by 4KB to get actual memory stats. These are translated two lines below the blue line! 
 
 My app has freaking **_62GB_** in total virtual memory! What's going on!
@@ -412,7 +426,7 @@ sudo sysctl -w vm.overcommit_ratio=100
 
 I see a massive improvement in OOMKills. Pods that were killed every 20mins and odd, are chugging along with 24hr processing and no crash still. 
 > ![](/images/oom/app-no-crash.jpg)
-*Figure 12: Getting somewhere! OOMKills sort of under control!*
+*Figure 14: Getting somewhere! OOMKills sort of under control!*
 
 I am not done yet, however! 
 Remember, part `b` of our problem in `takeaway 7` i.e. `b) Allocation of what we suspect un-needed memory!`.
@@ -455,3 +469,5 @@ Thanks for reading. Hopefully, it was a fun insightful read!
 [kernel.org]: https://www.kernel.org/doc/Documentation/cgroup-v1/memory.txt
 [hugepages]: https://docs.openshift.com/container-platform/4.1/scalability_and_performance/what-huge-pages-do-and-how-they-are-consumed-by-apps.html
 [additionaluserdata]: https://github.com/kubernetes/kops/blob/master/docs/instance_groups.md#additionaluserdata
+[zines]: https://wizardzines.com/zines/containers/
+[Julia Evans]: https://twitter.com/b0rk
