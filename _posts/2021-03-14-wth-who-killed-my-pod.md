@@ -428,7 +428,10 @@ I see a massive improvement in OOMKills. Pods that were killed every 20mins and 
 > ![](/images/oom/app-no-crash.jpg)
 *Figure 14: Getting somewhere! OOMKills sort of under control!*
 
-I am not done yet, however! 
+So, perhaps we can upgrade Kube and make this configuration systematic!  
+
+> But, I am not done yet! No no no no no no no .....
+
 Remember, part `b` of our problem in `takeaway 7` i.e. `b) Allocation of what we suspect un-needed memory!`.
 
 Why was it happening in the first place, and why it's controlled with overcommit disabled. I won't lie, it still happens but far less infrequent!  
