@@ -74,7 +74,7 @@ Essentially, I am ruling out the manual kill because that was simply not the cas
 
 ### Deep-dive into factors at play here
 
-1. Container runtime mixes two capabilities: 
+1. _Container runtime_ (in fig 4) is responsible for two things: 
 
     a) Running containers: Comes from open container initiative (OCI) (about 2013) open sourced by Docker called "runc". It provides ability to run containers.
 
