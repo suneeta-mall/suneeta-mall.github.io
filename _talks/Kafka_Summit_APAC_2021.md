@@ -1,10 +1,11 @@
 ---
-title: 'AWS She Builds on AWS 2020 - Nearmap AI: The story of data curation to power deep learning'
+title: 'Building More Reliable Data Pipelines for Nearmap Deep Learning Models: An Evolutionary Case Study'
 slides: //www.dropbox.com/scl/fi/c75vjetnxys6q9je3x0n2/Kafka-Summit-APAC-Final-Samanvay-Suneeta.pptx?dl=0&rlkey=cniwh8dcuk3k4kmzlj37vrjl9
 video: //www.dropbox.com/scl/fi/c75vjetnxys6q9je3x0n2/Kafka-Summit-APAC-Final-Samanvay-Suneeta.pptx?dl=0&rlkey=cniwh8dcuk3k4kmzlj37vrjl9
-date: 2021-07-2
+date: 2021-07-28
 display_date: July 2021
 ---
+
 
 I spoke about our recent experience working with ML pipelines at [Kafka Summit] 2021. The topic was `Building More Reliable Data Pipelines for Nearmap's Deep Learning Models: An Evolutionary Case Study` [link][Talk].
 
@@ -19,5 +20,5 @@ In this session, we will go into details of the challenges we encountered, the l
 Slides can be found [here][slides]. Much to my disappointment, the recording is not available: 
 
 [Kafka Summit]: //www.kafka-summit.org
-[Talk]: https://www.kafka-summit.org/sessions/building-more-reliable-data-pipelines-for-nearmaps-deep-learning-models
+[Talk]: //www.kafka-summit.org/sessions/building-more-reliable-data-pipelines-for-nearmaps-deep-learning-models
 [slides]: //www.dropbox.com/scl/fi/c75vjetnxys6q9je3x0n2/Kafka-Summit-APAC-Final-Samanvay-Suneeta.pptx?dl=0&rlkey=cniwh8dcuk3k4kmzlj37vrjl9
