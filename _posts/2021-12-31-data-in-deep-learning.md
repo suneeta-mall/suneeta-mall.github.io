@@ -9,7 +9,7 @@ tags:
 date: 2021-12-31
 ---
 
-The energy and excitement in machine learning and deep learning communities are infectious these days. So many groundbreaking advances are happening in this area but I have often found myself wondering why the only thing that makes it all shine - yes I am talking about the dark horse of deep learning _" the data"_ is so underappreciated. The last few years of DL research have given me much joy and excitement and I carry hope now that going forward we can see some exciting progress in this space that explore advances in deep learning in conjunction with data! In this article, I summarise some of the recent developments in the deep learning space that I have been blown away by. 
+The energy and excitement in machine learning and deep learning communities are infectious these days. So many groundbreaking advances are happening in this area but I have often found myself wondering why the only thing that makes it all shine - yes I am talking about the dark horse of deep learning _the_ _data_ is so underappreciated. The last few years of DL research have given me much joy and excitement and I carry hope now that going forward we can see some exciting progress in this space that explore advances in deep learning in conjunction with data! In this article, I summarise some of the recent developments in the deep learning space that I have been blown away by. 
 
 Table of content of this article:
 - [The dark horse of deep learning: data](#the-dark-horse-of-deep-learning--data)
