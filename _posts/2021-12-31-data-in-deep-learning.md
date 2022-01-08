@@ -44,7 +44,7 @@ Deep learning (DL) algorithms learn to perform a task by building a (domain) kno
 *Figure 1: Shows relationship between generalization error and dataset size (log scale) [2] *
 
 
-So, the bigger dataset is better right? Almost! A theoretical foundation has been laid out in the form of power-law i.e $ \begin{equation} \label{power_law} ε(m) \approx αm^{β_g} \end{equation} $ wherein *ε* is generalization error, *m* is the number of samples in the training set, *α* is a constant property of the problem/DL task, and *β<sub>g</sub>* is the scaling exponent that defines the steepness of the learning curve. Here, *β<sub>g</sub>*, the steepness of the curve depicts how well a model can learn from adding more data to the training set [2] .(see figure 2) Empirical,  *β<sub>g</sub>* was found to be between −0.07 and −0.35 despite theory suggesting *β<sub>g</sub>* to be 0.5 or 1. Nonetheless, the logarithmic relationship holds. As shown in figure 2, the gain eventually tapers in irreducible error. 
+So, the bigger dataset is better right? Almost! A theoretical foundation has been laid out in the form of power-law i.e $ \begin{equation} \label{power_law} ε(m) \approx αm^{β_g} \end{equation} $ wherein *ε* is generalization error, *m* is the number of samples in the training set, *α* is a constant property of the problem/DL task, and *β<sub>g</sub>* is the scaling exponent that defines the steepness of the learning curve. Here, *β<sub>g</sub>*, the steepness of the curve depicts how well a model can learn from adding more data to the training set [2] .(see figure 2) Empirically,  *β<sub>g</sub>* was found to be between −0.07 and −0.35 despite theory suggesting *β<sub>g</sub>* to be 0.5 or 1. Nonetheless, the logarithmic relationship holds. As shown in figure 2, the gain eventually tapers in irreducible error. 
 
 >![](/images/data-centric-ai/power-law.jpeg)
 *Figure 2: Power Law curve showing model trained with a small dataset only as good as random guesses to rapidly getting better as dataset size increases to eventually settling into irreducible error region explained by a combination of factors including imperfect data
@@ -117,7 +117,9 @@ These techniques in DL space however are mostly used to understand the data and 
 
 ## Active learning
 
-Active learning is used more commonly in classical ML techniques, it has not been very successful in deep learning due to back-propagation. Offline or pool-based active learning has been investigated heavily with not much groundbreaking success. Pool-based active learning will be covered in the following section in more detail (pruning).
+Active learning is a methodology wherein the training process proactively asks for labels on specific data. It is used more commonly in classical ML techniques, but it has not been very successful in deep learning due to back-propagation. Offline or pool-based active learning has been investigated heavily for use in deep learning but without much groundbreaking success. The use of active learning is not very straightforward either due to the negative impact of outliers on training [25]. Pool-based active learning will be covered in the following section in more detail (pruning).
+
+
 
 # Challenges in scaling dataset for deep-learning
 
@@ -128,14 +130,13 @@ In my view, the following are some of the broad categories of questions that fal
 
 1. How to efficiently train with the rapid increase in the dataset? [Yann LeCun](https://twitter.com/ylecun) called out in his interview with [Soumith Chintala](https://twitter.com/soumithchintala) during [PyTorch developer day 2021](https://www.youtube.com/watch?v=vXbbaEZbrOI) that training time of more than 1 week should not be acceptable. This is a very good baseline for practical reasons but if one does not have an enormous GPU fleet at their disposal then this is goalpost is very hard to achieve given current DL practices. So, what else can be done to train efficiently with increased dataset size?
 1. Are all samples equally important? How important a sample in the dataset is? Can we leverage the "importance factor" for good?
-1. What role does a sample is playing towards better generalization? Some samples carry redundant features, how to deduplicate the dataset when features as in DL are known themselves?
+1. What role does a sample play towards better generalization? Some samples carry redundant features, so how to deduplicate the dataset when features as in DL are not explicit?
 1. Data size matters but can we be strategic about what goes in the dataset?
-    1. Cleverly doing this has to do with efficient sampling and data mining techniques. These are the easily solved problem if and only if we what our targets are. Challenge in DL, as I see it, what to look for to mine for the best sample itself is not well understood. 
+    1. Cleverly doing this has to do with efficient sampling and data mining techniques. These are the easily solved problem if and only if we know what our targets are. Challenge in DL, as I see it, is what to look for to mine for the best sample? This is not well understood. 
 1. How can we leverage more innate DL techniques like objective functions, backpropagation, and gradient descent to build a slick and effective dataset that provides the highest return on investment.
-1. Noises in datasets are seen as evil, they are evil. But are they always evil? How much noise can one live with? How to quantify this?
+1. Noises in datasets are seen as evil. But are they always evil? How much noise can one live with? How to quantify this?
 1. How much of a crime it is if data bleeds across traditional train/validate/calibrate/test splits.
     1. What are the recommendations on the data split for cascade training scenarios?
-
 1. How fancy can one get with data augmentation before returns start to diminish?
 1. How to optimize the use of data if continual learning is observed? 
 
@@ -255,6 +256,7 @@ In my understanding that is the main theoretical difference between the two tech
 I am not saying mixup cant be extended to be more multivariate but that empirical analysis of such approach is unknown; whereas with [11] its been shown SLaPkNN can compress 3M − 2 classes into M samples at least. 
 
 The technical explanation for this along with code is available [here](https://github.com/ilia10000/LO-Shot/tree/master/Paper1).
+
 
 ### 2.2. Pruning
 Pruning is a subclass of compression techniques wherein samples that are not really helpful or effective are dropped out whereas selected samples are kept as is without any loss in content.
@@ -402,30 +404,34 @@ In summary, the last four years have been incredibly exciting for data in DL spa
 
 
 # References
-1. [https://arxiv.org/abs/1707.02968](https://arxiv.org/abs/1707.02968)
-2. [https://arxiv.org/abs/1712.00409](https://arxiv.org/abs/1712.00409)
+1. [1707.02968] Revisiting Unreasonable Effectiveness of Data in Deep Learning Era.” Accessed January 3, 2022. [https://arxiv.org/abs/1707.02968](https://arxiv.org/abs/1707.02968).
+2. Hestness, Joel, Sharan Narang, Newsha Ardalani, Gregory Diamos, Heewoo Jun, Hassan Kianinejad, Md Mostofa Ali Patwary, Yang Yang, and Yanqi Zhou. “Deep Learning Scaling Is Predictable, Empirically,” December 2017. [https://arxiv.org/abs/1712.00409](https://arxiv.org/abs/1712.00409).
 3. [https://www.wired.com/story/no-data-is-not-the-new-oil/](https://www.wired.com/story/no-data-is-not-the-new-oil/)
 4. [https://pages.run.ai/hubfs/PDFs/2021-State-of-AI-Infrastructure-Survey.pdf](https://pages.run.ai/hubfs/PDFs/2021-State-of-AI-Infrastructure-Survey.pdf)
-5. [https://arxiv.org/abs/1808.01974](https://arxiv.org/abs/1808.01974)
-6. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf)
-7. [https://arxiv.org/abs/1710.09412](https://arxiv.org/abs/1710.09412)
-8. [https://arxiv.org/abs/1812.01187](https://arxiv.org/abs/1812.01187)
-9. [https://arxiv.org/abs/2009.08449](https://arxiv.org/abs/2009.08449)
-10. [https://arxiv.org/abs/1512.00567](https://arxiv.org/abs/1512.00567)
-11. [https://arxiv.org/abs/1904.05046](https://arxiv.org/abs/1904.05046)
-12. [https://ieeexplore.ieee.org/document/1597116](https://ieeexplore.ieee.org/document/1597116)
-13. [https://arxiv.org/abs/1606.04080](https://arxiv.org/abs/1606.04080)
-14. [https://arxiv.org/abs/1812.05159](https://arxiv.org/abs/1812.05159)
-15. [https://arxiv.org/abs/1906.11829](https://arxiv.org/abs/1906.11829)
-16. [https://arxiv.org/abs/2102.08259](https://arxiv.org/abs/2102.08259)
-17. [https://arxiv.org/abs/1811.10959](https://arxiv.org/abs/1811.10959)
-18. [https://arxiv.org/abs/2011.00050](https://arxiv.org/abs/2011.00050)
-19. [https://arxiv.org/abs/2006.05929](https://arxiv.org/abs/2006.05929)
-20. [https://arxiv.org/abs/2107.13034](https://arxiv.org/abs/2107.13034)
-21. [https://arxiv.org/abs/2107.07075](https://arxiv.org/abs/2107.07075)
-22. [https://arxiv.org/abs/2111.06377](https://arxiv.org/abs/2111.06377)
-23. [https://arxiv.org/abs/1802.03426](https://arxiv.org/abs/1802.03426)
-24. [https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+5. [1808.01974] A Survey on Deep Transfer Learning. Accessed January 5, 2022. [https://arxiv.org/abs/1808.01974](https://arxiv.org/abs/1808.01974).
+6. Transfer Learning. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf)
+7. Zhang, Hongyi, Moustapha Cisse, Yann N. Dauphin, and David Lopez-Paz. “Mixup: Beyond Empirical Risk Minimization,” October 2017. [https://arxiv.org/abs/1710.09412](https://arxiv.org/abs/1710.09412).
+8. [1812.01187] Bag of Tricks for Image Classification with Convolutional Neural Networks. Accessed December 30, 2021. [https://arxiv.org/abs/1812.01187](https://arxiv.org/abs/1812.01187).
+9. [2009.08449] ’Less Than One’-Shot Learning: Learning N Classes From M < N Samples. Accessed January 5, 2022. [https://arxiv.org/abs/2009.08449](https://arxiv.org/abs/2009.08449).
+10. [1512.00567] Rethinking the Inception Architecture for Computer Vision. Accessed January 5, 2022. [https://arxiv.org/abs/1512.00567](https://arxiv.org/abs/1512.00567).
+11. [1904.05046] Generalizing from a Few Examples: A Survey on Few-Shot Learning. Accessed January 5, 2022. [https://arxiv.org/abs/1904.05046](https://arxiv.org/abs/1904.05046).
+12. Li Fei-Fei, R. Fergus and P. Perona, “One-shot learning of object categories,” in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 28, no. 4, pp. 594–611, April 2006, doi: 10.1109/TPAMI.2006.79. [https://ieeexplore.ieee.org/document/1597116](https://ieeexplore.ieee.org/document/1597116)
+13. [1606.04080] Matching Networks for One Shot Learning. Accessed January 5, 2022. [https://arxiv.org/abs/1606.04080](https://arxiv.org/abs/1606.04080).
+14. [1812.05159] An Empirical Study of Example Forgetting during Deep Neural Network Learning. Accessed December 29, 2021. [https://arxiv.org/abs/1812.05159](https://arxiv.org/abs/1812.05159).
+15. [1906.11829] Selection via Proxy: Efficient Data Selection for Deep Learning. Accessed December 29, 2021. [https://arxiv.org/abs/1906.11829](https://arxiv.org/abs/1906.11829).
+16. [2102.08259] Dataset Condensation with Differentiable Siamese Augmentation. Accessed January 5, 2022. [https://arxiv.org/abs/2102.08259](https://arxiv.org/abs/2102.08259).
+17. [1811.10959] Dataset Distillation. Accessed January 5, 2022. [https://arxiv.org/abs/1811.10959](https://arxiv.org/abs/1811.10959).
+18. [2011.00050] Dataset Meta-Learning from Kernel Ridge-Regression. Accessed January 5, 2022. [https://arxiv.org/abs/2011.00050](https://arxiv.org/abs/2011.00050).
+19. [2006.05929] Dataset Condensation with Gradient Matching. Accessed January 5, 2022. [https://arxiv.org/abs/2006.05929](https://arxiv.org/abs/2006.05929).
+20. [2107.13034] Dataset Distillation with Infinitely Wide Convolutional Networks. Accessed January 5, 2022. [https://arxiv.org/abs/2107.13034](https://arxiv.org/abs/2107.13034).
+21. [2107.07075] Deep Learning on a Data Diet: Finding Important Examples Early in Training. Accessed December 10, 2021. [https://arxiv.org/abs/2107.07075](https://arxiv.org/abs/2107.07075).
+22. [2111.06377] Masked Autoencoders Are Scalable Vision Learners. Accessed January 5, 2022. [https://arxiv.org/abs/2111.06377](https://arxiv.org/abs/2111.06377).
+23. [1802.03426] UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. Accessed January 5, 2022. 23. [https://arxiv.org/abs/1802.03426](https://arxiv.org/abs/1802.03426).
+24. Maaten, Laurens van der and Geoffrey E. Hinton. “Visualizing Data using t-SNE.” Journal of Machine Learning Research 9 (2008): 2579–2605. [https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+25. [2107.02331] Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering.” Accessed January 8, 2022. [https://arxiv.org/abs/2107.02331](https://arxiv.org/abs/2107.02331)
+
+
+
 
 
 [1]: https://arxiv.org/abs/1707.02968
@@ -452,6 +458,7 @@ In summary, the last four years have been incredibly exciting for data in DL spa
 [22]: https://arxiv.org/abs/2111.06377
 [23]: https://arxiv.org/abs/1802.03426
 [24]: https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf 
+[25]: https://arxiv.org/abs/2107.02331
 [Gestalt theory]: http://www.gestalttheory.net/cms/uploads/pdf/archive/1934_1960/Principles_Gestalt_Psychology_koffka.pdf
 [Neural Tangents]: https://github.com/google/neural-tangents
 [JAX]: https://github.com/google/jax
