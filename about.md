@@ -13,6 +13,7 @@ TLDR: I am a free electron curious and interested in just about everything relat
 
 <!-- {: .oversized}
 > ![](/assets/img/cover.png) -->
+<br/>
 
 Education
 ---------
@@ -65,6 +66,14 @@ Published courses
     - [Reproducible Deep Learning: Achieving 100% Reproducibility]
 
 
+Published blogs on external platforms:
+---------
+- Review of recent advances in dealing with data size challenges in Deep Learning [Towards Data Science]
+
+
+
+
+
 [oreilly]: //oreilly.com
 [sydu]: //sydney.edu.au/
 [thesis]: //ses.library.usyd.edu.au/handle/2123/19987
@@ -90,3 +99,4 @@ Published courses
 [Reproducible Deep Learning: Identifying the Reproducibility Challenge]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091226/
 [Reproducible Deep Learning: Random Seeds and Process-Parallelism]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091233/
 [Reproducible Deep Learning: Achieving 100% Reproducibility]: https://learning.oreilly.com/scenarios/reproducible-deep-learning/9781492091240/
+[Towards Data Science]: http://towardsdatascience.com/review-of-recent-advances-in-dealing-with-data-size-challenges-in-deep-learning-ac5c1844af73
