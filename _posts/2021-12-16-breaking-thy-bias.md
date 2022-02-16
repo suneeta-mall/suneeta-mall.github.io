@@ -6,7 +6,10 @@ date: 2021-12-16
 ---
 
 ## Inspiration
-Internation Women's day 2022 campaign theme #BreakTheBias
+Internation Women's day 2022 campaign theme #BreakTheBias.
+
+Poem also draws inspiration from [Heinrich Rohrer](https://en.wikipedia.org/wiki/Heinrich_Rohrer) quote:
+> Science means constantly walking a tightrope between blind faith and curiosity; between expertise and creativity; between bias and openness; between experience and epiphany; between ambition and passion; and between arrogance and conviction - in short, between an old today and a new tomorrow.
 
 ### Poem
 
