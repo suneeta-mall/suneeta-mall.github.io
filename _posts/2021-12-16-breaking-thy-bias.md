@@ -1,5 +1,5 @@
 ---
-title: Fearless and Forward: breaking thy bias
+title: Fearless and Forward - breaking thy bias
 tags:
   - Poem
 date: 2021-12-16
