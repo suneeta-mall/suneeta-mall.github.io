@@ -1,0 +1,70 @@
+---
+title: Pydra - Pydantic and Hydra for configuration management of model training experiments
+tags:
+  - Machine-learning
+  - AI
+  - Software
+date: 2022-05-07
+---
+
+- [Context](#context)
+- [Hydra](#hydra)
+  * [A simple non-structured config example](#a-simple-non-structured-config-example)
+  * [An extension using structured config](#an-extension-using-structured-config)
+  * [Some other interesting features of hydra](#some-other-interesting-features-of-hydra)
+    + [Interpolation](#interpolation)
+    + [Hydra Directives](#hydra-directives)
+  * [Where Hydra falls short?](#where-hydra-falls-short-)
+- [Pydantic](#pydantic)
+  * [An few interesting notes](#an-few-interesting-notes)
+  * [Can Pydantic bridge the gaps in hydra](#can-pydantic-bridge-the-gaps-in-hydra)
+- [How well does this integrate with other ecosystem tools](#how-well-does-this-integrate-with-other-ecosystem-tools)
+- [Version config](#version-config)
+- [Conclusion](#conclusion)
+
+
+## Context
+
+t-SNE (t-Distributed Stochastic Neighbor Embedding) is a nonlinear dimensionality reduction manifold learning algorithm. T-SNE projects the data into a 2D (or 3D) representation while preserving the ‘structure’ (patterns) in the original dataset. The 2/3D decomposition makes T-SNE highly desirable for visualizing data and interactively exploring patterns in the dataset. 
+
+
+
+faster version of tsne is Barnes-Hut approximation.
+
+
+A Manifold is a  d -dimensional surface that lives in an 
+D-dimensional space, where d<D. 
+
+It does this in a non-linear and local way, so different regions of data could be transformed differently.
+t-SNE has a hyper-parameter called perplexity. Perplexity balances the attention t-SNE gives to local and global aspects of the data and can have large effects on the resulting plot. 
+
+
+
+perplexity is roughly a guess of the number of close neighbors each point has. Thus, a denser dataset usually requires a higher perplexity value.
+It is recommended to be between 5 and 50.
+It should be smaller than the number of data points.
+
+
+TSNE is slow .. use PCA to bootstrap ... 
+
+If your clusters are too fragmented then perplexity may be too small for your dataset.
+
+Cluster size dont mean much ... closeness of points in plots too only in local context
+
+
+Lessons -> 
+- to iterate until reaching a stable configuration.
+- Perplexity should be less than datasize and ideally in range of 5-50. Lower the perplexity, higher the local variance.
+
+
+- DO not stop at one plot .. 
+
+[tsne-illustrated]: https://www.oreilly.com/content/an-illustrated-introduction-to-the-t-sne-algorithm/
+[distill-tsne]: https://distill.pub/2016/misread-tsne/
+[tsne-paper]: https://lvdmaaten.github.io/publications/papers/JMLR_2008.pdf
+[tsne-author]: https://lvdmaaten.github.io/tsne/
+[karapathy]: https://cs.stanford.edu/people/karpathy/cnnembed/
+[datascienceplus]: https://datascienceplus.com/multi-dimensional-reduction-and-visualisation-with-t-sne/
+[tricks-to-tsne]: https://towardsdatascience.com/why-you-are-using-t-sne-wrong-502412aab0c0
+[umap-utube]: https://www.youtube.com/watch?v=nq6iPZVUxZU
+[tsne-utube]: https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw
