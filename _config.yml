@@ -70,6 +70,8 @@ collections:
     output: true
   talks:
     output: true
+  poems:
+    output: true    
   docs:
     output: true
 
@@ -99,6 +101,11 @@ defaults:
       type: talks
     values:
       layout: talk
+  - scope:
+      path: ""
+      type: poems
+    values:
+      layout: poem      
 
 permalink: date
 paginate_path: "/posts/page:num"

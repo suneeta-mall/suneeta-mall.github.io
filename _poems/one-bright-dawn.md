@@ -1,8 +1,7 @@
 ---
 title: One Bright Dawn
-tags:
-  - Poem
 date: 2010-04-09
+display_date: April 2010
 ---
 
 ## Inspiration

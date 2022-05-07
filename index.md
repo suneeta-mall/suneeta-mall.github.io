@@ -33,6 +33,10 @@ feature:
       - "/talks/KubeCon-Europe-2018.md"  
       - "/talks/SPIE-2018.md"            
       - "/talks/SPIE-2015.md"
+  poems:
+    latest: 1
+    list:
+      - "/poems/2021-12-16-breaking-thy-bias.md"
 ---
 
 {% comment %}

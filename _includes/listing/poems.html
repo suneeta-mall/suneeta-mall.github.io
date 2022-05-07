@@ -1,0 +1,16 @@
+{% if include.feature %}
+  {% assign quota = include.feature.latest | default: 1 %}
+{% else %}
+  {% assign quota = -1 %}
+{% endif %}
+{% for poem in site.poems reversed %}
+  {% if quota != 0 or include.feature.list contains poem.id %}
+    {% include article.html class='post'
+               title=poem.title content=poem.excerpt
+               display_date=page.display_date
+               url=poem.url quota=quota %}
+    {% if quota > 0 %}
+      {% assign quota = quota | minus: 1 %}
+    {% endif %}
+  {% endif %}
+{% endfor %}

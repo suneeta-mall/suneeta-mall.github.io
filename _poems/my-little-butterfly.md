@@ -1,8 +1,7 @@
 ---
 title: My little butterfly
-tags:
-  - Poem
 date: 2021-02-04
+display_date: Feb 2021
 ---
 
 ## Inspiration
