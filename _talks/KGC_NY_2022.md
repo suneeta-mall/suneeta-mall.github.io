@@ -6,7 +6,7 @@ date: 2022-05-05
 display_date: May 2022
 ---
 
-I had the opportunity to present recent work at [Knowledge Graph Conference 2022][talk]. The blurb for this talk is as following: 
+I had the opportunity to present recent work `Leveraging Domain Knowledge For Deep Learning Based Computer Vision` at [Knowledge Graph Conference 2022][talk]. The blurb for this talk is as following: 
 
 Deep learning models require massive amounts of data to be performed accurately. As the world is inherently interconnected, we can leverage relationships amongst identifiable objects to improve Deep Learning. For example, a shingle roof can not be a tile roof, but both are roofs. So, we set ourselves a challenge: “How can we leverage the knowledge and the relationship amongst the things we see in our world to improve our data, software systems, and the deep learning model?”. 
 

@@ -1,8 +1,7 @@
 ---
 title: To all the Daminis
-tags:
-  - Poem
 date: 2012-12-28
+display_date: Dec 2012
 ---
 
 ## Inspiration

@@ -1,8 +1,7 @@
 ---
 title: Fearless and Forward - breaking thy bias
-tags:
-  - Poem
 date: 2021-12-16
+display_date: December 2021
 ---
 
 ## Inspiration

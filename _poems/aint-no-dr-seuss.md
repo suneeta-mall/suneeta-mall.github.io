@@ -1,8 +1,7 @@
 ---
 title: A'int no Dr Seuss
-tags:
-  - Poem
 date: 2010-04-04
+display_date: April 2010
 ---
 
 ## Inspiration
