@@ -1,4 +1,4 @@
-FROM jekyll/jekyll:latest
+FROM jekyll/jekyll:4.2.0
 
 RUN mkdir -p blog
 WORKDIR blog
@@ -7,4 +7,4 @@ WORKDIR blog
 
 RUN  jekyll clean 
 
-ENTRYPOINT ["jekyll", "serve", "--watch"]
+ENTRYPOINT ["jekyll", "serve", "--watch", "--trace"]
