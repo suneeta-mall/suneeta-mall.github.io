@@ -7,6 +7,10 @@ tags:
 date: 2022-03-15
 ---
 
+How do you manage the configurations of your model training experiments? Having good configuration management in place improves the user experience and simplifies experiment management. Some of the indirect advantages of having a good config solution are clean, reliable, and simple application code. This is true for any software application however some applications demand higher investment on the config piece than others. One key differentiator perhaps here is how many config fields one has and how each of these relates to the other. This can get real messy real quick with deep learning experiments where the list of config and hyperparameters can rapidly grow out of hand as soon as one breaks out of adhoc experimentations.
+
+
+
 - [Context](#context)
 - [Hydra](#hydra)
   * [A simple non-structured config example](#a-simple-non-structured-config-example)
@@ -22,10 +26,8 @@ date: 2022-03-15
 - [Version config](#version-config)
 - [Conclusion](#conclusion)
 
-
 ## Context
 
-How do you manage the configurations of your model training experiments? Having good configuration management in place improves the user experience and simplifies experiment management. Some of the indirect advantages of having a good config solution are clean, reliable, and simple application code. This is true for any software application however some applications demand higher investment on the config piece than others. One key differentiator perhaps here is how many config fields one has and how each of these relates to the other. This can get real messy real quick with deep learning experiments where the list of config and hyperparameters can rapidly grow out of hand as soon as one breaks out of adhoc experimentations.
 
 By definition model training configurations are hierarchial. For example, an experiment configuration can be broken down into data and model specifications. While these are loosely coupled specifications, they may enforce some degree of restrictions on each other e.g. model's output specification needs to be in line with data specification. A classifier network needs to output a 10 length vector if the data source is MNIST and 20 if it's PASCAL VOC. 
 
@@ -50,6 +52,8 @@ With that in mind, I evaluated a bunch of tools combination of [Hydra] and [Pyda
 5. Conclusion
 
 *Note:* The samples and code shared in this post are available [here](https://github.com/suneeta-mall/hydra_pydantic_config_management).
+
+
 
 ## Hydra
 
