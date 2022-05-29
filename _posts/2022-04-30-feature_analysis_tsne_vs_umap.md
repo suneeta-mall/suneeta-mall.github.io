@@ -11,6 +11,9 @@ tags:
 date: 2022-04-30
 ---
 
+What is manifold learning algorithms? What is t-SNE and UMAP? What are the differences between t-SNE & UMAP. How can I explore features of a dataset using t-SNE and UMAP? These are my notes from my recent exploration into t-SNE and UMAP and trying to apply them to a multi-label dataset to understand their abilities and limits. 
+
+This post is broken down into the following sections:
 
 - [Manifold learning algorithms (MLA)](#manifold-learning-algorithms-mla)
   - [Neighbour graphs](#neighbour-graphs)
@@ -166,8 +169,21 @@ So this is MNIST, where digits are captured with empty backgrounds. These are ve
 
 ## More complex datasets like CIFAR
 
+>![](/images/feature-analysis/cifar-10-tsne.jpg)
+Results of CIFAR image feature visualization using t-SNE under different perplexity settings. (Image provided by author)
 
 
+
+>![](/images/feature-analysis/cifar-10-t-sne-with-images.jpg)
+Results of CIFAR image feature visualization using t-SNE. Shows images in overlay on randomly selected points. (Image provided by author)
+
+>![](/images/feature-analysis/cifar-umap.jpg)
+Results of CIFAR image feature visualization using t-SNE. Shows images in overlay on randomly selected points. (Image provided by author)
+
+
+
+>![](/images/feature-analysis/cifar-umap-collison.jpg)
+Results of CIFAR image feature visualization using t-SNE. Shows images in overlay on randomly selected points. (Image provided by author)
 
 ## how to do this for multi-label 
 

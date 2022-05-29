@@ -1,7 +1,7 @@
 ---
 title: 'KGC 2022: Leveraging Domain Knowledge For Deep Learning Based Computer Vision'
 slides: https://zenodo.org/record/6504617/files/Leveraging%20Domain%20Knowledge%20For%20Deep%20Learning%20Based%20Computer%20Vision.pdf?download=1
-video: https://zenodo.org/record/6504617/files/Leveraging%20Domain%20Knowledge%20For%20Deep%20Learning%20Based%20Computer%20Vision.pdf?download=1
+video: https://watch.knowledgegraph.tech/videos/leveraging-domain-knowledge-for-deep-learning-based-computer-vision
 date: 2022-05-05
 display_date: May 2022
 ---
@@ -15,9 +15,9 @@ In this presentation, we share our experiences with knowledge graphs as a techni
 >![](/images/talks/kgc_2022.jpg)
 
 
-Slides can be found [here][slides]. The videos are not yet released!
+Slides can be found [here][slides]. The [video] recording is located [here][video]!
 
 [talk]: https://www.knowledgegraph.tech/speakers/suneeta-mall/
 [zenodo]: https://zenodo.org/record/6504617#.YmvCnpJBxZM
 [slides]: https://zenodo.org/record/6504617/files/Leveraging%20Domain%20Knowledge%20For%20Deep%20Learning%20Based%20Computer%20Vision.pdf?download=1SuneetaMall_WhoKilledMyPod_KubeConNA_2021.pptx
-
+[video]: https://watch.knowledgegraph.tech/videos/leveraging-domain-knowledge-for-deep-learning-based-computer-vision
