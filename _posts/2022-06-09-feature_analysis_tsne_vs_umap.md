@@ -8,6 +8,7 @@ tags:
   - Data-Centric-AI
   - t-SNE
   - UMAP
+  - PyTorch
 date: 2022-06-09
 ---
 
@@ -26,6 +27,7 @@ This post is broken down into the following sections:
   * [More complex datasets like CIFAR](#more-complex-datasets-like-cifar)
   * [What to do when there is noise in features?](#what-to-do-when-there-is-noise-in-features-)
   * [how to do this for multi-label](#how-to-do-this-for-multi-label)
+- [Can we apply this to understand what neural networks are doing?](#can-we-apply-this-to-understand-what-neural-networks-are-doing)  
 - [Conclusion](#conclusion)
 
 # Manifold learning algorithms (MLA)
@@ -239,6 +241,12 @@ If multi-label data consists of exclusive classes similar to [Satnford Cars Data
 However, if the multi-label dataset is more alike [MLRSNet](https://paperswithcode.com/dataset/mlrsnet) where classes are independent then it's best to first analyze the data class agnostic and explore if there are any patterns in features and proceed based on this.
 
 
+# Can we apply this to understand what neural networks are doing?
+
+A lot of work has been done in the area of explainability and feature understanding that is very well documented in [distill] blogs. The underlined idea is that we can take the activation of the layers of the neural network and explore what features it is that that particular layer is paying attention to. The activations are essentially the signal that is fired for a given input to the layer. These signals then formulate the feature vector for further analysis to understand where and what the layer is paying more attention to. T-SNE and UMAP are heavily used in these analyses. 
+
+The [distill] blogs are very well documented and highly recommended for reading if this is something that is of interest to you.
+
 # Conclusion
 
 This post was focused on the fundamentals of manifold learning algorithms, and diving into the details of t-SNE and UMAP. This post also compared and contrasted t-SNE and UMAP and presented some analysis of MNIST and CIFAR datasets. We also covered what to do if we have a very high dimensional dataset and also if we have noises in the dataset. Lastly, we touched on what to do if your dataset is multi-label. 
@@ -270,3 +278,4 @@ In the follow-up, I will cover how we can utilize t-SNE and UMAP to better under
 [deeplearning_book]: https://www.deeplearningbook.org/contents/autoencoders.html
 [parametric UMAP]: https://umap-learn.readthedocs.io/en/latest/parametric_umap.html
 [feature_analysis]: https://github.com/suneeta-mall/feature_analysis 
+[distill]: https://distill.pub/2019/activation-atlas/

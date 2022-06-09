@@ -7,6 +7,7 @@ tags:
   - Data
   - Data-Centric-AI
   - Confident-Learning
+  - PyTorch
 date: 2022-05-16
 ---
 
