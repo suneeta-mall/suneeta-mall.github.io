@@ -47,7 +47,6 @@ I failed this morning! I failed to resist the chatGPT urge to see what it would 
 #### ChatGPT's Response
 
 ```
-Sure! Here is a chapter book for 6 year old kids:
 
 Chapter 1: The Magical Forest
 
@@ -117,7 +116,6 @@ Very impressive choice of theme, tone and word selection. It did not give me a t
 #### ChatGPT's Response
 
 ```
-Sure! Here is a chapter book for 6 year old kids on STEM:
 
 Chapter 1: The Science Fair
 
@@ -161,12 +159,12 @@ She knew that no matter what she did in the future, she would always have a pass
 
 #### Verdict
 
-Nice plot setting, nice choice of theme, and context. Nice job. I find it's very peripheral, explaining a lot about the setting but nothing about science. Maybe it’s the prompt. Let's give another go.
+Nice plot setting, nice choice of theme, and context. Nice job. I find it's very peripheral, explaining a lot about the setting but nothing about science. Maybe it’s my prompt. Let's give it another go.
 
 
 ### Prompt
 
-*Write a 6-7 year old kids’ book on Sir Isaac Newton's discoveries with Cassie as protagonist*
+*Write a 6-7 year old kids’ book on Sir Isaac Newton's discoveries with Cassie as a protagonist*
 
 #### ChatGPT's Response
 
@@ -282,13 +280,11 @@ However, I remain unsatisfied given the lack of detail and meat around the topic
 
 *Title*: Curious Cassie's beach ride quest: A Celebration of Isaac Newton's Discoveries
 
-[Illustration: Cassie is riding in a car with her family! She is buzzing with interesting curious keywords like Wow, What, How, When, Where! Sir Isaac is featured in the book. ]
-
->![](/images/curious_cassie/cover.jpg)
-
+[Illustration: Cassie is riding in a car with her family! She is buzzing with interesting curious keywords like Wow, What, How, When, Where! Sir Isaac is featured in the book.]
 
 Here's a sample of [my book](/images/curious_cassie/Curious Cassie's beach ride quest- A Celebration of Isaac Newton's Discoveries.pdf). It shows 1st chapter of the 3-chapter book. 
 
+>![](/images/curious_cassie/cover.jpg)
 
 I am just a debut author, writing out of hobby. I am profoundly impressed by authors who have written brilliant books to teach, guide and shape our children. I hope we will continue to create far-enriched content to shape ourselves and our future with or without AI - just as long as we are in control. 
 
