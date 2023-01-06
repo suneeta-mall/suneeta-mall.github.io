@@ -282,14 +282,14 @@ However, I remain unsatisfied given the lack of detail and meat around the topic
 
 *Title*: Curious Cassie's beach ride quest: A Celebration of Isaac Newton's Discoveries
 
-[Illustration: Cassie is riding in a car with her family! Sir Isaac is featured in the book. Curious Cassie is buzzing with interesting keywords like Wow, What, How, When, Where!]
+[Illustration: Cassie is riding in a car with her family! She is buzzing with interesting curious keywords like Wow, What, How, When, Where! Sir Isaac is featured in the book. ]
 
 >![](/images/curious_cassie/Cover.jpg)
 
 Here's a sample of [my book](/images/curious_cassie/Curious Cassie's beach ride quest- A Celebration of Isaac Newton's Discoveries.pdf). It shows 1st chapter of the 3-chapter book. 
 
 
-I am just a debut author writing out of hobby and not profession. I am profoundly impressed by authors who have written brilliant books to teach, guide and shape our children. I hope, now and ever, we will continue to create far-enriched content to shape ourselves and our future with or without AI - just as long as we are in control. 
+I am just a debut author, writing out of hobby. I am profoundly impressed by authors who have written brilliant books to teach, guide and shape our children. I hope, now and ever, we will continue to create far-enriched content to shape ourselves and our future with or without AI - just as long as we are in control. 
 
 Thanks a lot for reading! If you ever see any value in spreading the word about my book or procuring it for your loved ones then please do so, I would be thrilled! 
 
