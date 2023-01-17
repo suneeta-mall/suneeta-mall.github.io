@@ -1,24 +1,23 @@
+--- # --------
+
 # User Config
 # ===========
 # fill/change these fields to match your own.
 
 # Identity
-# --------
-
-title:       Suneeta Mall
+title: Suneeta Mall
 description: Rambling of a curious engineer & data scientist
 
 avatar: https://avatars2.githubusercontent.com/u/25972660?s=400&u=ea4b568c7cc33b0a5297d79b998c11f9be2e395d&v=4
 
-logo:  "/assets/img/logo.png"
+logo: "/assets/img/logo.png"
 cover: "/assets/img/cover.png"
 
 baseurl: ""
-url:     "https://suneeta-mall.github.io"
+url: "https://suneeta-mall.github.io"
 
-owner:  suneeta-mall
+owner: suneeta-mall
 # rights: CC-BY
-
 
 # Social & Sharing
 # ----------------
@@ -27,39 +26,37 @@ facebook:
   username: suneetamall
 
 twitter:
-  username:  suneeta-mall
+  username: suneeta-mall
 
 linkedin:
   username: suneeta-mall-a6a0507
 
-
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email:    suneetamall@gmail.com
-  facebook: suneetamall
-  flickr:
+  email: suneetamall@gmail.com
+  # facebook: suneetamall
+  # flickr:
   github: suneeta-mall
-  instagram:
+  # instagram:
   # linkedin: https://au.linkedin.com/in/suneeta-mall-a6a0507
   linkedin: suneeta-mall-a6a0507
-  pinterest:
-  rss: # just type anything here for a working RSS icon
+  # pinterest:
+  rss: feed # just type anything here for a working RSS icon
   twitter: suneetamall
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  # stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  # youtube: # channel/<your_long_string> or user/<user-name>
+  # googleplus: # anything in your profile username that comes after plus.google.com/
+  medium: suneetamall
   googlescholar: WD712CUAAAAJ
   researchgate: Suneeta_Mall3
-
 
 # Content Format
 # --------------
 
 timezone: Australia/Sydney
 paginate: 10
-mathjax:  true
-
+mathjax: true
 
 # Engine Config
 # =============
@@ -71,7 +68,7 @@ collections:
   talks:
     output: true
   poems:
-    output: true    
+    output: true
   docs:
     output: true
 
@@ -105,7 +102,7 @@ defaults:
       path: ""
       type: poems
     values:
-      layout: poem      
+      layout: poem
 
 permalink: date
 paginate_path: "/posts/page:num"

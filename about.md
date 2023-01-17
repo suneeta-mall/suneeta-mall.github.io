@@ -2,13 +2,14 @@
 title: About Me 
 ---
 
-I am passionate about solving real-world problems with engineering, data, science, and machine learning. I hold a Ph.D. in applied science and have a computer science engineering background. I offer extensive distributed, scalable computing and machine learning experience from IBM Software Labs, Expedita, USyd, and Nearmap.
+Suneeta is passionate about solving real-world problems with engineering, data, science, and machine learning. She's a PhD in applied science with a computer science and engineering background. She has extensive distributed, scalable computing and machine learning experience from IBM Software Labs, Expedita, USyd, Nearmap and more recently harrison.ai.
 
-I currently lead the development of Nearmap's AI model production system that produces high-quality AI data sets and deep learning models. I also author for [O'Reilly](https://www.oreilly.com/pub/au/8214) and [Towards data science blogs](https://medium.com/@suneetamall). 
+She currently leads the AI Engineering division of [harrison.ai](https://harrison.ai/), a clinician-led artificial intelligence medical technology company tackling some of the biggest issues in healthcare causing inequitable diagnosis today.
+
+She believes in lifelong learning and is passionate about knowledge sharing. She is also an author for [O'Reilly](https://www.oreilly.com/pub/au/8214) and writes [technical blogs](https://suneeta-mall.github.io/) in her spare time.
+
 
 <br/>
-
-TLDR: I am a free electron curious and interested in just about everything related to engineering, science, data-science, cooking!
 
 
 <!-- {: .oversized}
