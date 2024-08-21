@@ -1,0 +1,171 @@
+site_name: Random Musings - Rambling of a curious engineer & data scientist!
+
+theme:
+  name: material
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/git-alt
+  # logo: resources/logo.svg
+  # favicon: resources/logo_large_azure.svg
+  features:
+  - content.code.annotate
+  - content.code.copy
+  - content.tooltips
+  - content.tabs.link
+  - navigation.indexes
+  - navigation.instant
+  - navigation.instant.preview
+  - navigation.sections
+  - navigation.tabs
+  - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
+  - header.autohide
+  - announce.dismiss  
+  - navigation.footer  
+  - git-revision-date-localized:
+      type: date  
+      enable_creation_date: true
+
+  palette:
+  - scheme: default #slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/eye
+      name: Switch to dark mode
+  - scheme: slate
+    primary: indigo
+    accent: indigo
+    toggle:
+      icon: material/eye-outline
+      name: Switch to light mode
+
+repo_url: https://github.com/suneeta-mall/suneeta-mall.github.io/
+repo_name: suneeta-mall/suneeta-mall.github.io/
+edit_uri: edit/main/docs/
+# use_directory_urls: false
+
+# For RSS feed
+site_description: A space for random musings
+site_name: Random Musings
+site_url: https://suneeta-mall.github.io/
+
+# https://squidfunk.github.io/mkdocs-material/reference/math/?h=math#katex
+extra_javascript:
+- javascript/katex.js
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra_css:
+- https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+extra:
+  homepage: https://suneeta-mall.github.io/
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/suneeta-mall-a6a0507/
+    - icon: fontawesome/brands/github 
+      link: https://github.com/suneeta-mall
+    - icon: fontawesome/brands/x-twitter 
+      link: https://x.com/suneetamall/
+    - icon: fontawesome/brands/medium
+      link: https://www.medium.com/@suneetamall
+    - icon: fontawesome/brands/google-scholar 
+      link: https://scholar.google.com.au/citations?hl=en&user=WD712CUAAAAJ
+    - icon: fontawesome/brands/researchgate 
+      link: https://www.researchgate.net/profile/Suneeta_Mall3
+    - icon: fontawesome/solid/rss
+      link: https://suneeta-mall.github.io/feed_rss_created.xml
+    - icon: fontawesome/solid/envelope 
+      link: mailto:suneetamall@gmail.com
+  copyright: Copyright &copy; 2016 - 2024 Suneeta Mall
+  generator: false
+
+plugins:
+- blog:
+    # authors_profiles: true
+    authors: true
+    # authors_file: .authors.yml    
+- social
+- search
+- tags
+- privacy
+- rss
+# - optimize
+- literate-nav:
+    nav_file: SUMMARY.md
+- bibtex:
+    bib_file: "docs/references/refs.bib"
+
+
+markdown_extensions:
+- admonition
+- def_list
+- footnotes
+- pymdownx.betterem
+- pymdownx.details
+- pymdownx.superfences
+- pymdownx.caret
+- pymdownx.mark
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.tilde
+- pymdownx.snippets
+- pymdownx.tabbed:
+    alternate_style: true
+- pymdownx.tasklist:
+    custom_checkbox: true
+- tables
+- attr_list
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+- md_in_html
+- toc:
+    permalink: "#"
+    baselevel: 1
+    separator: "-"
+
+watch:
+- docs
+
+nav:
+- Home: README.md
+- Projects:
+  - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
+  # - Curious Cassie: projects/curious_cassie.md
+  - Label Noise with Clean Lab: projects/feature_analysis.md
+  - Feature Analysis: projects/feature_analysis.md
+  - Oreilly Katacode Series: projects/oreilly-interactive-katacode-series-for-reproducible-ml.md
+  - Reproducible-ML: projects/reproducible-ml.md
+  - KCD: projects/KCD.md
+- Blog:
+  - blog/index.md  
+- Talks:
+  - Knowledge Graph Conference 2022: talks/KGC_NY_2022.md
+  - KubeCon NA 2021: talks/KubeCon_NA_2021.md
+  - Kafka Summit APAC 2021: talks/Kafka_Summit_APAC_2021.md
+  - AWS Community Day 2020: talks/AWS_ANZ_Commuity_day_2020.md
+  - AWS She Builds on AWS 2020: talks/She_Builds_on_AWS_2020.md
+  - KubeCon US 2019: talks/KubeCon_US_2019.md
+  - Kubernetes Sydney 2019: talks/KubernetesSydneyForum_AU_2019.md
+  - YOW Data 2019: talks/YOW_Data_Syd_2019.md
+  - KubeCon EU 2018: talks/KubeCon-Europe-2018.md
+  - SPIE 2019: talks/SPIE-2019.md
+  - SPIE 2018: talks/SPIE-2018.md  
+  - SPIE 2015: talks/SPIE-2015.md    
+- Poems:
+  - Life of AI Engineers: poems/life-of-ai-engineer.md
+  - My little Butterfly: poems/my-little-butterfly.md  
+  - Breaking Thy Bias: poems/breaking-thy-bias.md  
+  - Daminis: poems/daminis.md
+  - One Bright Dawn: poems/one-bright-dawn.md  
+  - Aint no Dr. Seuss: poems/aint-no-dr-seuss.md  
+- Children's Books:
+  - Curious Cassie: projects/curious_cassie.md
+- About Me: about.md

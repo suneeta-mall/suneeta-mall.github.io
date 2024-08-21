@@ -1,0 +1,5 @@
+mkdocs==1.5.3
+mkdocs-material[imaging]==9.5.18
+mkdocs-literate-nav==0.6.1
+mkdocs-bibtex==2.16.0 
+mkdocs-rss-plugin==1.15.0
