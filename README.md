@@ -1,6 +1,6 @@
 # Random Musings
 
-TODO @suneeta
+Random musing of a curious engineer!
 
 
 # Setup Dev
