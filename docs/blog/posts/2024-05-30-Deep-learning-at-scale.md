@@ -1,5 +1,5 @@
 ---
-title: "Launch of Deep Learning at Scale - An O'Reilly Book"
+title: "Launch of Deep Learning at Scale: An O'Reilly Book"
 categories:
   - Machine Learning
   - AI

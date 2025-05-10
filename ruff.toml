@@ -1,0 +1,203 @@
+# When linting our code we work on the principle of "check everything, all the time",
+# and then work backwards from there, disabling specific checks that we decide do
+# not provide a positive cost/benefit comparison.
+
+# Enable all by default. We disable specific rules in the 'ignore' block.
+lint.select = ["ALL"]
+
+# We currently ignore the following checks. Over time we should aim to improve
+# the consistency and quality of our code so that we no longer need to ignore them.
+lint.ignore = [
+  # The following warnings are disabled because we specifically don't want to enable them.
+  #
+  # Before adding a warning here, please consider whether you can disable it
+  # with an in-line comment. Ignore warnings here are applied to all our code,
+  # all of the time!
+
+  # NOTHING HERE YET :-)
+
+  # The checks below are ignored because when we first started using ruff
+  # we had failures in these categories. Over time we aim to fix our code
+  # so that these warnings do not need to be disabled, or else move them
+  # up into the list of intentionally disabled warnings.
+  #
+  # Checks with a ** marker can be completely auto-fixed using `ruff --fix`.
+  # Checks with a *  marker can be partially auto-fixed using `ruff --fix`.
+
+  "ANN001", #    missing-type-function-argument - Missing type annotation for function argument `{name}` - https://docs.astral.sh/ruff/rules/missing-type-function-argument/
+  "ANN002", #    missing-type-args - Missing type annotation for `*{name}` - https://docs.astral.sh/ruff/rules/missing-type-args/
+  "ANN003", #    missing-type-kwargs - Missing type annotation for `**{name}` - https://docs.astral.sh/ruff/rules/missing-type-kwargs/  
+  "ANN401", #    any-type - Dynamically typed expressions (typing.Any) are disallowed in `{name}` - https://docs.astral.sh/ruff/rules/any-type/
+
+  "ARG002", #    unused-method-argument - Unused method argument: `{name}`
+
+  "ASYNC100", #  Async functions should not call blocking HTTP methods
+
+  "B006", #    mutable-argument-default - Do not use mutable data structures for argument defaults
+  "B008", #    function-call-in-default-argument - Do not perform function call `{name}` in argument defaults
+  "B023", #    function-uses-loop-variable - Function definition does not bind loop variable `{name}`
+
+  "BLE001", #    blind-except - Do not catch blind exception: `{name}`
+
+  "C901", #    complex-structure - `{name}` is too complex ({complexity} > {max_complexity}) - https://docs.astral.sh/ruff/rules/complex-structure/
+
+  "COM812", # ** missing-trailing-comma - Trailing comma missing
+
+  "D100", #    undocumented-public-module - Missing docstring in public module
+  "D101", #    undocumented-public-class - Missing docstring in public class
+  "D102", #    undocumented-public-method - Missing docstring in public method
+  "D103", #    undocumented-public-function - Missing docstring in public function
+  "D104", #    undocumented-public-package - Missing docstring in public package
+  "D105", #    undocumented-magic-method - Missing docstring in magic method
+  "D106", #    undocumented-public-nested-class - Missing docstring in public nested class
+  "D107", #    undocumented-public-init - Missing docstring in `__init__`
+  "D202", # ** no-blank-line-after-function - No blank lines allowed after function docstring (found {num_lines})
+  "D203", # ** one-blank-line-before-class - 1 blank line required before class docstring
+  "D205", # *  blank-line-after-summary - 1 blank line required between summary line and description
+  "D212", # ** multi-line-summary-first-line - Multi-line docstring summary should start at the first line
+  "D213", # ** multi-line-summary-second-line - Multi-line docstring summary should start at the second line
+  "D400", # ** ends-in-period - First line should end with a period
+  "D401", #    non-imperative-mood - First line of docstring should be in imperative mood: "{first_line}"
+  "D404", #    docstring-starts-with-this - First word of the docstring should not be "This"
+  "D406", # ** new-line-after-section-name - Section name should end with a newline ("{name}")
+  "D407", # ** dashed-underline-after-section - Missing dashed underline after section ("{name}")
+  "D413", # ** Missing blank line after last section
+  "D415", # ** ends-in-punctuation - First line should end with a period, question mark, or exclamation point
+  "D417", #    undocumented-param - Missing argument description in the docstring: `{name}`
+
+  "DTZ005", #    call-datetime-now-without-tzinfo - The use of `datetime.datetime.now()` without `tz` argument is not allowed
+  "DTZ011", #    call-date-today - The use of `datetime.date.today()` is not allowed, use `datetime.datetime.now(tz=).date()` instead
+
+  "E501", #    line-too-long - Line too long ({width} > {limit} characters) - https://docs.astral.sh/ruff/rules/line-too-long/
+
+  "EM101", #    raw-string-in-exception - Exception must not use a string literal, assign to variable first - https://docs.astral.sh/ruff/rules/raw-string-in-exception/
+  "EM102", #    f-string-in-exception - Exception must not use an f-string literal, assign to variable first - https://docs.astral.sh/ruff/rules/f-string-in-exception/
+
+  "ERA001", # ** commented-out-code - Found commented-out code - https://docs.astral.sh/ruff/rules/commented-out-code/
+
+  "FA100",  #    Missing `from __future__ import annotations`, but uses `typing.Dict`
+
+  "FBT001", #    boolean-positional-arg-in-function-definition - Boolean positional arg in function definition
+  "FBT002", #    boolean-default-value-in-function-definition - Boolean default value in function definition
+  "FBT003", #    boolean-positional-value-in-function-call - Boolean positional value in function call
+
+  "FIX001", #    Line contains FIXME, consider resolving the issue
+  "FIX002", #    Line contains TODO, consider resolving the issue
+
+  "G004", #    logging-f-string - Logging statement uses f-string
+
+  "INP001", #    implicit-namespace-package - File `{filename}` is part of an implicit namespace package. Add an `__init__.py`. - https://docs.astral.sh/ruff/rules/implicit-namespace-package/
+
+  "ISC001", #    single-line-implicit-string-concatenation - Implicitly concatenated string literals on one line -https://docs.astral.sh/ruff/rules/single-line-implicit-string-concatenation/
+
+  "N802", #    invalid-function-name - Function name `{name}` should be lowercase - https://docs.astral.sh/ruff/rules/invalid-function-name/
+  "N803", #    invalid-argument-name - Argument name `{name}` should be lowercase
+  "N805", #    invalid-first-argument-name-for-method - First argument of a method should be named `self` - https://docs.astral.sh/ruff/rules/invalid-first-argument-name-for-method/
+  "N806", #    non-lowercase-variable-in-function - Variable `{name}` in function should be lowercase - https://docs.astral.sh/ruff/rules/non-lowercase-variable-in-function/
+  "N812", #    lowercase-imported-as-non-lowercase - Lowercase `{name}` imported as non-lowercase `{asname}` - https://docs.astral.sh/ruff/rules/lowercase-imported-as-non-lowercase/
+
+  "NPY002", #    numpy-legacy-random - Replace legacy `np.random.{method_name}` call with `np.random.Generator` - https://docs.astral.sh/ruff/rules/numpy-legacy-random/
+
+  "PD002", # ** pandas-use-of-inplace-argument - `inplace=True` should be avoided; it has inconsistent behavior - https://docs.astral.sh/ruff/rules/pandas-use-of-inplace-argument/
+  "PD011", #    pandas-use-of-dot-values - Use `.to_numpy()` instead of `.values`
+  "PD901", #    pandas-df-variable-name - `df` is a bad variable name. Be kinder to your future self.
+
+  "PERF203", #   `try`-`except` within a loop incurs performance overhead
+  "PERF401", #    Use a list comprehension to create a transformed list
+
+  "PLR0912", #    too-many-branches - Too many branches ({branches} > {max_branches})
+  "PLR0913", #    too-many-arguments - Too many arguments to function call ({c_args} > {max_args})
+  "PLR2004", #    magic-value-comparison - Magic value used in comparison, consider replacing {value} with a constant variable
+
+  "PLW1510", #   `subprocess.run` without explicit `check` argument
+  "PLW2901", #    redefined-loop-name - Outer {outer_kind} variable `{name}` overwritten by inner {inner_kind} target - https://docs.astral.sh/ruff/rules/redefined-loop-name/
+
+  "PT001", # ** pytest-fixture-incorrect-parentheses-style - Use `@pytest.fixture{expected_parens}` over `@pytest.fixture{actual_parens}`
+  "PT003", # ** pytest-extraneous-scope-function - `scope='function'` is implied in `@pytest.fixture()`
+  
+  "RET505", #    superfluous-else-return - Unnecessary `{branch}` after `return` statement
+  "RET507", #    superfluous-else-continue - Unnecessary `{branch}` after `continue` statement
+
+  "RUF005", # *  collection-literal-concatenation - Consider `{expr}` instead of concatenation
+  "RUF012", #    Mutable class attributes should be annotated with `typing.ClassVar`
+  "RUF015", # *  Prefer `next(...)` over single element slice
+
+  "S101", #    assert - Use of `assert` detected
+  "S113", #    request-without-timeout - Probable use of requests call with timeout set to `{value}`
+  "S311", #    suspicious-non-cryptographic-random-usage - Standard pseudo-random generators are not suitable for cryptographic purposes
+  "S506", #    unsafe-yaml-load - Probable use of unsafe loader `{name}` with `yaml.load`. Allows instantiation of arbitrary objects. Consider `yaml.safe_load`.
+  "S602", #   `subprocess` call with `shell=True` seems safe, but may be changed in the future; consider rewriting without `shell`
+  "S603", #    `subprocess` call: check for execution of untrusted input
+  "S607", #    Starting a process with a partial executable path
+  "S608", #    hardcoded-sql-expression - Possible SQL injection vector through string-based query construction - https://docs.astral.sh/ruff/rules/hardcoded-sql-expression/
+
+  "SIM102", # *  collapsible-if - Use a single `if` statement instead of nested `if` statements
+  "SIM108", # *  if-else-block-instead-of-if-exp - Use ternary operator `{contents}` instead of `if`-`else`-block
+  "SIM115", #    open-file-with-context-handler - Use context handler for opening files
+
+  "SLF001", #    private-member-access - Private member accessed: `{access}` - https://docs.astral.sh/ruff/rules/private-member-access/
+
+  "T201", #    print - `print` found
+
+  "TD001",  #    Invalid TODO tag: `FIXME`
+  "TD003",  #    Missing issue link on the line following this TODO
+
+  "TRY002", #    raise-vanilla-class - Create your own exception - https://docs.astral.sh/ruff/rules/raise-vanilla-class/
+  "TRY003", #    raise-vanilla-args - Avoid specifying long messages outside the exception class
+  "TRY300", #    Consider moving this statement to an `else` block
+
+  "UP006", # *  non-pep585-annotation - Use `{}` instead of `{}` for type annotations
+  "UP007", # *  non-pep604-annotation - Use `X | Y` for type annotations
+]
+
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+lint.fixable = ["ALL"]
+lint.unfixable = []
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".gvenv",
+    "scripts/stage2/vqa_dataset_generation/add_ons",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "autostubs",
+    "pocs/pr0/", # poc directories
+]
+
+line-length = 88
+
+# Allow unused variables when underscore-prefixed.
+lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Python 3.11.
+target-version = "py311"
+
+[lint.mccabe]
+# Unlike Flake8, default to a complexity level of 10.
+max-complexity = 10
+
+[lint.isort]
+# If rule I001 isn't identifying within-repo imports as "first party"
+# you might want to list them here.
+# https://docs.astral.sh/settings/#known-first-party
+known-first-party = ["mkdocs_plugins"]
+
+[lint.flake8-pytest-style]
+mark-parentheses = false

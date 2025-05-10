@@ -8,8 +8,8 @@ setup(
         "mkdocs>=1.0.0",
     ],
     entry_points={
-        'mkdocs.plugins': [
-            'recent_posts = mkdocs_plugins.recent_posts:RecentPostsPlugin',
+        "mkdocs.plugins": [
+            "recent_posts = mkdocs_plugins.recent_posts:RecentPostsPlugin",
         ]
-    }
-) 
+    },
+)

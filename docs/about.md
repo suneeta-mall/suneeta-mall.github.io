@@ -2,11 +2,11 @@
 title: About Me 
 ---
 
-Suneeta is passionate about solving real-world problems with engineering, data, science, and machine learning. She's a PhD in applied science with a computer science and engineering background. She has extensive distributed, scalable computing and machine learning experience from IBM Software Labs, Expedita, USyd, Nearmap and more recently harrison.ai.
+As Head of AI Engineering at [harrison.ai](https://harrison.ai/), I lead teams developing breakthrough AI solutions that transform healthcare delivery across radiology and pathology. My work has created impact at scale—from pioneering Harrison.rad.1 (radiology's first foundation model) to deploying AI systems serving millions of patients in over 1,000 healthcare facilities worldwide.
 
-She currently leads the AI Engineering division of [harrison.ai](https://harrison.ai/), a clinician-led artificial intelligence medical technology company tackling some of the biggest issues in healthcare causing inequitable diagnosis today.
+I believe that "Transforming a formidable vision into reality by serving the team with empathy, courage, and action is leadership." This philosophy guides my approach to solving complex challenges through collaborative innovation. Whether developing regulatory-cleared medical AI solutions, authoring ["Deep Learning at Scale" (O'Reilly)](https://www.oreilly.com/pub/au/8214), or mentoring the next generation of technologists, I remain focused on creating technology that genuinely improves lives.
 
-She believes in lifelong learning and is passionate about knowledge sharing. She is also an author for [O'Reilly](https://www.oreilly.com/pub/au/8214) and writes [technical blogs](https://suneeta-mall.github.io/) in her spare time.
+My career spans pioneering research, enterprise AI scaling at Nearmap, and now healthcare transformation—all united by a commitment to technical excellence, responsible innovation, and building diverse teams that challenge each other toward better outcomes.
 
 
 <br/>

@@ -18,16 +18,19 @@ alwaysApply: false
 - Use list comps
 
 ## Project Structure
-- Follow layout
-- Use module names
-- Keep code together
-- Use package structure
-- Follow naming
-- Use file org
-- Keep files small
-- Use dir structure
-- Follow imports
-- Use extensions
+- docs/: Main documentation content
+- overrides/: Custom theme overrides
+- mkdocs_plugins/: Custom MkDocs plugins
+- .github/: GitHub workflows and templates
+- .cursor/: Cursor IDE configuration
+- mkdocs.yml: MkDocs configuration
+- requirements.txt: Python dependencies
+- setup.py: Package setup
+- Makefile: Build commands
+- renovate.json: Dependency updates
+- ruff.toml: Python linting configuration
+- LICENSE.txt: Project license
+- README.md: Project documentation
 
 ## Testing Style
 - Clear test names
@@ -61,19 +64,7 @@ alwaysApply: false
 - loguru
 
 ## Project Structure
-- rad_agent/: Main
-- tests/: Tests
 - docs/: Docs
-- scripts/: Scripts
-- examples/: Examples
-- tools/: Tools
-- config/: Config
-- data/: Data
-- models/: Models
+- mkdocs_plugins/: Scripts
 
-@rad_agent/cli.py
-@rad_agent/server/api_server.py
-@rad_agent/chat/rad_chat_route.py
-@rad_agent/report/cxr/process_report.py
-@tests/report/cxr/test_process_report.py
 

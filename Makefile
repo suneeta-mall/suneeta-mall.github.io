@@ -1,4 +1,4 @@
-.PHONY: install serve clean
+.PHONY: install serve fmt clean
 .DEFAULT_GOAL := serve
 
 install:
@@ -6,6 +6,10 @@ install:
 
 serve:
 	mkdocs serve
+
+fmt:
+	ruff format .
+	ruff check --fix .
 
 clean:
 	git clean -Xdf

@@ -1,1 +1,1 @@
-"""Custom MkDocs plugins.""" 
+"""Custom MkDocs plugins."""
