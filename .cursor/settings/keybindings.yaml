@@ -1,0 +1,118 @@
+# Cursor Keybindings for AI-Assisted Coding
+
+# Only custom keybindings that differ from defaults are included here
+# All other keybindings use Cursor's default values
+
+# AI Commands
+ai_commands:
+  # Code Generation
+  - command: "ai.generateCode"
+    key: "ctrl+shift+g"
+    when: "editorTextFocus"
+
+  - command: "ai.completeCode"
+    key: "ctrl+space"
+    when: "editorTextFocus"
+
+  - command: "ai.suggestCode"
+    key: "alt+."
+    when: "editorTextFocus"
+
+  # Code Understanding
+  - command: "ai.explainCode"
+    key: "ctrl+shift+e"
+    when: "editorTextFocus"
+
+  - command: "ai.summarizeCode"
+    key: "ctrl+shift+s"
+    when: "editorTextFocus"
+
+  # Code Refactoring
+  - command: "ai.refactorCode"
+    key: "ctrl+shift+r"
+    when: "editorTextFocus"
+
+  - command: "ai.extractMethod"
+    key: "ctrl+shift+m"
+    when: "editorTextFocus"
+
+  # Documentation
+  - command: "ai.generateDocstring"
+    key: "ctrl+shift+d"
+    when: "editorTextFocus"
+
+  # Testing
+  - command: "ai.generateTest"
+    key: "ctrl+shift+t"
+    when: "editorTextFocus"
+
+# Editor Commands
+editor_commands:
+  # Navigation
+  - command: "editor.action.goToDefinition"
+    key: "f12"
+    when: "editorTextFocus"
+
+  - command: "editor.action.referenceSearch.trigger"
+    key: "shift+f12"
+    when: "editorTextFocus"
+
+  - command: "workbench.action.quickOpen"
+    key: "ctrl+p"
+    when: "editorTextFocus"
+
+  # Formatting
+  - command: "editor.action.formatDocument"
+    key: "shift+alt+f"
+    when: "editorTextFocus"
+
+  - command: "editor.action.formatSelection"
+    key: "ctrl+k ctrl+f"
+    when: "editorTextFocus"
+
+  # Selection
+  - command: "editor.action.selectAll"
+    key: "ctrl+a"
+    when: "editorTextFocus"
+
+  - command: "editor.action.smartSelect.expand"
+    key: "ctrl+shift+right"
+    when: "editorTextFocus"
+
+# Terminal Commands
+terminal_commands:
+  - command: "workbench.action.terminal.toggleTerminal"
+    key: "ctrl+`"
+    when: "editorTextFocus"
+
+  - command: "workbench.action.terminal.new"
+    key: "ctrl+shift+`"
+    when: "editorTextFocus"
+
+# Git Commands
+git_commands:
+  - command: "git.commit"
+    key: "ctrl+shift+c"
+    when: "editorTextFocus"
+
+  - command: "git.push"
+    key: "ctrl+shift+p"
+    when: "editorTextFocus"
+
+  - command: "git.pull"
+    key: "ctrl+shift+l"
+    when: "editorTextFocus"
+
+# Debug Commands
+debug_commands:
+  - command: "workbench.action.debug.start"
+    key: "f5"
+    when: "editorTextFocus"
+
+  - command: "workbench.action.debug.stop"
+    key: "shift+f5"
+    when: "editorTextFocus"
+
+  - command: "editor.debug.action.toggleBreakpoint"
+    key: "f9"
+    when: "editorTextFocus" 

@@ -12,7 +12,7 @@ display_date: May 2024
 
 Bringing a deep-learning project into production at scale is quite challenging. To successfully scale your project, a foundational understanding of full stack deep learning, including the knowledge that lies at the intersection of hardware, software, data, and algorithms, is required.
 
-![](https://a.impactradius-go.com/display-ad/15173-2121843)
+![Deep Learning at Scale - An O'reilly Book](../../resources/books/15173-2121843.jpg)
 
 
 This book "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" illustrates complex concepts of full stack deep learning and reinforces them through hands-on exercises to arm you with tools and techniques to scale your project. A scaling effort is only beneficial when it's effective and efficient. To that end, this guide explains the intricate concepts and techniques that will help you scale effectively and efficiently.
@@ -51,8 +51,4 @@ To order your copy, use the following links as per your choice of format:
 
 Alternatively, you can access the book using 30 days trial link:
 !!! note "30 Days trial access by O'reilly media"
-[![](https://a.impactradius-go.com/display-ad/15173-2121843)](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
-
-
-
-
+[30 days trial - :fontawesome-solid-briefcase:](https://oreillymedia.pxf.io/c/5668688/2121843/15173)

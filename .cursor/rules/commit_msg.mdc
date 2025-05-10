@@ -1,0 +1,64 @@
+---
+description: Enforce Conventional Commit Message Standards
+-globs: ["**/*.py", "**/*.md"]
+-tags: ["git", "commits", "conventional-commits"]
+-version: 1.0.0
+-priority: 3
+---
+
+# Conventional Commit Message Guidelines
+
+## Context
+
+This rule ensures that all Git commit messages adhere to the [Conventional Commits](mdc:https:/www.conventionalcommits.org) specification, promoting clarity and consistency in project history.
+
+## Requirements
+
+- **Commit Message Structure**: Must follow the format:
+  ```
+  <type>[optional scope]: <description>
+
+  [optional body]
+
+  [optional footer(s)]
+  ```
+- **Type**: Use lowercase types such as `feat`, `fix`, `docs`, `chore`, etc.
+- **Scope**: Optional, enclosed in parentheses, e.g., `feat(parser): add new feature`.
+- **Description**: Concise summary of the change, starting with a lowercase letter.
+- **Body**: Optional, provides additional context about the change.
+- **Footer**: Optional, includes metadata like `BREAKING CHANGE` or issue references.
+- **Case Sensitivity**: Types are case-insensitive; however, `BREAKING CHANGE` must be uppercase.
+
+## Examples
+
+<example>
+git commit -m "feat: add user authentication module"
+</example>
+
+<example>
+git commit -m "fix(parser): handle null pointer exceptions"
+</example>
+
+<example>
+git commit -m "docs: update API documentation for clarity"
+</example>
+
+<example>
+git commit -m "chore: update dependencies to latest versions"
+</example>
+
+<example>
+git commit -m "refactor(core): improve performance of data processing"
+</example>
+
+<example type="invalid">
+git commit -m "Added new feature"
+</example>
+
+<example type="invalid">
+git commit -m "Fix: corrected issue with login"
+</example>
+
+<example type="invalid">
+git commit -m "update README"
+</example>

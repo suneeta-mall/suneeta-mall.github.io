@@ -1,0 +1,79 @@
+---
+description: 
+globs: **/*.py,**/*.ipynb
+alwaysApply: false
+---
+# Code Style Standards
+
+## Python Style
+- Follow PEP 8
+- Use type hints
+- Use docstrings
+- Use clear names
+- Keep functions small
+- Use consistent indent
+- Follow import order
+- Handle exceptions
+- Avoid globals
+- Use list comps
+
+## Project Structure
+- Follow layout
+- Use module names
+- Keep code together
+- Use package structure
+- Follow naming
+- Use file org
+- Keep files small
+- Use dir structure
+- Follow imports
+- Use extensions
+
+## Testing Style
+- Clear test names
+- Proper org
+- Follow naming
+- Use assertions
+- Keep tests small
+- Use fixtures
+- Follow docs
+- Use decorators
+- Keep data separate
+- Use cleanup
+
+## Agent Code Style
+- Clear class names
+- Follow naming
+- Use proper structure
+- Keep modular
+- Use patterns
+- Follow docs
+- Use interfaces
+- Keep clear
+- Use composition
+- Handle errors
+
+## Technology Stack
+- ruff
+- mypy
+- pytest
+- locust
+- loguru
+
+## Project Structure
+- rad_agent/: Main
+- tests/: Tests
+- docs/: Docs
+- scripts/: Scripts
+- examples/: Examples
+- tools/: Tools
+- config/: Config
+- data/: Data
+- models/: Models
+
+@rad_agent/cli.py
+@rad_agent/server/api_server.py
+@rad_agent/chat/rad_chat_route.py
+@rad_agent/report/cxr/process_report.py
+@tests/report/cxr/test_process_report.py
+

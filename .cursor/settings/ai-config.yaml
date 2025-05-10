@@ -1,0 +1,125 @@
+# AI Configuration for Cursor
+
+# Only custom AI settings that differ from defaults are included here
+# All other settings use Cursor's default values
+
+# Model Configuration
+model_config:
+  # Primary Model Settings
+  primary:
+    name: "gpt-4"
+    temperature: 0.7
+    max_tokens: 2000
+
+  # Fallback Model Settings
+  fallback:
+    name: "gpt-3.5-turbo"
+    max_tokens: 1000
+
+# Context Management
+context:
+  # File Context
+  file:
+    max_files: 10
+    max_tokens_per_file: 1000
+    include_patterns:
+      - "*.py"
+      - "*.md"
+      - "*.yaml"
+      - "*.json"
+    exclude_patterns:
+      - "*.pyc"
+      - "__pycache__"
+      - "*.log"
+      - "*.tmp"
+
+  # Project Context
+  project:
+    include_directories:
+      - "src/"
+      - "tests/"
+      - "docs/"
+      - "config/"
+      - "scripts/"
+    exclude_directories:
+      - ".venv/"
+      - ".tmp/"
+      - ".git/"
+
+# Code Generation
+code_generation:
+  # Completion Settings
+  completion:
+    max_tokens: 200
+    temperature: 0.7
+    top_p: 0.9
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+  # Refactoring Settings
+  refactoring:
+    max_tokens: 500
+    temperature: 0.3
+    top_p: 0.9
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+  # Documentation Settings
+  documentation:
+    max_tokens: 300
+    temperature: 0.5
+    top_p: 0.9
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+# AI Features
+features:
+  # Code Analysis
+  analysis:
+    enable_semantic_analysis: true
+    enable_syntax_analysis: true
+    enable_type_analysis: true
+    enable_dependency_analysis: true
+    enable_security_analysis: true
+
+  # Code Generation
+  generation:
+    enable_code_completion: true
+    enable_code_suggestion: true
+    enable_code_refactoring: true
+    enable_code_documentation: true
+    enable_code_testing: true
+
+  # Code Understanding
+  understanding:
+    enable_code_explanation: true
+    enable_code_summarization: true
+    enable_code_search: true
+    enable_code_navigation: true
+    enable_code_debugging: true
+
+# AI Assistant Behavior
+assistant:
+  # Response Style
+  style:
+    tone: "professional"
+    formality: "formal"
+    verbosity: "concise"
+    detail_level: "high"
+    explanation_depth: "detailed"
+
+  # Interaction Settings
+  interaction:
+    enable_follow_up_questions: true
+    enable_clarification_requests: true
+    enable_error_correction: true
+    enable_suggestion_improvement: true
+    enable_context_awareness: true
+
+  # Learning Settings
+  learning:
+    enable_feedback_learning: true
+    enable_context_learning: true
+    enable_preference_learning: true
+    enable_style_learning: true
+    enable_pattern_learning: true 

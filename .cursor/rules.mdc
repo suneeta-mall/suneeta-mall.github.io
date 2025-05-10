@@ -1,0 +1,73 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Rules and Guidelines
+
+## Documentation Structure
+- All documentation content should be placed in the `docs/` directory
+- Use Markdown (.md) files for all content
+- Follow the structure defined in `mkdocs.yml`
+- Keep documentation files focused and concise
+
+## Code Style
+- Use consistent indentation (4 spaces for Python, 2 spaces for YAML)
+- Follow PEP 8 guidelines for Python code
+- Use descriptive variable and function names
+- Include docstrings for Python functions and classes
+
+## Markdown Guidelines
+- Use ATX-style headers (# for h1, ## for h2, etc.)
+- Include a blank line before and after code blocks
+- Use fenced code blocks with language specification
+- Keep line length under 100 characters where possible
+- Use relative links for internal documentation references
+
+## Version Control
+- Write clear, descriptive commit messages
+- Follow conventional commits format
+- Keep commits focused and atomic
+- Update documentation when making significant changes
+
+## Build and Deployment
+- Test documentation locally before committing
+- Ensure all links are valid
+- Check for broken images and references
+- Verify navigation structure in `mkdocs.yml`
+
+## Dependencies
+- Keep `requirements.txt` up to date
+- Document any new dependencies
+- Use specific version numbers for dependencies
+- Review and update dependencies regularly
+
+## Testing
+- Test all code examples
+- Verify all links work
+- Check for proper rendering of all Markdown features
+- Ensure proper navigation structure
+
+## Security
+- Do not commit sensitive information
+- Use environment variables for sensitive data
+- Follow security best practices for any code examples
+- Review and sanitize user input in examples
+
+## Performance
+- Optimize images before committing
+- Keep documentation pages focused and concise
+- Use appropriate caching strategies
+- Minimize external dependencies
+
+## Accessibility
+- Use proper heading hierarchy
+- Include alt text for images
+- Ensure proper color contrast
+- Use semantic HTML in custom templates
+
+## Maintenance
+- Regular review of documentation accuracy
+- Update outdated information
+- Remove deprecated content
+- Keep documentation in sync with code changes
