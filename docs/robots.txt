@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://suneeta-mall.github.io/sitemap.xml
+
+# Disallow crawling of private or temporary files
+Disallow: /.git/
+Disallow: /.github/
+Disallow: /.venv/
+Disallow: /.cache/
+Disallow: /.ruff_cache/
+Disallow: /mkdocs_recent_posts_plugin.egg-info/ 

@@ -5,7 +5,7 @@ mkdocs-literate-nav==0.6.1
 mkdocs-bibtex==2.16.0 
 mkdocs-rss-plugin==1.15.0
 mkdocs-minify-plugin>=0.8.0
-mkdocs-blog-plugin>=1.0.0
+# mkdocs-blog-plugin>=1.0.0
 mkdocs-git-revision-date-localized-plugin>=1.0.0
 mkdocs-bibtex>=0.1.0
 -e .
