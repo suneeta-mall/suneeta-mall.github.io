@@ -381,7 +381,7 @@ Let's look at solving the over-commit first and see what level of fixes it provi
 
 So far, we have concluded over-commitment is a problem. Well, as discussed previously, it's a feature (of both kernel & kube) apparently!
 
-![](https://memegenerator.net/img/instances/80565312/its-not-a-bug-its-a-feature.jpg)
+![](https://memecreator.org/static/images/memes/4777431.jpg)
 
 Kernel uses the "extendability" of virtual addressing to over-commit. The kernel settings `vm.overcommit_memory` and 
 `vm.overcommit_ratio` is specially designed to controlling this capability. For more info, see [here][problem with overcommit].

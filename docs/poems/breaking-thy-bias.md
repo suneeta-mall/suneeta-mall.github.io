@@ -2,6 +2,8 @@
 title: Fearless and Forward - breaking thy bias
 date: 2021-12-16
 display_date: December 2021
+social:
+  image: assets/images/social/poems/breaking-thy-bias.png
 ---
 
 # Fearless and Forward - breaking thy bias
