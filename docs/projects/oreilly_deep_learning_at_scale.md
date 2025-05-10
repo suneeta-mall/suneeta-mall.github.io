@@ -1,5 +1,10 @@
 ---
-title: "Deep Learning at Scale - An O'reilly Book"
+title: Deep Learning at Scale
+tags:
+  - project
+  - deep-learning
+  - machine-learning
+  - advanced
 categories:
     - Deep Learning
     - AI

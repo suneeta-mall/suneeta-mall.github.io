@@ -8,6 +8,13 @@ categories:
 date: 2019-12-23
 authors:
   - suneeta
+tags:
+  - blog
+  - kubernetes
+  - k8s
+  - machine-learning
+  - reproducibility
+  - intermediate
 ---
 
 # End-to-end reproducible Machine Learning pipelines on Kubernetes

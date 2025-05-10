@@ -1,5 +1,11 @@
 ---
-title: Review of recent advances in dealing with data size challenges in Deep Learning
+title: Data in Deep Learning
+tags:
+  - blog
+  - deep-learning
+  - machine-learning
+  - data-science
+  - advanced
 categories:
   - Machine Learning
   - AI
@@ -153,7 +159,7 @@ If we look at humans are learning machines, they have infinite data at their dis
 1.  Proximity: Tendency to perceive objects or shapes that are close to one another as forming a group. 
 2.  Similarity: Tendency to group objects if physical resemblance e.g. shape, pattern, color, etc. is present. 
 3.  Closure: Tendency to see complete figures/forms even if what is present in the image is incomplete. 
-4.  Symmetry: Tendency to ‘see’ objects as symmetrical and forming around a center point. 50 
+4.  Symmetry: Tendency to 'see' objects as symmetrical and forming around a center point. 50 
 5.  Common fate: Tendency to associate similar movement as part of a common motion. 
 6.  Continuity: Tendency to perceive each object as a single uninterrupted i.e. continuous object 
 7.  Good Gestalt: Tendency to group together if a regular, simple, and orderly pattern can be formed 
@@ -251,7 +257,7 @@ Compression refers to a broad range of data filtering and compression techniques
 ### 2.1. X-shot learning: How many are enough?
 The troubles of high computational cost and long training times due to an increase in the dataset have led to the development of training by a few shot strategies. The intuition behind this approach is to take a model and guide it to learn to perform a new task only by looking at a few samples [11]. The concept of transfer learning is implicitly applied in this approach. This line of investigation started with training new tasks by using only a few (handful) samples and explored an extreme case of one-shot training i.e. learning new tasks from only one sample [12],[13].
 
-Recently an interesting mega-extreme approach of shot-based learning has emerged - `‘Less Than One’-Shot Learning` a.k.a LO Shot learning [11]. This approach utilizes soft label concepts and seeks to merge hard label N class samples into M samples where M < N and thus the name less than one! LO Shot-based techniques are a form of data compression technique and may feel very similar to the MixUp technique discussed earlier. However, LO Shot contrary to a convex combination of samples as in Mixup, exploits distance weighted k-Nearest Neighbours technique to infer the soft labels. Their algorithm termed `distance-weighted soft-label prototype k-Nearest Neighbours (SLaPkNN)` essentially takes the sum of the label vectors of the k-nearest prototypes to target point x, with each prototype weighted inversely proportional to its distance from x. The following figure shows 4 class datasets are merged into 2 samples using SLaPkNN.
+Recently an interesting mega-extreme approach of shot-based learning has emerged - `'Less Than One'-Shot Learning` a.k.a LO Shot learning [11]. This approach utilizes soft label concepts and seeks to merge hard label N class samples into M samples where M < N and thus the name less than one! LO Shot-based techniques are a form of data compression technique and may feel very similar to the MixUp technique discussed earlier. However, LO Shot contrary to a convex combination of samples as in Mixup, exploits distance weighted k-Nearest Neighbours technique to infer the soft labels. Their algorithm termed `distance-weighted soft-label prototype k-Nearest Neighbours (SLaPkNN)` essentially takes the sum of the label vectors of the k-nearest prototypes to target point x, with each prototype weighted inversely proportional to its distance from x. The following figure shows 4 class datasets are merged into 2 samples using SLaPkNN.
 
 >![](../../resources/data-centric-ai/LO-Shot.jpeg)
 *Figure LO-Shot: LO Shot splitting 4 class space into 2 points [11].*
@@ -275,7 +281,7 @@ In deep learning, using a similar concept, a lighter-weight DL model can be used
 
 #### 2.2.2 Example forgetting
 
-An investigation [14] reported that some samples once learned are never forgotten and exhibit the same behavior across various training parameters and hyperparameters. There are other classes of samples that are forgotten. The forgetting event was defined as when the model prediction regresses in the subsequent epoch. Both qualitative and qualitative (see fig 6 and 7) analysis into such forgotten samples indicated noisy labels, images with “uncommon” visually complicated features were the main reasons for example forgetting.
+An investigation [14] reported that some samples once learned are never forgotten and exhibit the same behavior across various training parameters and hyperparameters. There are other classes of samples that are forgotten. The forgetting event was defined as when the model prediction regresses in the subsequent epoch. Both qualitative and qualitative (see fig 6 and 7) analysis into such forgotten samples indicated noisy labels, images with "uncommon" visually complicated features were the main reasons for example forgetting.
 
 
 >![w](../../resources/data-centric-ai/forgetting_stats.jpeg)
@@ -323,7 +329,7 @@ I am very curious to find out how mixup impacts the GraNd scores given it shown 
 The results from this study are shown in the fig above. Noticeably high pruning is not fruititious even with this approach despite how well it's doing on CIFAR-10 and 100 datasets. Are we retaining the data distribution when we drop large samples? Mostly not and that is only reasoning that makes sense. And we circle back to how much pruning is enough? Is that network dependent or more a property of data and its distribution? This study [21] claims that GradND and EL2N scores, when averaged over multiple initializations or training trajectories remove dependence on specific weights/networks, presenting a more compressed dataset. If this assertion holds in reality, in my view, this is a very promising finding easing the data-related challenges of DL.
 
 
-What's more fascinating about this work is that it sheds light on how the underlying data distribution shapes the training dynamics. This has been amiss until now. Of particular interest is identifying subspaces of the model’s data representation that are relatively stable over the training.
+What's more fascinating about this work is that it sheds light on how the underlying data distribution shapes the training dynamics. This has been amiss until now. Of particular interest is identifying subspaces of the model's data representation that are relatively stable over the training.
 
 ### 2.3. Distillation
 
@@ -417,10 +423,10 @@ In summary, the last four years have been incredibly exciting for data in DL spa
 6. Transfer Learning. [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.146.1515&rep=rep1&type=pdf)
 7. Zhang, Hongyi, Moustapha Cisse, Yann N. Dauphin, and David Lopez-Paz. “Mixup: Beyond Empirical Risk Minimization,” October 2017. [https://arxiv.org/abs/1710.09412](https://arxiv.org/abs/1710.09412).
 8. [1812.01187] Bag of Tricks for Image Classification with Convolutional Neural Networks. Accessed December 30, 2021. [https://arxiv.org/abs/1812.01187](https://arxiv.org/abs/1812.01187).
-9. [2009.08449] ’Less Than One’-Shot Learning: Learning N Classes From M < N Samples. Accessed January 5, 2022. [https://arxiv.org/abs/2009.08449](https://arxiv.org/abs/2009.08449).
+9. [2009.08449] 'Less Than One'-Shot Learning: Learning N Classes From M < N Samples. Accessed January 5, 2022. [https://arxiv.org/abs/2009.08449](https://arxiv.org/abs/2009.08449).
 10. [1512.00567] Rethinking the Inception Architecture for Computer Vision. Accessed January 5, 2022. [https://arxiv.org/abs/1512.00567](https://arxiv.org/abs/1512.00567).
 11. [1904.05046] Generalizing from a Few Examples: A Survey on Few-Shot Learning. Accessed January 5, 2022. [https://arxiv.org/abs/1904.05046](https://arxiv.org/abs/1904.05046).
-12. Li Fei-Fei, R. Fergus and P. Perona, “One-shot learning of object categories,” in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 28, no. 4, pp. 594–611, April 2006, doi: 10.1109/TPAMI.2006.79. [https://ieeexplore.ieee.org/document/1597116](https://ieeexplore.ieee.org/document/1597116)
+12. Li Fei-Fei, R. Fergus and P. Perona, "One-shot learning of object categories," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 28, no. 4, pp. 594–611, April 2006, doi: 10.1109/TPAMI.2006.79. [https://ieeexplore.ieee.org/document/1597116](https://ieeexplore.ieee.org/document/1597116)
 13. [1606.04080] Matching Networks for One Shot Learning. Accessed January 5, 2022. [https://arxiv.org/abs/1606.04080](https://arxiv.org/abs/1606.04080).
 14. [1812.05159] An Empirical Study of Example Forgetting during Deep Neural Network Learning. Accessed December 29, 2021. [https://arxiv.org/abs/1812.05159](https://arxiv.org/abs/1812.05159).
 15. [1906.11829] Selection via Proxy: Efficient Data Selection for Deep Learning. Accessed December 29, 2021. [https://arxiv.org/abs/1906.11829](https://arxiv.org/abs/1906.11829).
@@ -432,7 +438,7 @@ In summary, the last four years have been incredibly exciting for data in DL spa
 21. [2107.07075] Deep Learning on a Data Diet: Finding Important Examples Early in Training. Accessed December 10, 2021. [https://arxiv.org/abs/2107.07075](https://arxiv.org/abs/2107.07075).
 22. [2111.06377] Masked Autoencoders Are Scalable Vision Learners. Accessed January 5, 2022. [https://arxiv.org/abs/2111.06377](https://arxiv.org/abs/2111.06377).
 23. [1802.03426] UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction. Accessed January 5, 2022. 23. [https://arxiv.org/abs/1802.03426](https://arxiv.org/abs/1802.03426).
-24. Maaten, Laurens van der and Geoffrey E. Hinton. “Visualizing Data using t-SNE.” Journal of Machine Learning Research 9 (2008): 2579–2605. [https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
+24. Maaten, Laurens van der and Geoffrey E. Hinton. "Visualizing Data using t-SNE." Journal of Machine Learning Research 9 (2008): 2579–2605. [https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf](https://www.jmlr.org/papers/volume9/vandermaaten08a/vandermaaten08a.pdf)
 25. [2107.02331] Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering.” Accessed January 8, 2022. [https://arxiv.org/abs/2107.02331](https://arxiv.org/abs/2107.02331)
 
 

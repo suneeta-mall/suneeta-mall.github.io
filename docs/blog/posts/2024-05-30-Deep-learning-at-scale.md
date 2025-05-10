@@ -1,11 +1,16 @@
 ---
-title: "Launch of Deep Learning at Scale: An O'Reilly Book"
+title: Deep Learning at Scale
+date: 2024-05-30
+tags:
+  - blog
+  - deep-learning
+  - machine-learning
+  - advanced
 categories:
   - Machine Learning
   - AI
   - Deep Learning
   - Book
-date: 2024-05-30
 display_date: May 2024
 authors:
   - suneeta

@@ -1,5 +1,11 @@
 ---
-title: Reproducibility in Machine Learning - Research and Industry
+title: Reproducible ML Research in Industry
+tags:
+  - blog
+  - data-science
+  - machine-learning
+  - reproducibility
+  - intermediate
 categories:
   - Machine Learning
   - AI   
@@ -116,7 +122,7 @@ The importance of reproducibility is increasingly getting recognized since [Natu
 As per this survey report, 70% of researchers have failed to reproduce another scientist's experiments, and 
 more than 50% have failed to reproduce their own experiments. With more than half of participating scientist agreeing to 
 the presence of reproducibility crisis is indeed very real. Dr. Joelle Pineau, an Associate Professor at McGill University and lead for 
-Facebook’s Artificial Intelligence Research lab, covered the reproducibility crisis in her talk at 
+Facebook's Artificial Intelligence Research lab, covered the reproducibility crisis in her talk at 
 International Conference on Learning Representations (ICLR) 2018 [you tube][jp_talk]. She is determined to nip  
 this crisis in bud from AI research<sup>[src][nature_jp]</sup>. It's not just her, several AI research groups are coming up with measures to
 ensure reproducibility (example below):
@@ -174,7 +180,7 @@ Extensibility is essential to utilizing ML outputs for consumption. As it is, ra
   
 ### 4. Data harvesting
 
->The world’s most valuable resource is no longer oil, but data! <sub>- [economist.com][imp_data]</sub>
+>The world's most valuable resource is no longer oil, but data! <sub>- [economist.com][imp_data]</sub>
 
 To train a successful ML algorithm large dataset is mostly needed - this is especially true for deep-learning. 
 Obtaining large volumes of training data, however, is not always easy - it can be quite expensive. In some cases 
@@ -218,7 +224,7 @@ But these efficiencies in floating-point computations both at CPU & GPU level co
 - CPU
 
 >Using Intra-ops (within an operation) and inter-ops (amongst multiple operations) parallelism on CPU can sometimes give different results on each run. One such example is using OpenMP for (intra-ops) parallelization. See this excellent talk titled
->"Corden’s Consistency of Floating Point Results or Why doesn’t my application always give"  [Corden 2018][corden] for more in-depth insight into this. Also see wandering precision [blog][nag].
+>"Corden's Consistency of Floating Point Results or Why doesn't my application always give"  [Corden 2018][corden] for more in-depth insight into this. Also see wandering precision [blog][nag].
 
 - GPU
 
@@ -230,7 +236,7 @@ But these efficiencies in floating-point computations both at CPU & GPU level co
 > Changing GPU architecture may lead to different results too. The differences in SEM, or architecture-specific optimizations 
 > are a couple of reasons why the differences may arise.
 
-See [Corden's Consistency of Floating-Point Results or Why doesn’t my application always give the same answer][corden] for more details.
+See [Corden's Consistency of Floating-Point Results or Why doesn't my application always give the same answer][corden] for more details.
  
 ### 2. Software
 
@@ -326,7 +332,7 @@ paper on this topic is [here][cl_paper].
 *Figure 10: Top features - Dresner Advisory Services Data Science and Machine Learning [Market Study]*
 
 In fact, Continual learning is so recognized that support for easy iteration & continuous improvement were the top two
-features industry voted as their main focus with ML as per Dresner Advisory Services’6th annual 2019 Data Science and Machine Learning [Market Study] (see figure 10).
+features industry voted as their main focus with ML as per Dresner Advisory Services'6th annual 2019 Data Science and Machine Learning [Market Study] (see figure 10).
 
 
 ---

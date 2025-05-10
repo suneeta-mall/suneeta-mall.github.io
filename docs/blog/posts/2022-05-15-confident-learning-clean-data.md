@@ -1,5 +1,11 @@
 ---
-title: "Confident Learning: Label errors are imperative! So what can you do?"
+title: Confident Learning and Clean Data
+tags:
+  - blog
+  - data-science
+  - machine-learning
+  - clean-lab
+  - intermediate
 categories:
   - Machine Learning
   - AI
@@ -49,10 +55,10 @@ Let's first look at some of the reasons why errors in the labels may be present.
 There is a very interesting work by [Rebecca Crowley] where she provides a detailed chart of a range of reasons why an object (of interest) may be missed while searching in a scene or also why a wrong final decision may be made by them [4]. Some directly impacting labeling in my view are:
 
 1. **Search Satisficing**: The tendency to call off a search once something has been found, leading to premature stopping, thus increasing the chance of missing annotations[4]. This more applies to scenarios where more than one annotation is needed. For example, multi-label or segmentation annotation (dog and pen are in the image but the labeler only annotates for the dog and does not spend enough time to spot the pen and capture in labels).
-2. **Overconfidence & Under-confidence**: This type of labeling error relates to one’s feeling-of-knowing [4] that is over or underestimated.
+2. **Overconfidence & Under-confidence**: This type of labeling error relates to one's feeling-of-knowing [4] that is over or underestimated.
 3. **Availability**: There is an implicit bias in annotating it wrongly if something is frequently occurring or rarely occurring  [4]. It is particularly true for challenging labeling tasks. For instance, if the cancer prevalence rate in a location is 0.01%, then the labeler, when labeling a not-so-straightforward case, is more likely to mark a non-cancer than cancer.
 4. **Anchoring/Confirmation bias**: When a labeler makes a pre-emptive decision [4] about a labeling task outcome and then looks for information to support that decision. For example, believing they are looking at a cancerous case, they start to search for abnormality in the image to support the finding that this case is cancer. In this unfair search/decision process, they are more likely to make mistakes.
-5. **Gambler’s Fallacy**: When they are encountered with a repeated pattern of similar cases, then they are likely to deviate and favor an outcome that breaks that pattern [4].
+5. **Gambler's Fallacy**: When they are encountered with a repeated pattern of similar cases, then they are likely to deviate and favor an outcome that breaks that pattern [4].
 6. Amongst all these, **Cognitive Overload** is also a valid and fair reason for errors in labels.
 
 
@@ -223,7 +229,7 @@ I am not sure if I am following how to interpret the [pair-wise count for multi-
 
 
 ## Conclusion
-As discussed in this post, there are several reasons why label errors are unavoidable. While no small-efforts are required to minimize the errors in the dataset, management of the errors in the dataset is also warranted. The management to find noisy data, out of distribution data, or data that represents a systematic flaw (software/tooling issues or issues in the understanding of a concept that defines the target class). Approaches like model-in-loop, or additional information like ontology to find such noises or errors in the dataset are effective techniques. Confident learning provides a solid foundation for analyzing a dataset of noisy or OOD samples — a technique that’s quite effective for multi-class approaches, with the evolving support for multi-label classification. Now, on to cleaning the dataset! Happy cleaning!
+As discussed in this post, there are several reasons why label errors are unavoidable. While no small-efforts are required to minimize the errors in the dataset, management of the errors in the dataset is also warranted. The management to find noisy data, out of distribution data, or data that represents a systematic flaw (software/tooling issues or issues in the understanding of a concept that defines the target class). Approaches like model-in-loop, or additional information like ontology to find such noises or errors in the dataset are effective techniques. Confident learning provides a solid foundation for analyzing a dataset of noisy or OOD samples — a technique that's quite effective for multi-class approaches, with the evolving support for multi-label classification. Now, on to cleaning the dataset! Happy cleaning!
 
 
 

@@ -3,6 +3,11 @@ title: "Curious Cassie Books"
 categories:
     - Children's Chapter Books
     - Curious Cassie
+tags:
+  - project
+  - children-book
+  - children-literature
+  - beginner
 ---
 
 # Curious Cassie Book Series
@@ -24,7 +29,7 @@ The important message that Jaya and Suneeta want to convey is:
 <center><br></center>
 <center>Never stop asking,</center>
 <center>Keep on believing,</center>
-<center>It’s all about learning,</center>
+<center>It's all about learning,</center>
 <center>Just keep on wondering,</center>
 <center>Passionately pursuing,</center>
 <center>All your Curiosities!</center>
@@ -53,7 +58,7 @@ You can find Jaya on:
 
 **Title**: Curious Cassie's Beach Ride Quest: A Celebration of Isaac Newton's Discoveries 
 
-**Genre**: Children’s Fiction (picture books, junior fiction)
+**Genre**: Children's Fiction (picture books, junior fiction)
 
 **Publication date**: 11-12-2022
 

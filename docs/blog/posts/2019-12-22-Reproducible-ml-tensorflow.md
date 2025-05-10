@@ -1,5 +1,12 @@
 ---
-title: Realizing reproducible Machine Learning - with Tensorflow
+title: Reproducible ML with TensorFlow
+tags:
+  - blog
+  - data-science
+  - machine-learning
+  - tensorflow
+  - reproducibility
+  - intermediate
 categories:
   - Machine Learning
   - AI   
@@ -63,7 +70,7 @@ These are:
 > Besides, when dealing with floating points, the issues related to [overflow and underflow][fp_over_under] are expected. 
 > This just adds to the complexity.  
 
-- Dependent library’s behavior aware 
+- Dependent library's behavior aware 
  
 > As discussed in the software section of `Challenges in realizing reproducible ML` in [Part 1], some routines of ML libraries 
 > do not guarantee reproducibility. For instance,  NVIDIA's CUDA based deep learning library [cudnn][cudnn_repo].

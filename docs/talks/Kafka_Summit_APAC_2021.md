@@ -1,5 +1,10 @@
 ---
-title: 'Building More Reliable Data Pipelines for Nearmap Deep Learning Models: An Evolutionary Case Study'
+title: Kafka Summit APAC 2021
+tags:
+  - talk
+  - kubernetes
+  - k8s
+  - intermediate
 slides: https://www.dropbox.com/scl/fi/c75vjetnxys6q9je3x0n2/Kafka-Summit-APAC-Final-Samanvay-Suneeta.pptx?dl=0&rlkey=cniwh8dcuk3k4kmzlj37vrjl9
 video: https://www.dropbox.com/scl/fi/c75vjetnxys6q9je3x0n2/Kafka-Summit-APAC-Final-Samanvay-Suneeta.pptx?dl=0&rlkey=cniwh8dcuk3k4kmzlj37vrjl9
 date: 2021-07-28

@@ -89,7 +89,14 @@ plugins:
   - social
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - tags
+  - tags:
+      tags_file: tags.md
+      tags_allowed: true
+      tags_extra_files:
+        - docs/blog/posts/*.md
+        - docs/projects/*.md
+        - docs/talks/*.md
+        - docs/poems/*.md
   - privacy
   - rss
   - literate-nav:
@@ -170,6 +177,7 @@ nav:
   - Home: README.md
   - Projects:
     - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
+    - Curious Cassie - The Children's Books: projects/curious_cassie.md
     - Label Noise with Clean Lab: projects/feature_analysis.md
     - Feature Analysis: projects/feature_analysis.md
     - Oreilly Katacode Series: projects/oreilly-interactive-katacode-series-for-reproducible-ml.md
@@ -177,6 +185,7 @@ nav:
     - KCD: projects/KCD.md
   - Blog:
     - blog/index.md
+  - Tags: tags.md
   - Talks:
     - Knowledge Graph Conference 2022: talks/KGC_NY_2022.md
     - KubeCon NA 2021: talks/KubeCon_NA_2021.md
@@ -198,6 +207,4 @@ nav:
     - Daminis: poems/daminis.md
     - One Bright Dawn: poems/one-bright-dawn.md
     - Aint no Dr. Seuss: poems/aint-no-dr-seuss.md
-  - Children's Books:
-    - Curious Cassie: projects/curious_cassie.md
   - About Me: about.md
