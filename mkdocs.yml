@@ -98,7 +98,8 @@ plugins:
         - docs/talks/*.md
         - docs/poems/*.md
   - privacy
-  - rss
+  - rss:
+      site_url: https://suneeta-mall.github.io/
   - literate-nav:
       nav_file: SUMMARY.md
   - bibtex:
