@@ -103,6 +103,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
+  - recent_posts
 
 markdown_extensions:
   - admonition

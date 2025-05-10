@@ -30,9 +30,9 @@
 ## Recent Blog Posts
 
 !!! abstract "Latest Articles"
-    - [Latest Blog Post 1](/blog/latest-post-1)
-    - [Latest Blog Post 2](/blog/latest-post-2)
-    - [Latest Blog Post 3](/blog/latest-post-3)
+    - [May 30, 2024 - Deep Learning at Scale](/blog/posts/2024-05-30-Deep-learning-at-scale/)
+    - [May 10, 2025 - Cassie 2.0: The Next Generation](/blog/posts/2025-05-10-cassie-2.0/)
+    - [January 7, 2024 - ChatGPT vs Me as a Children's Book Author](/blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author/)
 
 ## Featured Projects
 

@@ -7,3 +7,4 @@ mkdocs-minify-plugin>=0.8.0
 mkdocs-blog-plugin>=1.0.0
 mkdocs-git-revision-date-localized-plugin>=1.0.0
 mkdocs-bibtex>=0.1.0
+-e .
