@@ -1,5 +1,11 @@
 ---
-title: "Analysis of features using t-SNE, UMAP and Captum"
+title: Feature Analysis
+tags:
+  - project
+  - feature-analysis
+  - data-science
+  - machine-learning
+  - intermediate
 source: https://github.com/suneeta-mall/feature_analysis
 demo: https://github.com/suneeta-mall/feature_analysis/blob/master/docs/MNIST_TSNE_vs_UMAP.ipynb
 date: 2022-06-9

@@ -1,0 +1,70 @@
+---
+description: 
+globs: **/*.py,**/*.ipynb
+alwaysApply: false
+---
+# Code Style Standards
+
+## Python Style
+- Follow PEP 8
+- Use type hints
+- Use docstrings
+- Use clear names
+- Keep functions small
+- Use consistent indent
+- Follow import order
+- Handle exceptions
+- Avoid globals
+- Use list comps
+
+## Project Structure
+- docs/: Main documentation content
+- overrides/: Custom theme overrides
+- mkdocs_plugins/: Custom MkDocs plugins
+- .github/: GitHub workflows and templates
+- .cursor/: Cursor IDE configuration
+- mkdocs.yml: MkDocs configuration
+- requirements.txt: Python dependencies
+- setup.py: Package setup
+- Makefile: Build commands
+- renovate.json: Dependency updates
+- ruff.toml: Python linting configuration
+- LICENSE.txt: Project license
+- README.md: Project documentation
+
+## Testing Style
+- Clear test names
+- Proper org
+- Follow naming
+- Use assertions
+- Keep tests small
+- Use fixtures
+- Follow docs
+- Use decorators
+- Keep data separate
+- Use cleanup
+
+## Agent Code Style
+- Clear class names
+- Follow naming
+- Use proper structure
+- Keep modular
+- Use patterns
+- Follow docs
+- Use interfaces
+- Keep clear
+- Use composition
+- Handle errors
+
+## Technology Stack
+- ruff
+- mypy
+- pytest
+- locust
+- loguru
+
+## Project Structure
+- docs/: Docs
+- mkdocs_plugins/: Scripts
+
+

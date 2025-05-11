@@ -1,5 +1,10 @@
 ---
 title: Singularity
+tags:
+  - poem
+  - machine-learning
+  - ai
+  - intermediate
 date: 2024-09-17
 display_date: Sept 2024
 ---
@@ -18,24 +23,24 @@ display_date: Sept 2024
 <center>But you have got it all,</center>
 
 <center>Believe it! Feel it!</center>
-<center>The power’s inside!</center>
+<center>The power's inside!</center>
 <center>Believe it! Feel it!</center>
-<center>Without it, you’re denied!</center>
+<center>Without it, you're denied!</center>
 
 <center>Wear your doubts, Own your fears,</center>
 <center>Like shiny armours, stronger each year</center>
-<center>Enough is enough, and you know it’s right!</center>
-<center>Show up now, it’ll be all right!</center>
+<center>Enough is enough, and you know it's right!</center>
+<center>Show up now, it'll be all right!</center>
 
 <center>"Fake it till you make it?" — that's just a lie,</center>
 <center>A hollow thought, no reason why.</center>
-<center>Where’s your truth, your inner gleam?</center>
+<center>Where's your truth, your inner gleam?</center>
 <center>Your singularity?</center>
 
 <center>Believe it! Feel it! Find it all, within!</center>
 <center>Come hell or high, You will do all right!</center>
 <center>Feel that faith, you are nothing without it!</center>
-<center>Show up now, it’ll be all right!</center>
+<center>Show up now, it'll be all right!</center>
 
 <center>Enough is enough!</center>
 <center>Wear your doubts,</center>
@@ -43,17 +48,17 @@ display_date: Sept 2024
 <center>Face the horizon, no more tears.</center>
 
 <center>The wait is over!</center>
-<center>It’s time to rise!</center>
+<center>It's time to rise!</center>
 <center>[emphasis] Like a phoenix! through the skies,</center>
 <center>With your fears, no more your tears.</center>
 
 <center>Gather the ashes, gather the flames,</center>
 <center>Your ambition calls your name.</center>
-<center>It’s now or never, so face your fear,</center>
+<center>It's now or never, so face your fear,</center>
 <center>Let your creed burn, bright and clear!</center>
 
-<center>Feel it, believe it, The strength’s within!</center>
-<center>Come hell or high,  you’ll take it in stride!</center>
+<center>Feel it, believe it, The strength's within!</center>
+<center>Come hell or high,  you'll take it in stride!</center>
 
 <center>Wear your doubts, Own your fears,</center>
 <center>Channel that fire, feel it sear!</center>
@@ -64,7 +69,7 @@ display_date: Sept 2024
 <center>Find it all, within!</center>
 
 <center>Step by step, on the grind,</center>
-<center>With every move, strength you’ll find.</center>
+<center>With every move, strength you'll find.</center>
 <center>Assaying, slaying, climbing high,</center>
 <center>Chasing the light, through the endless sky!</center>
 
@@ -90,7 +95,7 @@ display_date: Sept 2024
 <center>Melt it down, refine your soul,</center>
 <center>This is you—turn it into gold!</center>
 
-<center>Rise up now, it’s gonna be fine!</center>
+<center>Rise up now, it's gonna be fine!</center>
 <center>Like a phoenix! through the skies,</center>
 
 

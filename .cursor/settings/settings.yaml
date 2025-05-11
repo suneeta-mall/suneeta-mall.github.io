@@ -1,0 +1,187 @@
+# Cursor Settings for AI-Assisted Coding
+
+# Only custom settings that differ from defaults are included here
+# All other settings use Cursor's default values
+
+# Editor Settings
+editor:
+  # Code Intelligence
+  code_intelligence:
+    enable_semantic_highlighting: true
+
+# AI Settings
+ai:
+  # Model Settings
+  model:
+    default_model: "gpt-4"
+    fallback_model: "gpt-3.5-turbo"
+
+# Project Settings
+project:
+  # Language Settings
+  languages:
+    python:
+      enable_type_hints: true
+      enable_docstrings: true
+      enable_linting: true
+      enable_formatting: true
+      enable_testing: true
+
+# Editor Settings
+editor:
+  # Code Intelligence
+  code_intelligence:
+    enable_semantic_highlighting: true
+    enable_inline_suggestions: true
+    enable_code_lens: true
+    enable_parameter_hints: true
+    enable_reference_highlighting: true
+
+# AI Features
+ai_features:
+  enable_ai_completions: true
+  enable_ai_suggestions: true
+  enable_ai_explanations: true
+  enable_ai_refactoring: true
+  enable_ai_documentation: true
+  enable_ai_testing: true
+  enable_ai_debugging: true
+
+# Code Navigation
+navigation:
+  enable_go_to_definition: true
+  enable_find_references: true
+  enable_symbol_search: true
+  enable_file_search: true
+  enable_workspace_search: true
+
+# Code Formatting
+formatting:
+  enable_format_on_save: true
+  enable_format_on_paste: true
+  enable_format_on_type: true
+  enable_format_on_commit: true
+
+# Code Actions
+actions:
+  enable_quick_fixes: true
+  enable_refactoring: true
+  enable_organize_imports: true
+  enable_rename: true
+  enable_extract_method: true
+
+# AI Settings
+ai:
+  # Model Settings
+  model:
+    default_model: "gpt-4"
+    fallback_model: "gpt-3.5-turbo"
+    temperature: 0.7
+    max_tokens: 2000
+    top_p: 0.9
+    frequency_penalty: 0.0
+    presence_penalty: 0.0
+
+# Context Settings
+context:
+  enable_file_context: true
+  enable_project_context: true
+  enable_workspace_context: true
+  enable_git_context: true
+  context_window: 8000
+  max_files_in_context: 10
+
+# Completion Settings
+completion:
+  enable_inline_completions: true
+  enable_multi_line_completions: true
+  enable_function_completions: true
+  enable_docstring_completions: true
+  enable_test_completions: true
+
+# Suggestion Settings
+suggestion:
+  enable_code_suggestions: true
+  enable_docstring_suggestions: true
+  enable_test_suggestions: true
+  enable_refactoring_suggestions: true
+  enable_bug_fix_suggestions: true
+
+# Project Settings
+project:
+  # Language Settings
+  languages:
+    python:
+      enable_type_hints: true
+      enable_docstrings: true
+      enable_linting: true
+      enable_formatting: true
+      enable_testing: true
+
+  # Git Settings
+  git:
+    enable_git_integration: true
+    enable_git_lens: true
+    enable_git_history: true
+    enable_git_blame: true
+    enable_git_stash: true
+
+  # Testing Settings
+  testing:
+    enable_test_explorer: true
+    enable_test_coverage: true
+    enable_test_debugging: true
+    enable_test_generation: true
+    enable_test_runner: true
+
+# Workspace Settings
+workspace:
+  # File Settings
+  files:
+    enable_file_watcher: true
+    enable_file_search: true
+    enable_file_explorer: true
+    enable_file_preview: true
+    enable_file_history: true
+
+  # Terminal Settings
+  terminal:
+    enable_integrated_terminal: true
+    enable_terminal_shell: true
+    enable_terminal_tasks: true
+    enable_terminal_debugging: true
+    enable_terminal_history: true
+
+  # Debug Settings
+  debug:
+    enable_debugging: true
+    enable_debug_console: true
+    enable_debug_variables: true
+    enable_debug_watch: true
+    enable_debug_breakpoints: true
+
+# UI Settings
+ui:
+  # Theme Settings
+  theme:
+    enable_dark_mode: true
+    enable_high_contrast: false
+    enable_minimap: true
+    enable_breadcrumbs: true
+    enable_activity_bar: true
+
+  # Layout Settings
+  layout:
+    enable_sidebar: true
+    enable_panel: true
+    enable_status_bar: true
+    enable_editor_tabs: true
+    enable_editor_groups: true
+
+  # Customization Settings
+  customization:
+    enable_custom_fonts: true
+    enable_custom_icons: true
+    enable_custom_colors: true
+    enable_custom_keybindings: true
+    enable_custom_commands: true 

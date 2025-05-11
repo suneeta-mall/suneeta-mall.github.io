@@ -1,0 +1,39 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Documentation Standards
+
+## Code Documentation
+- Use Google-style docstrings with type hints
+- Document parameters, exceptions, and side effects
+- Include clear examples and keep docs updated
+- Follow consistent documentation style
+
+## API Documentation
+- Document endpoints with examples and schemas
+- Include authentication and error documentation
+- Document rate limits and security measures
+- Keep OpenAPI/Swagger docs updated
+
+## Project Documentation
+- Maintain comprehensive README
+- Document installation and configuration
+- Include deployment and troubleshooting guides
+- Document architecture and security
+
+## Technology Stack
+- Sphinx (documentation generation)
+- MkDocs (documentation hosting)
+- pdoc (API documentation)
+- docstring-coverage (coverage checking)
+
+## Project Structure
+- docs/api/: API documentation
+- docs/guides/: User guides
+- docs/development/: Development docs
+- docs/architecture/: Architecture docs
+- docs/security/: Security docs
+
+@README.md

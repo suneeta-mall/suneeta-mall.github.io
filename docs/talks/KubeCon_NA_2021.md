@@ -1,5 +1,10 @@
 ---
 title: 'KubeCon NA 2021 - Who Killed My Pod? #Whodunit'
+tags:
+  - talk
+  - kubernetes
+  - k8s
+  - intermediate
 slides: https://static.sched.com/hosted_files/kccncna2021/79/SuneetaMall_WhoKilledMyPod_KubeConNA_2021.pptx
 video: https://www.youtube.com/watch?v=eH4x5PGgDoM
 date: 2021-09-12

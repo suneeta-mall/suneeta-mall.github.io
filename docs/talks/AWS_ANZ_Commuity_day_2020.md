@@ -1,9 +1,10 @@
 ---
-title: 'AWS Community Day 2020 - Nearmap AI: The story of data curation to power deep learning'
-slides: https://www.youtube.com/watch?v=JuHBJk2uuD8
-video: https://www.youtube.com/watch?v=JuHBJk2uuD8
-date: 2020-11-18
-display_date: Nov 2020
+title: AWS Community Day 2020
+tags:
+  - talk
+  - kubernetes
+  - k8s
+  - intermediate
 ---
 
 Had the priviledge on being invited to speak at [AWS Community Day 2020] to talk about deep learning data curation:

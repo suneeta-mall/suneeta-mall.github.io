@@ -1,5 +1,5 @@
 ---
-title: "Review and comparison of two manifold learning algorithms: t-SNE and UMAP"
+title: Feature Analysis - t-SNE vs UMAP
 categories:
   - Machine Learning
   - AI
@@ -13,6 +13,13 @@ date: 2022-06-09
 pin: true
 authors:
   - suneeta
+tags:
+  - blog
+  - feature-analysis
+  - data-science
+  - tsne
+  - umap
+  - intermediate
 ---
 
 # Review and comparison of two manifold learning algorithms: t-SNE and UMAP

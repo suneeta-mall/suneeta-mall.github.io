@@ -1,5 +1,12 @@
 ---
-title: Pydra - Pydantic and Hydra for configuration management of model training experiments
+title: Hydra Pydantic Config Management
+tags:
+  - blog
+  - python
+  - hydra
+  - pydantic
+  - machine-learning
+  - intermediate
 categories:
   - Machine Learning
   - AI

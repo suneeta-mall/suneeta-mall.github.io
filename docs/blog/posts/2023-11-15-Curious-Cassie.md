@@ -9,6 +9,11 @@ authors:
 links:
   - blog/2023/01/07/chatgpt-vs-me-as-a-childrens-author/
   - projects/curious_cassie/
+tags:
+  - blog
+  - children-book
+  - children-literature
+  - beginner
 ---
 
 # Launch of Curious Cassie's Beach Ride Quest
@@ -21,7 +26,7 @@ Join Cassie, Caleb, and their mom on an extraordinary adventure to the beach. Al
 
 **Title**: Curious Cassie's Beach Ride Quest: A Celebration of Isaac Newton's Discoveries
 
-**Genre**: Children’s Fiction (picture books, junior fiction)
+**Genre**: Children's Fiction (picture books, junior fiction)
 
 **Publication Date**: 2023-11-12
 

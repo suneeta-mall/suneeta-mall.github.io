@@ -24,7 +24,7 @@ display_date: April 2010
 ## Inspiration
 Who else but Dr. Seuss
 
-![](../../resources/dr-seuss-quote-be-who-you-are.jpg)
+![](../resources/dr-seuss-quote-be-who-you-are.jpg)
 
 
 

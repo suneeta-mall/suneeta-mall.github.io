@@ -1,5 +1,10 @@
 ---
-title: Life of AI Engineers
+title: Life of AI Engineer
+tags:
+  - poem
+  - machine-learning
+  - ai
+  - beginner
 date: 2024-06-16
 display_date: June 2024
 ---
@@ -38,7 +43,7 @@ display_date: June 2024
 <center>Life's a loop you never unwind</center>
 <center><br></center>
 <center>Coding in the dark</center>
-<center>My cluster’s got the spark</center>
+<center>My cluster's got the spark</center>
 <center>I debug through the night</center>
 <center>All my errors in sight</center>
 <center><br></center>
@@ -61,7 +66,7 @@ display_date: June 2024
 <center><br></center><center>My model's acting kinda weird</center>
 <center>The Output's also disappeared</center>
 <center>CUDA stack my solo guide</center>
-<center>It's a freakin’ rollercoaster ride</center>
+<center>It's a freakin' rollercoaster ride</center>
 <center><br></center>
 <center>(Ooh, the Life of AI Engineers!) </center>
 <center><br></center>
@@ -75,8 +80,8 @@ display_date: June 2024
 <center><br></center>
 <center>Coffee keeps me Oh so sane</center>
 <center>Building neural network lane</center>
-<center>My Network’s going kinda slow</center>
-<center>But, I’m training like a pro</center>
+<center>My Network's going kinda slow</center>
+<center>But, I'm training like a pro</center>
 <center><br></center>
 <center>Errors to the left</center>
 <center>Tanking curves to the right</center>
