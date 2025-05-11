@@ -1,0 +1,40 @@
+.md-top {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.md-top:hover {
+    opacity: 0.8 !important;
+}
+
+.md-share {
+    transition: opacity 0.2s ease-in-out;
+}
+
+.md-share:hover {
+    opacity: 1 !important;
+}
+
+/* Table of Contents styling */
+.md-nav__list {
+    scroll-behavior: smooth;
+}
+
+.md-nav__item .md-nav__link {
+    transition: color 0.2s ease-in-out;
+}
+
+.md-nav__item .md-nav__link:hover {
+    color: var(--md-primary-fg-color);
+}
+
+/* Last updated timestamp styling */
+.md-source__repository {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+}
+
+/* Meta description styling */
+.md-header__source {
+    font-size: 0.8rem;
+    color: var(--md-default-fg-color--light);
+}
