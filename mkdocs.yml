@@ -4,7 +4,7 @@ site_url: https://suneeta-mall.github.io/
 site_dir: site
 
 use_directory_urls: true
-strict: true
+strict: false
 
 theme:
   name: material
@@ -111,6 +111,7 @@ plugins:
   - git-revision-date-localized:
       type: date
       enable_creation_date: true
+      enable_git_follow: false
   - recent_posts
 
 markdown_extensions:
