@@ -9,99 +9,133 @@ date: 2024-09-17
 display_date: Sept 2024
 ---
 
-# Singularity!
+# Singularity
 
+## Listen
 
-<center>Whispers of apprehension,</center>
-<center>Clouding your judgement,</center>
-<center>Spiralling you down,</center>
-<center>Into a black hole of mess!</center>
+<iframe
+  src="https://suno.com/embed/13fc0efd-6153-421b-a019-e55d09d34d5e"
+  width="100%"
+  height="166"
+  frameborder="0"
+  allow="autoplay"
+  style="border-radius: 8px; margin: 20px 0;"
+></iframe>
 
-<center>You're ready to rise, but you hesitate,</center>
-<center>Questions and fear, you second-guess fate.</center>
-<center>You may not know it all,</center>
-<center>But you have got it all,</center>
+[Open in Suno.com](https://suno.com/song/13fc0efd-6153-421b-a019-e55d09d34d5e)
 
-<center>Believe it! Feel it!</center>
-<center>The power's inside!</center>
-<center>Believe it! Feel it!</center>
-<center>Without it, you're denied!</center>
+## The Poem
 
-<center>Wear your doubts, Own your fears,</center>
-<center>Like shiny armours, stronger each year</center>
-<center>Enough is enough, and you know it's right!</center>
-<center>Show up now, it'll be all right!</center>
+<div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
 
-<center>"Fake it till you make it?" — that's just a lie,</center>
-<center>A hollow thought, no reason why.</center>
-<center>Where's your truth, your inner gleam?</center>
-<center>Your singularity?</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Whispers of apprehension,  
+Clouding your judgement,  
+Spiralling you down,  
+Into a black hole of mess!
 
-<center>Believe it! Feel it! Find it all, within!</center>
-<center>Come hell or high, You will do all right!</center>
-<center>Feel that faith, you are nothing without it!</center>
-<center>Show up now, it'll be all right!</center>
+You're ready to rise, but you hesitate,  
+Questions and fear, you second-guess fate.  
+You may not know it all,  
+But you have got it all,
+</div>
 
-<center>Enough is enough!</center>
-<center>Wear your doubts,</center>
-<center>Own your fears,</center>
-<center>Face the horizon, no more tears.</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span>  
+The power's inside!  
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span>  
+Without it, you're denied!
 
-<center>The wait is over!</center>
-<center>It's time to rise!</center>
-<center>[emphasis] Like a phoenix! through the skies,</center>
-<center>With your fears, no more your tears.</center>
+Wear your doubts, Own your fears,  
+Like shiny armours, stronger each year  
+Enough is enough, and you know it's right!  
+Show up now, it'll be all right!
+</div>
 
-<center>Gather the ashes, gather the flames,</center>
-<center>Your ambition calls your name.</center>
-<center>It's now or never, so face your fear,</center>
-<center>Let your creed burn, bright and clear!</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+"Fake it till you make it?" — that's just a lie,  
+A hollow thought, no reason why.  
+Where's your truth, your inner gleam?  
+Your singularity?
 
-<center>Feel it, believe it, The strength's within!</center>
-<center>Come hell or high,  you'll take it in stride!</center>
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it! Find it all, within!**</span>  
+Come hell or high, You will do all right!  
+Feel that faith, you are nothing without it!  
+Show up now, it'll be all right!
+</div>
 
-<center>Wear your doubts, Own your fears,</center>
-<center>Channel that fire, feel it sear!</center>
-<center>Melt it down, let yourself shine,</center>
-<center>This is your moment—pure gold, divine!</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Enough is enough!  
+Wear your doubts,  
+Own your fears,  
+Face the horizon, no more tears.
 
-<center>Feel it! Believe it!</center>
-<center>Find it all, within!</center>
+The wait is over!  
+It's time to rise!  
+<span style="font-style: italic; font-weight: 600; color: #e74c3c;">***Like a phoenix! through the skies,***</span>  
+With your fears, no more your tears.
+</div>
 
-<center>Step by step, on the grind,</center>
-<center>With every move, strength you'll find.</center>
-<center>Assaying, slaying, climbing high,</center>
-<center>Chasing the light, through the endless sky!</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Gather the ashes, gather the flames,  
+Your ambition calls your name.  
+It's now or never, so face your fear,  
+Let your creed burn, bright and clear!
 
-<center>Embrace your qualms, Turn your fear to your might,</center>
-<center>You are the black hole, With the photonic light!</center>
+Feel it, believe it, The strength's within!  
+Come hell or high, you'll take it in stride!
 
-<center>Channel your power, and bring it to light.</center>
-<center>Feel it! Believe it!  The strength inside!</center>
+Wear your doubts, Own your fears,  
+Channel that fire, feel it sear!  
+Melt it down, let yourself shine,  
+This is your moment—pure gold, divine!
+</div>
 
-<center>Wear your doubts, Own your fears,</center>
-<center>Face the horizon, beyond the fears.</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Feel it! Believe it!  
+Find it all, within!
 
-<center>Through highs and lows, through joy and sad.</center>
-<center>Your power sways 'tween loss and gain,</center>
-<center>Find your balance, own your light,</center>
-<center>Now go ahead, and shine so bright!</center>
+Step by step, on the grind,  
+With every move, strength you'll find.  
+Assaying, slaying, climbing high,  
+Chasing the light, through the endless sky!
+</div>
 
-<center>Feel it! Believe it!</center>
-<center>Find your way within!</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Embrace your qualms, Turn your fear to your might,  
+You are the black hole, With the photonic light!
 
-<center>Wear those doubts, Own those fears,</center>
-<center>Channel that fire, feel it sear!</center>
-<center>Melt it down, refine your soul,</center>
-<center>This is you—turn it into gold!</center>
+Channel your power, and bring it to light.  
+Feel it! Believe it! The strength inside!
+</div>
 
-<center>Rise up now, it's gonna be fine!</center>
-<center>Like a phoenix! through the skies,</center>
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Wear your doubts, Own your fears,  
+Face the horizon, beyond the fears.
 
+Through highs and lows, through joy and sad.  
+Your power sways 'tween loss and gain,  
+Find your balance, own your light,  
+Now go ahead, and shine so bright!
+</div>
 
-## Listen With Suno.com!
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Feel it! Believe it!  
+Find your way within!
 
-Listen to [Singularity](https://suno.com/song/13fc0efd-6153-421b-a019-e55d09d34d5e) with [Suno.com](https://suno.com/song/13fc0efd-6153-421b-a019-e55d09d34d5e).
+Wear those doubts, Own those fears,  
+Channel that fire, feel it sear!  
+Melt it down, refine your soul,  
+This is you—turn it into gold!
+
+Rise up now, it's gonna be fine!  
+<span style="font-style: italic; font-weight: 600; color: #e74c3c;">***Like a phoenix! through the skies!***</span>
+</div>
+
+</div>
 
 ## Inspiration
-Being human! 
+
+Being human!
+
+

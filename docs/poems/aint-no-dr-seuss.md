@@ -6,27 +6,26 @@ display_date: April 2010
 
 # A'int no Dr Seuss
 
-<center><br></center>
-<center><br></center>
-<center><br></center>
-<center>Knack sack, bloody rack,</center>
-<center>Crank crunch, crunch, crunch,</center>
-<center>Smudged, stewed, stunned stuck,</center>
-<center>Huff hush, hush huff</center>
-<center>Crust thirst, thrum hum,</center>
-<center>Squeeze squirm, squirm squeeze</center>
-<center>Must gust, lust rust!</center>
-<center><br></center>
-<center><br></center>
-<center><br></center>
-  
+## The Poem
+
+<div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Knack sack, bloody rack,  
+Crank crunch, crunch, crunch,  
+Smudged, stewed, stunned stuck,  
+Huff hush, hush huff  
+Crust thirst, thrum hum,  
+Squeeze squirm, squirm squeeze  
+Must gust, lust rust!
+</div>
+
+</div>
 
 ## Inspiration
+
 Who else but Dr. Seuss
 
 ![](../resources/dr-seuss-quote-be-who-you-are.jpg)
-
-
-
 
 [seuss]: https://en.wikipedia.org/wiki/Dr._Seuss

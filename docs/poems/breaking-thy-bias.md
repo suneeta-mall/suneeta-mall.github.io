@@ -6,47 +6,66 @@ display_date: December 2021
 
 # Fearless and Forward - breaking thy bias
 
-<center>*Fearless and Forward: breaking thy bias*</center>
-<center><br></center>
-<center>The strengths and weaknesses, </center>
-<center>The characters and charismatics,</center>
-<center>The appearances and aspirations, </center>
-<center>Not all are created equal,</center>
-<center><br></center>
-<center>The abundance of variations,</center>
-<center>The power of diversity, </center>
-<center>The strength of unity,</center>
-<center>How do we fail to see? </center>
-<center><br></center>
-<center>Perhaps blinded by the prior beliefs,</center>
-<center>So afraid of change, of that glass ceiling</center>
-<center>Subsumed by delusion, </center>
-<center>Doused in false assurances </center>
-<center><br></center>
-<center>Perhaps too scared to walk the line,</center>
-<center>Between old faith and curiosity; </center>
-<center>Experience and epiphany;  </center>
-<center>Ambition and passion; </center>
-<center>Arrogance and conviction;</center>
-<center>Bias and openness;  </center>
-<center><br></center>
-<center>Beyond this line lies an open world,</center>
-<center>Of shared responsibility and collective strengths, </center>
-<center>Of humbled weakness and fearless world.</center>
-<center><br></center>
-<center>A world of colors, of joys,</center>
-<center>Of strengths, of understanding </center>
-<center>Of supporting and creating, </center>
-<center>A fearless forward better world.</center>
-<center><br></center>
-<center>Why would not you,</center>
-<center>Walk thy line? </center>
-<center>Why would not you,</center>
-<center>Break thy bias?</center>
-<center><br></center>
+## The Poem
 
+<div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+<span style="font-style: italic;">Fearless and Forward: breaking thy bias</span>
+
+The strengths and weaknesses,  
+The characters and charismatics,  
+The appearances and aspirations,  
+Not all are created equal,
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+The abundance of variations,  
+The power of diversity,  
+The strength of unity,  
+How do we fail to see?
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Perhaps blinded by the prior beliefs,  
+So afraid of change, of that glass ceiling  
+Subsumed by delusion,  
+Doused in false assurances
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Perhaps too scared to walk the line,  
+Between old faith and curiosity;  
+Experience and epiphany;  
+Ambition and passion;  
+Arrogance and conviction;  
+Bias and openness;
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Beyond this line lies an open world,  
+Of shared responsibility and collective strengths,  
+Of humbled weakness and fearless world.
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+A world of colors, of joys,  
+Of strengths, of understanding  
+Of supporting and creating,  
+A fearless forward better world.
+</div>
+
+<div style="margin: 1.5em 0; line-height: 1.8;">
+Why would not you,  
+Walk thy line?  
+Why would not you,  
+Break thy bias?
+</div>
+
+</div>
 
 ## Inspiration
+
 Internation Women's day 2022 campaign theme #BreakTheBias.
 
 Poem also draws inspiration from [Heinrich Rohrer](https://en.wikipedia.org/wiki/Heinrich_Rohrer) quote:
