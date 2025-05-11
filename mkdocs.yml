@@ -97,17 +97,15 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags:
       tags_file: tags.md
-      tags_allowed: true
-      tags_extra_files:
+      enabled: true
+      include_files:
         - docs/blog/posts/*.md
         - docs/projects/*.md
         - docs/talks/*.md
         - docs/poems/*.md
   - privacy
   - rss:
-      site_url: https://suneeta-mall.github.io/
-      image_handling: true
-      image_handling_absolute: true
+      enabled: true
   - literate-nav:
       nav_file: SUMMARY.md
   - bibtex:
