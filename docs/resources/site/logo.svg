@@ -9,6 +9,10 @@
             <feGaussianBlur stdDeviation="1.5" result="blur" />
             <feComposite in="SourceGraphic" in2="blur" operator="over" />
         </filter>
+        <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="0.5" result="blur" />
+            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+        </filter>
     </defs>
 
     <circle cx="100" cy="100" r="90" fill="#f8f9fa" opacity="0.5" />
@@ -28,4 +32,14 @@
 
     <path d="M45 45 L155 45" stroke="url(#bookGradient)" stroke-width="1" opacity="0.4" />
     <path d="M45 155 L155 155" stroke="url(#bookGradient)" stroke-width="1" opacity="0.4" />
+
+    <!-- Creative SM Design -->
+    <g transform="translate(100, 110) scale(0.8)">
+        <!-- S -->
+        <path d="M-20 0 C-20 -15, 0 -20, 0 -10 C0 0, -20 5, -20 20 C-20 35, 0 40, 0 30" fill="none"
+            stroke="url(#bookGradient)" stroke-width="2.5" stroke-linecap="round" filter="url(#textGlow)" />
+        <!-- M -->
+        <path d="M10 20 L10 -20 M10 -20 L20 0 M20 0 L30 -20 M30 -20 L30 20" fill="none" stroke="url(#bookGradient)"
+            stroke-width="2.5" stroke-linecap="round" filter="url(#textGlow)" />
+    </g>
 </svg>
