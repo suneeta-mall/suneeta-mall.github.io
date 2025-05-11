@@ -4,6 +4,9 @@
 install:
 	pip install -r requirements.txt
 
+deploy:
+	mkdocs build --strict
+	
 serve:
 	mkdocs serve
 

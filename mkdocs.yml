@@ -97,12 +97,6 @@ plugins:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
   - tags:
       tags_file: tags.md
-      enabled: true
-      include_files:
-        - docs/blog/posts/*.md
-        - docs/projects/*.md
-        - docs/talks/*.md
-        - docs/poems/*.md
   - privacy
   - rss:
       enabled: true
