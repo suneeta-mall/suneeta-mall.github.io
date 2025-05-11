@@ -1,5 +1,11 @@
 site_name: Random Musings - Rambling of a curious engineer & data scientist!
 
+site_url: https://suneeta-mall.github.io/
+site_dir: site
+
+use_directory_urls: true
+strict: true
+
 theme:
   name: material
   custom_dir: overrides
@@ -100,9 +106,8 @@ plugins:
   - privacy
   - rss:
       site_url: https://suneeta-mall.github.io/
-      image_dir: assets/images/social
-      image_url: https://suneeta-mall.github.io/assets/images/social
-      image_handling: false
+      image_handling: true
+      image_handling_absolute: true
   - literate-nav:
       nav_file: SUMMARY.md
   - bibtex:
