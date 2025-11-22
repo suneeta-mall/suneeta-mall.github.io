@@ -11,30 +11,30 @@ display_date: April 2010
 <div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-The bell has rung, filling me in with a flawless zing,  
-A bell, that sings, mystic rings,  
-Of twitter and chime,  
+The bell has rung, filling me in with a flawless zing,<br>
+A bell, that sings, mystic rings,<br>
+Of twitter and chime,<br>
 In perfect rhyme,
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-The gust of breeze, in its gentle feel,  
-Touched me deep, inside within,  
-Soft and sweet, lukewarm feel,  
+The gust of breeze, in its gentle feel,<br>
+Touched me deep, inside within,<br>
+Soft and sweet, lukewarm feel,<br>
 Perfect pamper, as I feel,
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-The bright shining dawn rays,  
-Dancing at my door ways,  
-Winking, smiling, teasing, luring,  
+The bright shining dawn rays,<br>
+Dancing at my door ways,<br>
+Winking, smiling, teasing, luring,<br>
 In all its magnanimous ways,
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-And that's when I open my eyes,  
-Welcoming new days, arms open wide,  
-Governed by the aura, defined by the angles of time,  
+And that's when I open my eyes,<br>
+Welcoming new days, arms open wide,<br>
+Governed by the aura, defined by the angles of time,<br>
 With hopes high mountains, in energy of fountains,
 </div>
 

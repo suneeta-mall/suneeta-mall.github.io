@@ -1,67 +1,61 @@
-# Welcome to Random Musings
+# Suneeta Mall
 
-> Random musings of a curious engineer and data scientist exploring the intersection of technology, science, and creativity.
+**ML/AI Engineering Leader | Women in AI 2025 Award Winner | Author of Deep Learning @ Scale [O'Reilly]**
 
-## Featured Content
+Leading breakthrough AI solutions in healthcare at scale while advancing machine learning education through technical publications and children's literature that inspires the next generation of engineers.
 
-### Latest Book Release
+## Latest Publication
 
-!!! success "Deep Learning at Scale - An O'Reilly Book"
+### Deep Learning at Scale - O'Reilly 2024
 
-    I am thrilled to announce the release of "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" - an O'Reilly Book! This project represents over 2 years of work with my team at O'Reilly media.
+<div class="book-showcase" markdown>
 
-    > "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" (O'Reilly) by Suneeta Mall illustrates complex concepts of full stack deep learning and reinforces them through hands-on exercises to arm you with tools and techniques to scale your project. A scaling effort is only beneficial when it's effective and efficient. To that end, this guide explains the intricate concepts and techniques that will help you scale effectively and efficiently.
+**Deep Learning at Scale: At the Intersection of Hardware, Software, and Data**
 
-    [![Deep Learning at Scale - An O'reilly Book](../../resources/books/15173-2121843.jpg)](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
+A comprehensive guide to building and deploying deep learning systems that scale effectively. This book bridges the gap between research and production, covering hardware optimization, distributed training, and efficient deployment strategies.
 
-    #### Order your copy today
+[![Deep Learning at Scale - An O'reilly Book](resources/books/15173-2121843.jpg)](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
 
-    !!! note "Kindle Edition"
-        [:fontawesome-brands-aws: Amazon US](https://www.amazon.com/dp/B0D7F9KZWC) | [:fontawesome-brands-aws: Amazon AU](https://www.amazon.com.au/dp/B0D7F9KZWC)
+**Available Now**
 
-    !!! note "Paperback Edition"
-        [:fontawesome-brands-aws: Amazon US](https://www.amazon.com/dp/1098145283) | [:fontawesome-brands-aws: Amazon AU](https://www.amazon.com.au/dp/1098145283)
+!!! note "Kindle Edition"
+    [:fontawesome-brands-aws: Amazon US](https://www.amazon.com/dp/B0D7F9KZWC) | [:fontawesome-brands-aws: Amazon AU](https://www.amazon.com.au/dp/B0D7F9KZWC)
 
-    !!! note "30 Days Trial Access"
-        [30 days trial - :fontawesome-solid-briefcase:](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
+!!! note "Paperback Edition"
+    [:fontawesome-brands-aws: Amazon US](https://www.amazon.com/dp/1098145283) | [:fontawesome-brands-aws: Amazon AU](https://www.amazon.com.au/dp/1098145283)
 
-    For more information, see details in the [project](/projects/oreilly_deep_learning_at_scale/)
+!!! note "30 Days Trial Access"
+    [30 days trial - :fontawesome-solid-briefcase:](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
 
-## Recent Blog Posts
+[Learn more about the book →](projects/oreilly_deep_learning_at_scale.md)
 
-!!! abstract "Latest Articles"
-    - [May 30, 2024 - Deep Learning at Scale](/blog/posts/2024-05-30-Deep-learning-at-scale/)
-    - [May 10, 2025 - Cassie 2.0: The Next Generation](/blog/posts/2025-05-10-cassie-2.0/)
-    - [January 7, 2024 - ChatGPT vs Me as a Children's Book Author](/blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author/)
+</div>
 
-## Featured Projects
+## Recent Articles
 
-!!! tip "Explore My Work"
-    - [Deep Learning at Scale](/projects/oreilly_deep_learning_at_scale/)
-    - [Label Noise with Clean Lab](/projects/feature_analysis/)
-    - [Reproducible ML](/projects/reproducible-ml/)
+- **[Deep Learning at Scale](blog/posts/2024-05-30-Deep-learning-at-scale.md)** - May 2024
+  Announcing the release of my O'Reilly book on scaling deep learning systems
 
-## Upcoming Talks
+- **[Cassie 2.0: The Next Generation](blog/posts/2025-05-10-cassie-2.0.md)** - May 2025
+  Evolution of the Curious Cassie children's book series
 
-!!! info "Speaking Engagements"
-    - [Knowledge Graph Conference 2022](/talks/KGC_NY_2022)
-    - [KubeCon NA 2021](/talks/KubeCon_NA_2021)
-    - [Kafka Summit APAC 2021](/talks/Kafka_Summit_APAC_2021)
+- **[ChatGPT vs Me as a Children's Book Author](blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md)** - January 2024
+  Comparative analysis of human vs AI creativity in children's literature
 
-## Connect With Me
+## Key Projects
 
-!!! example "Let's Connect"
-    - [:fontawesome-brands-linkedin: LinkedIn](https://www.linkedin.com/in/suneeta-mall-a6a0507/)
-    - [:fontawesome-brands-github: GitHub](https://github.com/suneeta-mall)
-    - [:fontawesome-brands-x-twitter: Twitter](https://x.com/suneetamall/)
-    - [:fontawesome-brands-medium: Medium](https://www.medium.com/@suneetamall)
-    - [:fontawesome-brands-google-scholar: Google Scholar](https://scholar.google.com.au/citations?hl=en&user=WD712CUAAAAJ)
-    - [:fontawesome-brands-researchgate: ResearchGate](https://www.researchgate.net/profile/Suneeta_Mall3)
-    - [:fontawesome-solid-envelope: Email](mailto:suneetamall@gmail.com)
+- **[Deep Learning at Scale](projects/oreilly_deep_learning_at_scale.md)** - O'Reilly book on production ML systems
+- **[Label Noise with CleanLab](projects/label_noise_with_cleanlabs.md)** - Data quality in machine learning
+- **[Reproducible ML](projects/reproducible-ml.md)** - Framework for reproducible deep learning
 
-## Subscribe to Updates
+## Recent Talks
 
-!!! tip "Stay Updated"
-    Subscribe to my newsletter to receive updates about new articles, projects, and speaking engagements.
+- **[Knowledge Graph Conference 2022](talks/KGC_NY_2022.md)** - Graph neural networks in production
+- **[KubeCon NA 2021](talks/KubeCon_NA_2021.md)** - Kubernetes for ML workloads
+- **[Kafka Summit APAC 2021](talks/Kafka_Summit_APAC_2021.md)** - Event-driven ML pipelines
 
-    [:fontawesome-solid-rss: RSS Feed](https://suneeta-mall.github.io/feed_rss_created.xml)
+## Contact
+
+If you need to reach me, you can find my contact details in the footer below.
+
+[:fontawesome-solid-rss: RSS Feed](https://suneeta-mall.github.io/feed_rss_created.xml) - Stay updated with new posts

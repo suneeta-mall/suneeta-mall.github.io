@@ -16,49 +16,49 @@ display_date: December 2021
 The strengths and weaknesses,  
 The characters and charismatics,  
 The appearances and aspirations,  
-Not all are created equal,
+Not all are created equal,  
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
 The abundance of variations,  
 The power of diversity,  
 The strength of unity,  
-How do we fail to see?
+How do we fail to see?  
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
 Perhaps blinded by the prior beliefs,  
 So afraid of change, of that glass ceiling  
 Subsumed by delusion,  
-Doused in false assurances
+Doused in false assurances  
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Perhaps too scared to walk the line,  
-Between old faith and curiosity;  
-Experience and epiphany;  
-Ambition and passion;  
-Arrogance and conviction;  
+Perhaps too scared to walk the line,<br>
+Between old faith and curiosity;<br>
+Experience and epiphany;<br>
+Ambition and passion;<br>
+Arrogance and conviction;<br>
 Bias and openness;
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Beyond this line lies an open world,  
-Of shared responsibility and collective strengths,  
+Beyond this line lies an open world,<br>
+Of shared responsibility and collective strengths,<br>
 Of humbled weakness and fearless world.
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-A world of colors, of joys,  
-Of strengths, of understanding  
-Of supporting and creating,  
+A world of colors, of joys,<br>
+Of strengths, of understanding<br>
+Of supporting and creating,<br>
 A fearless forward better world.
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Why would not you,  
-Walk thy line?  
-Why would not you,  
+Why would not you,<br>
+Walk thy line?<br>
+Why would not you,<br>
 Break thy bias?
 </div>
 

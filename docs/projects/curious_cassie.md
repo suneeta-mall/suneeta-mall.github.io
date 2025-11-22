@@ -62,7 +62,7 @@ You can find Jaya on:
 
 **Publication date**: 11-12-2022
 
-![Curious Cassie's beach ride quest!](../../resources/curious_cassie/curious_cassie_beach_ride.jpeg)
+![Curious Cassie's beach ride quest!](../resources/curious_cassie/curious_cassie_beach_ride.jpeg)
 
 Join Cassie, Caleb, and their mom on an exhilarating journey to the beach, where they encounter various situations that explore the wonders of motion and gravity, leaving them inspired by the genius of Sir Isaac Newton.
 

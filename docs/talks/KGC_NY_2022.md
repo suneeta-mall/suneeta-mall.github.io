@@ -17,7 +17,7 @@ Deep learning models require massive amounts of data to be performed accurately.
 
 In this presentation, we share our experiences with knowledge graphs as a technique to model domain knowledge and reason about it to derive an embedding. We have leveraged these embeddings in numerous applications to build a more scalable, reliable, and efficient AI System. The applications include improving the quality and richness of our datasets, identifying gaps in annotators' knowledge, utilizing existing data to synthesize new objects on the fly, and also increasing the efficiencies of deep learning models.
 
->![](../../resources/talks/kgc_2022.jpg)
+>![](../resources/talks/kgc_2022.jpg)
 
 ## Slides and video
 

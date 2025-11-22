@@ -8,17 +8,17 @@ Random musing of a curious engineer!
 To launch mkdocs locally, follow these instructions:
 
 1. Create a Python environment:
-```bash
-python3 -m venv .venv
-. .venv/bin/activate
-```
+   ```bash
+   python3.11 -m venv .venv
+   source .venv/bin/activate
+   ```
 
-1. Install the dependencies:
-```bash
-make install
-```
+2. **Install Dependencies**
+   ```bash
+   make install
+   ```
 
-1. Start the serving endpoint:
+3. Start the serving endpoint:
 ```bash
 make serve
 ```

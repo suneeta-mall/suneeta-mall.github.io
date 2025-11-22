@@ -11,12 +11,12 @@ display_date: April 2010
 <div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Knack sack, bloody rack,  
-Crank crunch, crunch, crunch,  
-Smudged, stewed, stunned stuck,  
-Huff hush, hush huff  
-Crust thirst, thrum hum,  
-Squeeze squirm, squirm squeeze  
+Knack sack, bloody rack,<br>
+Crank crunch, crunch, crunch,<br>
+Smudged, stewed, stunned stuck,<br>
+Huff hush, hush huff<br>
+Crust thirst, thrum hum,<br>
+Squeeze squirm, squirm squeeze<br>
 Must gust, lust rust!
 </div>
 

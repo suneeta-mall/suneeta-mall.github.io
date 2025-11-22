@@ -8,52 +8,44 @@ authors:
   - suneeta
 ---
 
-# WTH! Who killed my pod - Whodunit?
+# Debugging OOMKilled Pods in Kubernetes: A Deep Dive
 
-A few days ago, I deployed a brand new application onto a self-managed Kubernetes cluster (hereafter referred to as Kube). 
-Suffice to say, all hell broke loose. The pods were getting `OOMKilled` with error code 137 left and right! 
+When I deployed a new application to our self-managed Kubernetes cluster, chaos ensued. Pods were being terminated with error code 137 and `OOMKilled` status repeatedly. 
 
-Now, I know a thing or two about Kubernetes<sup>[1],[2]</sup>. I am not a total Kube noob!  
-But, I could not figure out what the fudge was going on actually! 
-Besides, this app has been thoroughly tested and profiled and ran fine on bare metal and virtual environments.
+Despite my experience with Kubernetes<sup>[1],[2]</sup> and thorough testing of the application on bare metal and virtual environments, the root cause remained elusive.
 
-So this was me, a few days ago!.
+The situation was frustrating:
 <!-- ![](../../resources/oom/4201968f94aacab1c0190d9688daba00-sticker.jpg)-->
 ![](https://media4.giphy.com/media/z9AUvhAEiXOqA/giphy-downsized.gif)
 
-This sparked a massive hunt for the culprit, and some interesting insights were discovered. Worth noting, similar investigating
-has also been done on by [Line Corp][line-eng-qos] in their excellent blog however, I have a different story to tell!
+This triggered a comprehensive investigation that revealed fascinating insights about Kubernetes and Linux kernel behavior. While [Line Corp][line-eng-qos] has documented similar investigations, this case presented unique challenges.
  
-In this writeup, 
-I am going to talk about this particular incident and the insights I have uncovered about both Kube and Linux kernels.
+This article details the investigation process and key discoveries about Kubernetes and Linux kernel interactions.
 
 
-## Context of the app
-The app runs some intensive [numpy] and [Tensorflow] computations to produce some artifacts and associative metadata.
-The workloads are more memory-intensive as they operate on rich multi-media content. 
-Other gory details besides _resource requirements_ of the app is irrelevant for this discussion. 
+## Application Context
 
-The average resource requirement, for this app, is very fluctuating yet predictable (in a given range). 
-At least so we thought looking at our metrics:
+The application performs intensive [numpy] and [TensorFlow] computations on multimedia content, producing artifacts and associated metadata. These workloads are particularly memory-intensive. 
+
+The resource requirements fluctuate within a predictable range, as shown in our metrics:
     
 
 ![](../../resources/oom/avg-resource-requirement.jpg)
 *Figure 2: Average resource requirements of the app when run on VMs or bare metal*
 
-I hear you, the resource utilization is not following a zero gradient line (fig 2)! 
-It would be awesome to have constant non-flapping resource requirement needs - so clearly some work needs to happen on the app here. Having said that, it's an absolutely acceptable and supported workload. 
+While the resource utilization shows variation (Figure 2), this pattern represents a valid and supported workload, though optimization opportunities exist. 
 
-Ok, so the app was deployed and now, we will look at the line of investigation:
+Let's examine the investigation timeline:
 
-## App's on Kube: day 1 
+## Day 1: Initial Deployment 
 
-The provisioned app pods started to get killed as frequently as every 20 mins or more with error code 137 and reason `OOMKilled`. 
+Pods were terminated every 20 minutes with error code 137 and `OOMKilled` status. 
 
 ![](../../resources/oom/Joys%20of%20being%20killed!.jpg)
 *Figure 3: The killer is on the loose! - Whodunit?*
 
 
-Let me explain a few things about the failure first:
+Understanding the failure mode:
 1. `Error code 137` indicates that the container process received the SIGKILL and thus was killed by the OS kernel. 
     SIGKILL on Kube can only be produced using one of the following means:
     
@@ -73,12 +65,11 @@ Let me explain a few things about the failure first:
 2. `OOMKilled` represent a kill event (SIGKILL) triggered to a process because someone _in-charge_ suspected of the process to be the culprit of a memory surge that may lead to an out of memory event. This is a safeguard mechanism to avoid 
 system-level failure and to nip mischieve in the bud.  
 
-`Takeaway 1`: Either Container Runtime/Interface or OS Kernel killed my process because supposedly it was misbehaving and causing the out-of-memory issue! 
-Essentially, I am ruling out the manual kill because that was simply not the case!
+**Key Insight**: The termination originated from either the Container Runtime/Interface or the OS Kernel due to suspected memory issues. Manual intervention was ruled out.
 
-### Deep-dive into factors at play here
+### Technical Components
 
-1. _Container runtime_ (in fig 4) is responsible for two things: 
+1. **Container Runtime** (Figure 4) handles: 
 
     a) Running containers: Comes from open container initiative (OCI) (about 2013) open sourced by Docker called "runc". It provides ability to run containers.
 
@@ -91,8 +82,7 @@ Essentially, I am ruling out the manual kill because that was simply not the cas
     
 2. [control groups][cgroups] are a Linux kernel feature that allows processes to be organized into hierarchical groups whose usage of various types of ../resources (memory, CPU, and so on) can then be limited and monitored. The cgroups interface is provided through a pseudo-filesystem called cgroupfs. You may have heard about `/sys/fs/cgroup/`! 
  
-    [Liz Rice] did an excellent demonstration of [what it means to run a container and how they work][container from scratch] that I highly recommend
-    going through. Don't forget playing with the [demo code][source]. It gives a foundational understanding of cgroups's role in all things containers.
+    [Liz Rice]'s demonstration of [container internals][container from scratch] provides excellent foundational understanding of cgroups' role in containerization. The [demo code][source] is particularly instructive.
     
     ![](https://wizardzines.com/zines/containers/samples/cgroups.jpg)
     *Figure 6: CGroup in picture! Image credit: [zines] by [Julia Evans]*

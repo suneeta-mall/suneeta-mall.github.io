@@ -16,31 +16,27 @@ authors:
   - suneeta
 ---
 
-# Launch of Deep Learning at Scale - An O'Reilly Book
+# Deep Learning at Scale - O'Reilly Book Launch
 
-I am thrilled to announce the release of "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" - an O'Reilly Book"! I have been working on this project for over 2 years.
+After two years of intensive work, I'm excited to announce the release of "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" published by O'Reilly Media.
 
-> "Deep Learning at Scale: At the Intersection of Hardware, Software, and Data" (O'Reilly) illustrates complex concepts of full-stack deep learning and reinforces them through hands-on exercises to equip you with tools and techniques to scale your project. Scaling efforts are only beneficial when they are effective and efficient. To that end, this guide explains the intricate concepts and techniques that will help you scale effectively and efficiently.
+This comprehensive guide bridges the gap between research and production, providing practical approaches to scaling deep learning systems. Through hands-on exercises and real-world examples, readers learn to navigate the complexities of hardware optimization, distributed training, and efficient deployment—essential skills for building systems that scale both effectively and efficiently.
 
 [![Deep Learning at Scale - An O'reilly Book](../../resources/books/15173-2121843.jpg)](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
 
-## **Order your copy today**
+## Available Formats
 
-To order your copy, use the following links based on your preferred format:
+### Digital Edition
+**Kindle**: [Amazon US](https://www.amazon.com/dp/B0D7F9KZWC) | [Amazon AU](https://www.amazon.com.au/dp/B0D7F9KZWC)
 
-!!! note Kindle
-[:fontawesome-brands-aws: - Amazon](https://www.amazon.com/dp/B0D7F9KZWC) | [:fontawesome-brands-aws: - Amazon AU](https://www.amazon.com.au/dp/B0D7F9KZWC)
+### Print Edition
+**Paperback**: [Amazon US](https://www.amazon.com/dp/1098145283) | [Amazon AU](https://www.amazon.com.au/dp/1098145283)
 
-!!! note Paperback
-[:fontawesome-brands-aws: - Amazon](https://www.amazon.com/dp/1098145283) | [:fontawesome-brands-aws: - Amazon AU](https://www.amazon.com.au/dp/1098145283)
-
-Alternatively, you can access the book using the 30-day trial link:
-
-!!! note "30 Days trial access by O'Reilly Media"
-[30 days trial - :fontawesome-solid-briefcase:](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
+### O'Reilly Learning Platform
+**30-Day Trial**: [Access on O'Reilly](https://oreillymedia.pxf.io/c/5668688/2121843/15173)
 
 
 
-## More info
+## Learn More
 
-For more information, see details in the [project](/projects/oreilly_deep_learning_at_scale/)
+For detailed information about the book's content and resources, visit the [project page](../../projects/oreilly_deep_learning_at_scale.md).

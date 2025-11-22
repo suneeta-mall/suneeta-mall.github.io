@@ -24,65 +24,65 @@ display_date: Feb 2021
 <div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-My little butterfly  
-You are the apple of my eyes  
-Seeing you brightly shine  
+My little butterfly<br>
+You are the apple of my eyes<br>
+Seeing you brightly shine<br>
 My heart melts to shiny slime
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-A beautiful day it is today,  
-You starting your schooling  
-With million hopes and dreams  
+A beautiful day it is today,<br>
+You starting your schooling<br>
+With million hopes and dreams<br>
 I long to see you shine!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-The journey you start today, my little girl  
-You see, it’s about a magical land  
-You can build, create, innovate!  
+The journey you start today, my little girl<br>
+You see, it's about a magical land<br>
+You can build, create, innovate!<br>
 But you can also destroy, and eliminate!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Its a journey of empowerment  
-Of empathy, confidence, and courage  
-Your perseverance is the wand, and  
+Its a journey of empowerment<br>
+Of empathy, confidence, and courage<br>
+Your perseverance is the wand, and<br>
 Your knowledge thy spell
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-So my little bunny,  
-With a cheeky little grin,  
-Let the magic unfold  
+So my little bunny,<br>
+With a cheeky little grin,<br>
+Let the magic unfold<br>
 Let the knowledge begin
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-To take you to infinite possibilities  
-Of unicorns, fairies, glitters, and utopia!  
-Of tingle and tinker  
+To take you to infinite possibilities<br>
+Of unicorns, fairies, glitters, and utopia!<br>
+Of tingle and tinker<br>
 Of awe and sympathy
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-All I ask of you is to be kind,  
-Both to others and to yourself  
-And to never fear a failure  
+All I ask of you is to be kind,<br>
+Both to others and to yourself<br>
+And to never fear a failure<br>
 For they mean no harm, they are just to teach
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Embrace it all, Soak in it,  
-One thought at a time  
-One problem at a time  
+Embrace it all, Soak in it,<br>
+One thought at a time<br>
+One problem at a time<br>
 One victory at a time
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-The world is waiting  
-For you, to lead the way  
-To better future and better world  
+The world is waiting<br>
+For you, to lead the way<br>
+To better future and better world<br>
 Do not let others dim you down, for you are to be found
 </div>
 
