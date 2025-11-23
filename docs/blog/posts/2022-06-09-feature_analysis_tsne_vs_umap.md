@@ -84,7 +84,7 @@ Because of these performance implications, a common recommendation is to use PCA
 
 ## Uniform Manifold Approximation and Projection [UMAP]
 
-[UMAP] is based on pure combinatorial mathematics that is well covered in the [paper][UMAP] and is also well explained by author McInnes in his [talk][McInnes] and [library documentation](umap_doco) is pretty well written too. Similar to [t-SNE], [UMAP] is also a topological neighbor graph modeling technique. There are several differences b/w [t-SNE] and [UMAP] with the main one being that UMAP retains not only local but global structure in the data.
+[UMAP] is based on pure combinatorial mathematics that is well covered in the [paper][UMAP] and is also well explained by author McInnes in his [talk][McInnes] and [library documentation][umap_doco] is pretty well written too. Similar to [t-SNE], [UMAP] is also a topological neighbor graph modeling technique. There are several differences b/w [t-SNE] and [UMAP] with the main one being that UMAP retains not only local but global structure in the data.
 
 There is a great post that goes into detail about [how UMAP works][umap-understanding]. High level, UMAP uses combinatorial topological modeling with the help of simplices to capture the data and applies Riemannian metrics to enforce the uniformity in the distribution. Fuzzy logic is also applied to the graph to adjust the probability distance if the radius grows. Once the graphs are built then optimization techniques are applied to make the embedded space graph very similar to the original space one. UMAP uses binary cross-entropy as a cost function and stochastic gradient descent to iterate on the graph for embedded space. Both t-SNE and UMAP use the same framework to achieve manifold projections however implementation details vary. [Oskolkov]'s post covers in great detail the nuances of both the techniques and is an excellent read.
 
@@ -286,7 +286,7 @@ In the follow-up, I will cover how we can utilize t-SNE and UMAP to better under
 [emprical-estimates]: https://github.com/lmcinnes/umap/issues/8
 [umap-understanding]: https://pair-code.github.io/understanding-umap/index.html
 [Oskolkov]: https://towardsdatascience.com/how-exactly-umap-works-13e3040e1668
-[umap_doco] https://umap-learn.readthedocs.io/en/latest/how_umap_works.html
+[umap_doco]: https://umap-learn.readthedocs.io/en/latest/how_umap_works.html
 [deeplearning_book]: https://www.deeplearningbook.org/contents/autoencoders.html
 [parametric UMAP]: https://umap-learn.readthedocs.io/en/latest/parametric_umap.html
 [feature_analysis]: https://github.com/suneeta-mall/feature_analysis 

@@ -10,7 +10,7 @@ At Nearmap, we have been working on an open source CI/CD solution for Kubernetes
 
 
 
-![](../../resources/kube_con_eu_2018.jpg)
+![](../resources/kube_con_eu_2018.jpg)
 
 ## Slides and video
 

@@ -9,7 +9,7 @@ display_date: Nov 2019
 Creating reproducible machine learning system is hard! It is because challenges pertaining to reproducibility stem from all 5 ingredients of machine learning systems - software, hardware, algorithms, process and practice and data. 
 
 
-![](../../resources/reproducible-challenge.jpeg)
+![](../resources/reproducible-challenge.jpeg)
 
 In this talk, I talk about how we can write 100% reproducible ML code. Extend this discussion to write end-to-end reproducible ML workflow using Pachyderm, Kubeflow, Katib, ModelDB, Seldon and Argo.
 

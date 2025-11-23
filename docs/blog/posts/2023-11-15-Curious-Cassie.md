@@ -7,8 +7,8 @@ date: 2023-11-12
 authors:
   - suneeta
 links:
-  - blog/2023/01/07/chatgpt-vs-me-as-a-childrens-author/
-  - projects/curious_cassie/
+  - 2024-01-07-ChatGPT_vs_me_kids_book_author.md
+  - ../../projects/curious_cassie.md
 tags:
   - blog
   - children-book
@@ -32,7 +32,7 @@ Join Cassie, Caleb, and their mom on an extraordinary adventure to the beach. Al
 
 ![Curious Cassie's Beach Ride Quest](../../resources/curious_cassie/curious_cassie_beach_ride.jpeg)
 
-You might also enjoy reading [ChatGPT vs Me: As a Children's Author](blog/2023/01/07/chatgpt-vs-me-as-a-childrens-author/)
+You might also enjoy reading [ChatGPT vs Me: As a Children's Author](2024-01-07-ChatGPT_vs_me_kids_book_author.md)
 
 **Get your copy now**:
 

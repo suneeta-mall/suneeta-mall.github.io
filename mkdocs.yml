@@ -1,4 +1,5 @@
-site_name: Random Musings - Rambling of a curious engineer & data scientist!
+site_name: Suneeta Mall | Engineering and Data Science
+site_description: Engineering and Data Science insights, tutorials, and projects
 
 site_url: https://suneeta-mall.github.io/
 site_dir: site
@@ -34,16 +35,7 @@ theme:
     - navigation.footer
     - navigation.breadcrumbs
     - navigation.expand
-    - navigation.sections
-    - navigation.tracking
-    - navigation.top
-    - search.highlight
-    - search.share
-    - toc.follow
     - toc.integrate
-    - git-revision-date-localized:
-        type: date
-        enable_creation_date: true
   sitemap:
     filename: sitemap.xml
     changefreq: monthly
@@ -51,16 +43,16 @@ theme:
 
   palette:
     - scheme: default
-      primary: deep-purple
-      accent: deep-purple
+      primary: indigo
+      accent: teal
       toggle:
-        icon: material/eye
+        icon: material/brightness-7
         name: Switch to dark mode
     - scheme: slate
-      primary: deep-purple
-      accent: deep-purple
+      primary: indigo
+      accent: teal
       toggle:
-        icon: material/eye-outline
+        icon: material/brightness-4
         name: Switch to light mode
 
   language: en
@@ -94,27 +86,42 @@ theme:
 plugins:
   - blog:
       authors: true
-  - social
+      blog_dir: blog
+      post_dir: blog/posts
+      post_date_format: full
+      post_url_date_format: yyyy/MM/dd
+      post_readtime: true
+      post_readtime_words_per_minute: 200
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - tags:
-      tags_file: tags.md
-  - privacy
+  - tags
   - rss:
       enabled: true
-  - literate-nav:
-      nav_file: SUMMARY.md
+      match_path: "blog/posts/.*"
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      comments_path: "#__comments"
+      pretty_print: true
+      length: 20
+      feeds_filenames:
+        rss_created: feed_rss_created.xml
+        rss_updated: feed_rss_updated.xml
+        json_created: feed_json_created.json
+        json_updated: feed_json_updated.json
+      abstract_chars_count: 160
+      use_git: false
   - bibtex:
       bib_file: "docs/references/refs.bib"
+      bib_by_default: true
+  - literate-nav:
+      nav_file: SUMMARY.md
   - minify:
       minify_html: true
       minify_js: true
       minify_css: true
-  - git-revision-date-localized:
-      type: date
-      enable_creation_date: true
-      enable_git_follow: false
-  - recent_posts
 
 markdown_extensions:
   - admonition
@@ -183,36 +190,47 @@ extra:
 
 nav:
   - Home: README.md
+  - About: about.md
   - Projects:
-    - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
-    - Curious Cassie - The Children's Books: projects/curious_cassie.md
-    - Label Noise with Clean Lab: projects/feature_analysis.md
-    - Feature Analysis: projects/feature_analysis.md
-    - Oreilly Katacode Series: projects/oreilly-interactive-katacode-series-for-reproducible-ml.md
-    - Reproducible-ML: projects/reproducible-ml.md
-    - KCD: projects/KCD.md
+      - projects/index.md
+      - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
+      - Curious Cassie Children's Books: projects/curious_cassie.md
+      - Label Noise with CleanLab: projects/label_noise_with_cleanlabs.md
+      - Feature Analysis: projects/feature_analysis.md
+      - O'Reilly Interactive Series: projects/oreilly-interactive-katacode-series-for-reproducible-ml.md
+      - Reproducible ML: projects/reproducible-ml.md
+      - KCD: projects/KCD.md
+      # - Gatling on ECS: projects/gatling-on-ecs.md
+      # - Go Report Card Lite: projects/goreportcardlite.md
   - Blog:
-    - blog/index.md
-  - Tags: tags.md
+      - blog/index.md
   - Talks:
-    - Knowledge Graph Conference 2022: talks/KGC_NY_2022.md
-    - KubeCon NA 2021: talks/KubeCon_NA_2021.md
-    - Kafka Summit APAC 2021: talks/Kafka_Summit_APAC_2021.md
-    - AWS Community Day 2020: talks/AWS_ANZ_Commuity_day_2020.md
-    - AWS She Builds on AWS 2020: talks/She_Builds_on_AWS_2020.md
-    - KubeCon US 2019: talks/KubeCon_US_2019.md
-    - Kubernetes Sydney 2019: talks/KubernetesSydneyForum_AU_2019.md
-    - YOW Data 2019: talks/YOW_Data_Syd_2019.md
-    - KubeCon EU 2018: talks/KubeCon-Europe-2018.md
-    - SPIE 2019: talks/SPIE-2019.md
-    - SPIE 2018: talks/SPIE-2018.md
-    - SPIE 2015: talks/SPIE-2015.md
-  - Poems:
-    - Singularity: poems/singularity.md
-    - Life of AI Engineers: poems/life-of-ai-engineer.md
-    - My little Butterfly: poems/my-little-butterfly.md
-    - Breaking Thy Bias: poems/breaking-thy-bias.md
-    - Daminis: poems/daminis.md
-    - One Bright Dawn: poems/one-bright-dawn.md
-    - Aint no Dr. Seuss: poems/aint-no-dr-seuss.md
-  - About Me: about.md
+      - talks/index.md
+      - Knowledge Graph Conference 2022: talks/KGC_NY_2022.md
+      - KubeCon NA 2021: talks/KubeCon_NA_2021.md
+      - Kafka Summit APAC 2021: talks/Kafka_Summit_APAC_2021.md
+      - AWS Community Day 2020: talks/AWS_ANZ_Commuity_day_2020.md
+      - AWS She Builds 2020: talks/She_Builds_on_AWS_2020.md
+      - KubeCon US 2019: talks/KubeCon_US_2019.md
+      - Kubernetes Sydney 2019: talks/KubernetesSydneyForum_AU_2019.md
+      - YOW Data 2019: talks/YOW_Data_Syd_2019.md
+      - KubeCon EU 2018: talks/KubeCon-Europe-2018.md
+      - SPIE 2019: talks/SPIE-2019.md
+      - SPIE 2018: talks/SPIE-2018.md
+      - SPIE 2015: talks/SPIE-2015.md
+      - Strata Data & AI US 2020: talks/Strata_Data_AI_US_2020.md
+  - Creative:
+      - Poems:
+          - poems/index.md
+          - Singularity: poems/singularity.md
+          - Life of AI Engineers: poems/life-of-ai-engineer.md
+          - My Little Butterfly: poems/my-little-butterfly.md
+          - Breaking Thy Bias: poems/breaking-thy-bias.md
+          - Daminis: poems/daminis.md
+          - One Bright Dawn: poems/one-bright-dawn.md
+          - Ain't No Dr. Seuss: poems/aint-no-dr-seuss.md
+      - Children's Books:
+          - Curious Cassie Series: projects/curious_cassie.md
+          - Beach Ride Quest Launch: blog/posts/2023-11-15-Curious-Cassie.md
+          - ChatGPT vs Me as Author: blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md
+  - Tags: tags.md

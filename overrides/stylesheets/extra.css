@@ -1,40 +1,189 @@
-.md-top {
-    transition: opacity 0.3s ease-in-out;
+/* Base typography improvements */
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
 }
 
-.md-top:hover {
-    opacity: 0.8 !important;
+code, pre {
+    font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace;
 }
 
-.md-share {
-    transition: opacity 0.2s ease-in-out;
+/* Header refinements */
+.md-header {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
 }
 
-.md-share:hover {
-    opacity: 1 !important;
-}
-
-/* Table of Contents styling */
-.md-nav__list {
-    scroll-behavior: smooth;
-}
-
+/* Navigation improvements */
 .md-nav__item .md-nav__link {
-    transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease;
 }
 
 .md-nav__item .md-nav__link:hover {
     color: var(--md-primary-fg-color);
 }
 
-/* Last updated timestamp styling */
-.md-source__repository {
-    font-size: 0.8rem;
+.md-nav__item--active > .md-nav__link {
+    font-weight: 600;
+}
+
+/* Content typography */
+.md-content h1 {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+}
+
+.md-content h2 {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 2.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-content h3 {
+    font-weight: 600;
+}
+
+/* Remove excessive admonitions styling */
+.admonition {
+    border-radius: 4px;
+    border-left: 4px solid var(--md-primary-fg-color);
+    box-shadow: none;
+}
+
+.admonition.note {
+    border-left-color: var(--md-primary-fg-color);
+}
+
+/* Book showcase styling */
+.book-showcase {
+    margin: 2rem 0;
+    padding: 2rem;
+    background: var(--md-code-bg-color);
+    border-radius: 8px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.book-showcase h3 {
+    margin-top: 0;
+}
+
+/* Link styling */
+.md-content a {
+    color: var(--md-primary-fg-color);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+}
+
+.md-content a:hover {
+    border-bottom-color: var(--md-primary-fg-color);
+}
+
+/* Code block improvements */
+.highlight pre {
+    border-radius: 4px;
+    border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Footer adjustments */
+.md-footer {
+    margin-top: 4rem;
+}
+
+.md-footer-meta {
+    background: var(--md-default-bg-color);
+    border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Responsive improvements */
+@media screen and (max-width: 76.1875em) {
+    .md-nav--primary .md-nav__title {
+        font-weight: 600;
+    }
+}
+
+/* Search improvements */
+.md-search__form {
+    border-radius: 4px;
+}
+
+/* Table improvements */
+.md-typeset table {
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.md-typeset table th {
+    background: var(--md-code-bg-color);
+    font-weight: 600;
+}
+
+/* List improvements */
+.md-content ul li {
+    margin-bottom: 0.25rem;
+}
+
+/* Strong text styling */
+.md-content strong {
+    font-weight: 600;
+    color: var(--md-default-fg-color);
+}
+
+/* Blockquote styling */
+.md-content blockquote {
+    border-left: 3px solid var(--md-primary-fg-color);
+    padding-left: 1rem;
+    font-style: normal;
     color: var(--md-default-fg-color--light);
 }
 
-/* Meta description styling */
+/* Homepage specific styles */
+.md-content h2:first-of-type {
+    border-top: none;
+    margin-top: 1.5rem;
+}
+
+/* Remove icon clutter from lists on homepage */
+.md-content > ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.md-content > ul li {
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+}
+
+/* Project cards */
+.project-card {
+    padding: 1.5rem;
+    border: 1px solid var(--md-default-fg-color--lightest);
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Clean up social icons */
 .md-header__source {
-    font-size: 0.8rem;
-    color: var(--md-default-fg-color--light);
+    margin-right: 0.4rem;
+}
+
+/* Top navigation button */
+.md-top {
+    background-color: var(--md-primary-fg-color);
+    border-radius: 50%;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.md-top:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
 }

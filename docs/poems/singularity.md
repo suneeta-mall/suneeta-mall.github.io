@@ -29,113 +29,123 @@ display_date: Sept 2024
 <div style="text-align: center; margin: 2em 0; font-family: 'Georgia', serif;">
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Whispers of apprehension,  
-Clouding your judgement,  
-Spiralling you down,  
-Into a black hole of mess!
-
-You're ready to rise, but you hesitate,  
-Questions and fear, you second-guess fate.  
-You may not know it all,  
+Whispers of apprehension,<br>
+Clouding your judgement,<br>
+Spiralling you down,<br>
+Into a black hole of mess!<br>
+<br>
+You're ready to rise, but you hesitate,<br>
+Questions and fear, you second-guess fate.<br>
+You may not know it all,<br>
 But you have got it all,
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span>  
-The power's inside!  
-<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span>  
-Without it, you're denied!
-
-Wear your doubts, Own your fears,  
-Like shiny armours, stronger each year  
-Enough is enough, and you know it's right!  
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span><br>
+The power's inside!<br>
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it!**</span><br>
+Without it, you're denied!<br>
+<br>
+Wear your doubts, Own your fears,<br>
+Like shiny armours, stronger each year<br>
+Enough is enough, and you know it's right!<br>
 Show up now, it'll be all right!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-"Fake it till you make it?" — that's just a lie,  
-A hollow thought, no reason why.  
-Where's your truth, your inner gleam?  
-Your singularity?
-
-<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it! Find it all, within!**</span>  
-Come hell or high, You will do all right!  
-Feel that faith, you are nothing without it!  
+"Fake it till you make it?" — that's just a lie,<br>
+A hollow thought, no reason why.<br>
+Where's your truth, your inner gleam?<br>
+Your singularity?<br>
+<br>
+<span style="font-weight: 700; color: #2c3e50;">**Believe it! Feel it! Find it all, within!**</span><br>
+Come hell or high, You will do all right!<br>
+Feel that faith, you are nothing without it!<br>
 Show up now, it'll be all right!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Enough is enough!  
-Wear your doubts,  
-Own your fears,  
-Face the horizon, no more tears.
-
-The wait is over!  
-It's time to rise!  
-<span style="font-style: italic; font-weight: 600; color: #e74c3c;">***Like a phoenix! through the skies,***</span>  
+Enough is enough!<br>
+Wear your doubts,<br>
+Own your fears,<br>
+Face the horizon, no more tears.<br>
+<br>
+The wait is over!<br>
+It's time to rise!<br>
+<span style="font-style: italic; font-weight: 600; color: #e74c3c;">***Like a phoenix! through the skies,***</span><br>
 With your fears, no more your tears.
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Gather the ashes, gather the flames,  
-Your ambition calls your name.  
-It's now or never, so face your fear,  
-Let your creed burn, bright and clear!
-
-Feel it, believe it, The strength's within!  
-Come hell or high, you'll take it in stride!
-
-Wear your doubts, Own your fears,  
-Channel that fire, feel it sear!  
-Melt it down, let yourself shine,  
+Gather the ashes, gather the flames,<br>
+Your ambition calls your name.<br>
+It's now or never, so face your fear,<br>
+Let your creed burn, bright and clear!<br>
+<br>
+Feel it, believe it, The strength's within!<br>
+Come hell or high, you'll take it in stride!<br>
+<br>
+Wear your doubts, Own your fears,<br>
+Channel that fire, feel it sear!<br>
+Melt it down, let yourself shine,<br>
 This is your moment—pure gold, divine!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Feel it! Believe it!  
-Find it all, within!
-
-Step by step, on the grind,  
-With every move, strength you'll find.  
-Assaying, slaying, climbing high,  
+Feel it! Believe it!<br>
+Find it all, within!<br>
+<br>
+Step by step, on the grind,<br>
+With every move, strength you'll find.<br>
+Assaying, slaying, climbing high,<br>
 Chasing the light, through the endless sky!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Embrace your qualms, Turn your fear to your might,  
-You are the black hole, With the photonic light!
-
-Channel your power, and bring it to light.  
+Embrace your qualms, Turn your fear to your might,<br>
+You are the black hole, With the photonic light!<br>
+<br>
+Channel your power, and bring it to light.<br>
 Feel it! Believe it! The strength inside!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Wear your doubts, Own your fears,  
-Face the horizon, beyond the fears.
-
-Through highs and lows, through joy and sad.  
-Your power sways 'tween loss and gain,  
-Find your balance, own your light,  
+Wear your doubts, Own your fears,<br>
+Face the horizon, beyond the fears.<br>
+<br>
+Through highs and lows, through joy and sad.<br>
+Your power sways 'tween loss and gain,<br>
+Find your balance, own your light,<br>
 Now go ahead, and shine so bright!
 </div>
 
 <div style="margin: 1.5em 0; line-height: 1.8;">
-Feel it! Believe it!  
-Find your way within!
-
-Wear those doubts, Own those fears,  
-Channel that fire, feel it sear!  
-Melt it down, refine your soul,  
-This is you—turn it into gold!
-
-Rise up now, it's gonna be fine!  
+Feel it! Believe it!<br>
+Find your way within!<br>
+<br>
+Wear those doubts, Own those fears,<br>
+Channel that fire, feel it sear!<br>
+Melt it down, refine your soul,<br>
+This is you—turn it into gold!<br>
+<br>
+Rise up now, it's gonna be fine!<br>
 <span style="font-style: italic; font-weight: 600; color: #e74c3c;">***Like a phoenix! through the skies!***</span>
 </div>
 
 </div>
 
-## Inspiration
+## Behind the Poem
 
-Being human!
+This poem emerged during a period of professional transition—a moment when self-doubt and possibility existed simultaneously. As someone who works at the cutting edge of AI technology, I'm intimately familiar with the concept of "singularity" in its technical sense: that hypothetical point where artificial intelligence surpasses human intelligence. But this poem explores a different kind of singularity: the unique, unreplicable essence that makes each of us who we are.
+
+The title plays on this duality. While the tech world debates when machines might achieve singularity, we often overlook our own—that internal convergence of experiences, fears, strengths, and beliefs that no algorithm can replicate. The poem challenges the common advice to "fake it till you make it," arguing instead that authenticity and self-belief are not performance, but recognition of the power already within.
+
+Written during late 2024, this piece reflects the universal human experience of standing at a threshold—whether it's a career change, a creative endeavor, or any moment requiring courage. The repeated refrain "Feel it! Believe it!" isn't motivational platitude; it's a reminder that conviction must be genuinely felt, not manufactured.
+
+The phoenix imagery represents transformation through adversity: our doubts and fears aren't obstacles to overcome, but raw materials to refine. Like metallurgy, which I reference in "melt it down, refine your soul," the process of becoming requires heat, pressure, and intentional shaping.
+
+**Inspiration:** Being human, standing at transitions, and the realization that your authentic self—with all its doubts and imperfections—is your greatest asset, not something to hide while "faking it."
+
+**Related:** The themes here connect to my work in AI, where we build systems that optimize and learn, yet struggle to capture the ineffable qualities that make human intelligence truly singular. Perhaps that's why, despite working with cutting-edge technology, I find myself writing poems about very human struggles with self-belief.
 
 
