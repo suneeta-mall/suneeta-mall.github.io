@@ -1,50 +1,149 @@
 ---
 title: Projects
+description: Books, research, tools, and educational resources spanning ML engineering, healthcare AI, and STEM education
 ---
 
 # Projects
 
-## Books & Publications
+A collection of work spanning technical leadership, research, education, and creative storytelling—unified by a focus on making complex systems understandable and impactful.
+
+---
+
+## Featured Work
 
 ### Deep Learning at Scale
-**O'Reilly, 2024**
+**O'Reilly Media, 2024** | **Type:** Technical Book | **Status:** Published
 
-A comprehensive guide to building production-ready deep learning systems, covering hardware optimization, distributed training, and efficient deployment strategies.
+![Deep Learning at Scale](../resources/books/15173-2121843.jpg){ align=left width=180 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
 
-[Learn more →](./oreilly_deep_learning_at_scale.md)
+A comprehensive guide to building and deploying deep learning systems that scale effectively. This book bridges the gap between research and production, covering hardware optimization, distributed training, model serving, and efficient deployment strategies.
+
+Addresses the critical challenge facing ML teams: moving from prototype to production-grade systems that handle real-world scale, reliability, and performance requirements.
+
+**Impact:** Used by ML teams at major tech companies | Featured in university ML engineering courses | Available globally via O'Reilly platform
+
+[Read more →](./oreilly_deep_learning_at_scale.md) | [Get the book →](https://www.oreilly.com/library/view/deep-learning-at/9781098145279/)
+
+<div style="clear: both;"></div>
+
+---
 
 ### Curious Cassie Children's Book Series
-**2023-2024**
+**2022-Present** | **Type:** Children's Literature | **Status:** Active Development
 
-Educational children's books combining storytelling with STEM concepts, designed to inspire young minds through adventure and discovery.
+![Curious Cassie](../resources/curious_cassie/curious_cassie_beach_ride.jpeg){ align=left width=180 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
 
-[Learn more →](./curious_cassie.md)
+Educational chapter book series for ages 6-8 that celebrates scientific discovery through the adventures of Cassie, an endlessly curious 6-year-old. Each book honors a pioneering scientist, weaving their discoveries into engaging narratives.
 
-## Technical Projects
+Designed to combat passive digital entertainment by offering active, imaginative engagement with stories of scientists and philosophers who shaped our understanding of the world.
+
+**Series Status:** Book 1 published (Isaac Newton) | Books 2-3 in planning (Emma Johnston, Carol Dweck) | Available on Amazon
+
+[Read more →](./curious_cassie.md) | [Purchase Book 1 →](https://www.amazon.com/dp/B0BPQQPYD8)
+
+<div style="clear: both;"></div>
+
+---
+
+## Research & Analysis
 
 ### Reproducible Machine Learning
-Framework and best practices for achieving reproducibility in deep learning research and production systems.
+**Type:** Framework & Best Practices | **Status:** Completed
 
-[Learn more →](./reproducible-ml.md)
+Comprehensive framework for achieving reproducibility in deep learning research and production systems. Addresses the challenge that most ML experiments cannot be reliably reproduced, undermining scientific rigor and production reliability.
+
+**Key Contributions:**
+- 4-part O'Reilly interactive learning series
+- Practical techniques for deterministic training
+- Analysis of reproducibility challenges across hardware, software, and data
+
+**Impact:** Adopted by research teams and production ML organizations seeking reliable experimentation
+
+[Learn more →](./reproducible-ml.md) | [O'Reilly Course →](./oreilly-interactive-katacode-series-for-reproducible-ml.md)
+
+---
 
 ### Label Noise with CleanLab
-Research on data quality and label noise detection in machine learning datasets using confident learning techniques.
+**Type:** Data Quality Research | **Status:** Completed
+
+Research on data quality and label noise detection in machine learning datasets using confident learning techniques. Explores how mislabeled data impacts model performance and strategies for systematic identification and correction.
+
+**Key Focus:**
+- Impact of label noise on model accuracy
+- Confident learning methodology
+- Practical applications in medical imaging
 
 [Learn more →](./label_noise_with_cleanlabs.md)
 
-### Feature Analysis
-Comparative analysis of dimensionality reduction techniques for understanding neural network representations.
+---
+
+### Feature Analysis: t-SNE vs UMAP
+**Type:** Comparative Analysis | **Status:** Completed
+
+Detailed comparison of dimensionality reduction techniques (t-SNE vs UMAP) for understanding and visualizing neural network representations. Provides practical guidance for practitioners choosing visualization methods for high-dimensional embeddings.
+
+**Techniques Covered:**
+- t-SNE methodology and applications
+- UMAP advantages and limitations
+- Practical recommendations for different use cases
 
 [Learn more →](./feature_analysis.md)
 
-### O'Reilly Interactive Katacoda Series
-Interactive learning scenarios for reproducible machine learning, published on the O'Reilly platform.
+---
+
+## Tools & Open Source
+
+### KCD (Kubernetes Cluster Debugger)
+**Type:** DevOps Tool | **Status:** Open Source
+
+Tools and utilities for debugging Kubernetes clusters and understanding pod lifecycle issues. Born from practical experience running ML workloads on Kubernetes and encountering common failure modes.
+
+**Focus Areas:**
+- Pod OOM (Out of Memory) debugging
+- Container lifecycle analysis
+- Resource allocation troubleshooting
+
+[Learn more →](./KCD.md)
+
+---
+
+## Educational Resources
+
+### O'Reilly Interactive Learning Series
+**Type:** Online Course | **Status:** Published
+
+Four interactive learning scenarios covering reproducible machine learning, published on the O'Reilly platform. Hands-on, practical approach to understanding reproducibility challenges and solutions.
+
+**Modules:**
+1. Semantic Segmentation on Oxford Pets Dataset
+2. Identifying the Reproducibility Challenge
+3. Random Seeds and Process-Parallelism
+4. Achieving 100% Reproducibility
+
+**Format:** Interactive coding scenarios with immediate feedback | Self-paced learning
 
 [Learn more →](./oreilly-interactive-katacode-series-for-reproducible-ml.md)
 
-## Open Source Contributions
+---
 
-### KCD (Kubernetes Cluster Debugger)
-Tools and utilities for debugging Kubernetes clusters and understanding pod lifecycle issues.
+## Project Themes
 
-[Learn more →](./KCD.md)
+### Making Complex Systems Understandable
+Whether it's scaling deep learning infrastructure, explaining Isaac Newton to 6-year-olds, or debugging Kubernetes clusters—the common thread is making complex technical systems accessible and actionable.
+
+### From Research to Production
+Projects emphasize the gap between research prototypes and production systems, providing practical guidance for teams building real-world ML applications.
+
+### Education Across Audiences
+Educational content spans from children's books sparking early scientific curiosity to advanced technical training for ML practitioners—different audiences, same commitment to clarity and impact.
+
+---
+
+## Archive
+
+**IBM Redbooks: Creating Plugins for Lotus Notes, Sametime, and Symphony** (2011)
+Technical guide for enterprise software development in the Lotus ecosystem.
+
+---
+
+*Projects reflect 18+ years of work across medical imaging, ML engineering, education, and creative writing—unified by curiosity, rigor, and a desire to make technical knowledge accessible.*

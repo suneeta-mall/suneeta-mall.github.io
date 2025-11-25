@@ -191,6 +191,8 @@ extra:
 nav:
   - Home: README.md
   - About: about.md
+  - Blog:
+      - blog/index.md
   - Projects:
       - projects/index.md
       - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
@@ -202,8 +204,6 @@ nav:
       - KCD: projects/KCD.md
       # - Gatling on ECS: projects/gatling-on-ecs.md
       # - Go Report Card Lite: projects/goreportcardlite.md
-  - Blog:
-      - blog/index.md
   - Talks:
       - talks/index.md
       - Knowledge Graph Conference 2022: talks/KGC_NY_2022.md
