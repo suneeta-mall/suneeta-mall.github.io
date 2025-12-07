@@ -60,8 +60,8 @@ My research spans medical imaging, machine learning, and human perception with p
 - **[Deep Learning at Scale: At the Intersection of Hardware, Software, and Data](https://www.oreilly.com/library/view/deep-learning-at/9781098145279/)** (O'Reilly, 2024)  
   *Comprehensive guide to scaling deep learning systems*
 
-- **[Curious Cassie's Beach Ride Quest](https://www.amazon.com.au/dp/B0BPQQPYD8)** (2023)  
-  *Children's book series promoting STEM education*
+- **[Curious Cassie Series](https://www.amazon.com/dp/B0G5GNGGSN?binding=kindle_edition&ref=dbs_dp_rwt_sb_pc_tkin)** (2022-Present)
+  *Children's book series celebrating scientific discovery (3 books published)*
 
 - **[Creating Plugins for Lotus Notes, Sametime, and Symphony][ibm_redbook]** (IBM Redbooks, 2011)  
   *Technical guide for enterprise software development*

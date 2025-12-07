@@ -29,19 +29,39 @@ Addresses the critical challenge facing ML teams: moving from prototype to produ
 ---
 
 ### Curious Cassie Children's Book Series
-**2022-Present** | **Type:** Children's Literature | **Status:** Active Development
+**2022-Present** | **Type:** Children's Literature | **Status:** Published
 
-![Curious Cassie](../resources/curious_cassie/curious_cassie_beach_ride.jpeg){ align=left width=180 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
+![Curious Cassie](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/curious_cassie_beach_ride_quests/image_0.png){ align=left width=180 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
 
-Educational chapter book series for ages 6-8 that celebrates scientific discovery through the adventures of Cassie, an endlessly curious 6-year-old. Each book honors a pioneering scientist, weaving their discoveries into engaging narratives.
+Educational chapter book series for ages 5-10 that celebrates scientific discovery through the adventures of Cassie, an endlessly curious 6-year-old. Each book honors a pioneering scientist, weaving their discoveries into engaging narratives.
 
 Designed to combat passive digital entertainment by offering active, imaginative engagement with stories of scientists and philosophers who shaped our understanding of the world.
 
-**Series Status:** Book 1 published (Isaac Newton) | Books 2-3 in planning (Emma Johnston, Carol Dweck) | Available on Amazon
+**Series Status:** 3 books published (Isaac Newton, Emma Johnston, Carol Dweck) | Available on Amazon and [FableFlow](https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures)
 
-[Read more →](./curious_cassie.md) | [Purchase Book 1 →](https://www.amazon.com/dp/B0BPQQPYD8)
+[Read more →](./curious_cassie.md) | [:fontawesome-brands-amazon: Amazon Series](https://www.amazon.com/dp/B0G5GNGGSN?binding=kindle_edition&ref=dbs_dp_rwt_sb_pc_tkin)
 
 <div style="clear: both;"></div>
+
+---
+
+### FableFlow: AI-Powered Book Production
+**2025** | **Type:** Open Source Platform | **Status:** Active Development
+
+An open-source agentic AI pipeline that transforms story manuscripts into complete multimedia experiences—illustrations, narration, music, and multi-format output (EPUB, PDF, HTML, video). Built to democratize professional children's book production by reducing costs by 10-100x and timelines from months to days.
+
+Deliberately built on open-source models and fully open source itself. The project embodies the belief that AI-assisted creative tools should be open, auditable, and accessible—not locked behind proprietary walls.
+
+**Key Features:**
+
+- Multi-stage production pipeline with specialized AI agents
+- FableFlow Studio for interactive refinement and iteration
+- Human-in-the-loop design preserving creative control
+- Support for open-source models (FLUX, etc.)
+
+**Impact:** Powers the Curious Cassie series production | Available for independent authors worldwide
+
+[Read more →](./fable_flow.md) | [GitHub →](https://github.com/suneeta-mall/fable-flow) | [Documentation →](https://suneeta-mall.github.io/fable-flow/)
 
 ---
 

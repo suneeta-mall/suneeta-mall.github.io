@@ -94,7 +94,8 @@ plugins:
       post_readtime_words_per_minute: 200
   - search:
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
-  - tags
+  - tags:
+      tags_file: tags.md
   - rss:
       enabled: true
       match_path: "blog/posts/.*"
@@ -197,6 +198,7 @@ nav:
       - projects/index.md
       - Deep Learning at Scale: projects/oreilly_deep_learning_at_scale.md
       - Curious Cassie Children's Books: projects/curious_cassie.md
+      - FableFlow: projects/fable_flow.md
       - Label Noise with CleanLab: projects/label_noise_with_cleanlabs.md
       - Feature Analysis: projects/feature_analysis.md
       - O'Reilly Interactive Series: projects/oreilly-interactive-katacode-series-for-reproducible-ml.md
@@ -232,5 +234,5 @@ nav:
       - Children's Books:
           - Curious Cassie Series: projects/curious_cassie.md
           - Beach Ride Quest Launch: blog/posts/2023-11-15-Curious-Cassie.md
-          - ChatGPT vs Me as Author: blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md
+          - ChatGPT vs Me as Author: blog/posts/2023-01-01-ChatGPT_vs_me_kids_book_author.md
   - Tags: tags.md

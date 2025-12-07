@@ -33,20 +33,24 @@ A comprehensive guide to building and deploying deep learning systems that scale
 
 ## Recent Articles
 
-- **[Deep Learning at Scale](blog/posts/2024-05-30-Deep-learning-at-scale.md)** - May 2024
-  Announcing the release of my O'Reilly book on scaling deep learning systems
+- **[From Evaluation to Integration: How AI Became Ready for Children's Book Production](blog/posts/2025-12-07-from-evaluation-to-integration-my-ai-authorship-journey.md)** - December 2025
+  A two-year reflection on AI capabilities crossing thresholds for meaningful creative augmentation
 
 - **[Cassie 2.0: The Next Generation](blog/posts/2025-05-10-cassie-2.0.md)** - May 2025
   Evolution of the Curious Cassie children's book series
 
-- **[ChatGPT vs Me as a Children's Book Author](blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md)** - January 2024
-  Comparative analysis of human vs AI creativity in children's literature
+- **[Deep Learning at Scale](blog/posts/2024-05-30-Deep-learning-at-scale.md)** - May 2024
+  Announcing the release of my O'Reilly book on scaling deep learning systems
+
+- **[ChatGPT vs Me as a Children's Book Author](blog/posts/2023-01-01-ChatGPT_vs_me_kids_book_author.md)** - January 2023
+  Evaluating AI content quality for children's educational literature
 
 ## Key Projects
 
+- **[FableFlow](projects/fable_flow.md)** - Open-source agentic AI pipeline for children's book production
 - **[Deep Learning at Scale](projects/oreilly_deep_learning_at_scale.md)** - O'Reilly book on production ML systems
 - **[Label Noise with CleanLab](projects/label_noise_with_cleanlabs.md)** - Data quality in machine learning
-- **[Reproducible ML](projects/reproducible-ml.md)** - Framework for reproducible deep learning
+- **[Curious Cassie](projects/curious_cassie.md)** - Children's book series celebrating scientific discovery
 
 ## Recent Talks
 

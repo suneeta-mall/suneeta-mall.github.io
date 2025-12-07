@@ -29,68 +29,85 @@ As [Albert Einstein](https://en.wikipedia.org/wiki/Albert_Einstein) once said:
 
 ---
 
-## Series Status & Roadmap
+## Published Books
 
-### ✅ Published
+All books are available as interactive multimedia experiences on [FableFlow](https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures), featuring narration, background music, and interactive reading modes.
 
-#### Book 1: Curious Cassie's Beach Ride Quest
+---
 
-**Status:** Published December 2022
-**Scientist Featured:** Isaac Newton
-**Themes:** Motion, gravity, forces, observation
+### Book 1: Curious Cassie's Beach Ride Quest
 
-![Curious Cassie's Beach Ride Quest](../resources/curious_cassie/curious_cassie_beach_ride.jpeg){ align=left width=200 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
+**Scientist Featured:** Isaac Newton | **Age Range:** 5-10 | **Themes:** Motion, gravity, forces
+
+![Curious Cassie's Beach Ride Quest](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/curious_cassie_beach_ride_quests/image_0.png){ align=left width=200 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
 
 Join Cassie, Caleb, and their mom on an exhilarating journey to the beach, where they encounter various situations that explore the wonders of motion and gravity, leaving them inspired by the genius of Sir Isaac Newton.
 
-**Available at:**
-[:fontawesome-brands-aws: Amazon US](https://www.amazon.com/dp/B0BPQQPYD8) | [:fontawesome-brands-aws: Amazon AU](https://www.amazon.com.au/dp/B0BPQQPYD8)
+**Purchase:**
+[:fontawesome-brands-amazon: Kindle](https://www.amazon.com/dp/B0D34RXR7S) | [:fontawesome-brands-amazon: Paperback](https://www.amazon.com/dp/0645696358)
 
-**Preview:** [Sample PDF](../resources/curious_cassie/Curious%20Cassie's%20beach%20ride%20quest-%20A%20Celebration%20of%20Isaac%20Newton's%20Discoveries.pdf)
+**Read Online:** [:fontawesome-solid-book-open: FableFlow Interactive](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/curious_cassie_beach_ride_quests/book/)
 
----
+<div style="clear: both;"></div>
 
-### 🚧 In Development
-
-#### Curious Cassie 2.0 Evolution
-
-The series is being reimagined with enhanced storytelling techniques and AI-augmented creative processes. This evolution focuses on:
-
-- **Deeper narrative engagement** - Enhanced plot structure, pacing, and emotional resonance
-- **Curiosity triggers** - Strategic moments that prompt questions and wonder
-- **Multi-sensory elements** - Exploring audio, interactive, and visual enhancements
-- **Iterative refinement** - Applying editorial feedback loops informed by early readers
-
-**Read more:** [Curious Cassie 2.0: Revolutionizing Children's Education Through AI-Powered Storytelling](../blog/posts/2025-05-10-cassie-2.0.md)
 
 ---
 
-### 💭 Future Books
+### Book 2: Curious Cassie's Harbour Quest
 
-The series envisions celebrating additional scientific pioneers:
+**Scientist Featured:** Emma Johnston | **Age Range:** 5-10 | **Themes:** Marine science, buoyancy, ocean discovery
 
-#### Book 2: Curious Cassie's Harbour Quest
-**Scientist Featured:** Emma Johnston
-**Focus:** Marine Science and Buoyancy
+![Curious Cassie's Harbour Quest](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/cassies_harbour_quest/image_0.png){ align=left width=200 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
 
-A Discovery of Marine Science and Buoyancy featuring Emma Johnston, a renowned Australian marine biologist and President of Science & Technology Australia. Join Cassie and Caleb as they explore the wonders of ocean life and the science of floating and sinking.
+Set sail with Cassie on a maritime adventure filled with discovery, friendship, and the excitement of exploring new horizons. A celebration of marine science and buoyancy featuring Emma Johnston, a renowned Australian marine biologist and President of Science & Technology Australia. Join Cassie and Caleb as they explore the wonders of ocean life and the science of floating and sinking.
 
-**Status:** In planning
+**Purchase:**
+[:fontawesome-brands-amazon: Kindle](https://www.amazon.com/dp/B0G5GBVR5M) | [:fontawesome-brands-amazon: Paperback](https://www.amazon.com/dp/0645696323)
 
-#### Book 3: Cassie, Caleb, and the Magic of YET
-**Scientist Featured:** Dr. Carol S. Dweck
-**Focus:** Growth Mindset and Learning
+**Read Online:** [:fontawesome-solid-book-open: FableFlow Interactive](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/cassies_harbour_quest/book/)
 
-A Growth Mindset Adventure featuring Dr. Carol S. Dweck, a scientist at Stanford University whose research revolutionized how we understand learning and achievement. This book explores the power of "yet"—the idea that we may not know something *yet*, but we can learn it.
-
-**Status:** In planning
-
-#### Book 4-5: Additional Pioneers
-Celebrating discoveries across physics, biology, chemistry, and beyond.
+<div style="clear: both;"></div>
 
 ---
 
-The roadmap prioritizes quality over speed—each book undergoes careful development to ensure it sparks genuine curiosity and delivers meaningful learning experiences.
+### Book 3: Cassie, Caleb, and the Magic of YET!
+
+**Scientist Featured:** Dr. Carol S. Dweck | **Age Range:** 5-10 | **Themes:** Growth mindset, learning, resilience
+
+![Cassie, Caleb, and the Magic of YET!](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/cassie_caleb_n_magic_of_yet/image_0.png){ align=left width=200 style="margin-right: 2rem; margin-bottom: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" }
+
+A heartwarming growth mindset adventure where Cassie and her little brother Caleb discover that their brains can grow stronger with every challenge they face. Featuring Dr. Carol S. Dweck, a scientist at Stanford University whose research revolutionized how we understand learning and achievement. This book explores the power of "yet"—the idea that we may not know something *yet*, but we can learn it.
+
+**Purchase:**
+[:fontawesome-brands-amazon: Kindle](https://www.amazon.com/dp/B0G5GNGGSN) | [:fontawesome-brands-amazon: Paperback](https://www.amazon.com/dp/B0G5FQVK1C)
+
+**Read Online:** [:fontawesome-solid-book-open: FableFlow Interactive](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/cassie_caleb_n_magic_of_yet/book/)
+
+<div style="clear: both;"></div>
+
+---
+
+
+
+## AI-Augmented Production
+
+The series has evolved significantly through [FableFlow](./fable_flow.md), an open-source agentic AI pipeline for children's book production. This evolution enables:
+
+- **Multi-sensory storytelling** - Interactive reading with narration and background music
+- **Rapid iteration** - Quick refinement based on reader feedback
+- **Multi-format distribution** - EPUB, PDF, HTML, and video adaptations
+- **Accessible production** - Professional-quality output without prohibitive costs
+
+**Read more:**
+
+- [From Evaluation to Integration: How AI Became Ready for Children's Book Production](../blog/posts/2025-12-07-from-evaluation-to-integration-my-ai-authorship-journey.md)
+- [Curious Cassie 2.0: Revolutionizing Children's Education Through AI-Powered Storytelling](../blog/posts/2025-05-10-cassie-2.0.md)
+
+---
+
+## Future Books
+
+The series continues to expand, celebrating additional scientific pioneers across physics, biology, chemistry, and beyond. The roadmap prioritizes quality over speed—each book undergoes careful development to ensure it sparks genuine curiosity and delivers meaningful learning experiences.
 
 ---
 
@@ -113,18 +130,12 @@ As both an ML/AI engineering leader and children's book author, Suneeta brings a
 
 The *Curious Cassie* series emerged from a simple observation: children need more resources that spark genuine curiosity rather than just delivering information. By celebrating the stories of scientists—flawed, curious humans like the rest of us—these books aim to normalize intellectual exploration and questioning.
 
-### Jaya Jha - Illustrator
-
-Jaya is a software developer and passionate educator inspired by her twin daughters' endless questions. She believes in nurturing children's natural inquisitiveness through visual storytelling that makes abstract concepts concrete and engaging. For Jaya, illustration isn't decoration—it's a teaching tool that helps young minds grasp complex ideas through imagery.
-
-**Connect with Jaya:**
-[LinkedIn](https://www.linkedin.com/in/jaya-gajjar-39767917/) | [Twitter](https://twitter.com/jaya_jha) | [Instagram](https://www.instagram.com/jayajha/)
 
 ### The Origin Story
 
-In August 2022, during a motorway drive, Suneeta and Jaya discussed how electronic devices were consuming "think time"—those moments when children's minds wander, wonder, and form questions. From that conversation emerged the vision for *Curious Cassie*: a book series that reclaims space for curiosity, featuring scientists and philosophers who exemplify the power of questioning.
+The *Curious Cassie* series emerged from a simple observation in August 2022: electronic devices were consuming "think time"—those moments when children's minds wander, wonder, and form questions. From that realization came the vision for a book series that reclaims space for curiosity, featuring scientists and philosophers who exemplify the power of questioning.
 
-Three years later, the series continues to evolve, balancing the realities of professional demands with the passion for inspiring young minds.
+Three years later, the series has evolved significantly. The development of [FableFlow](./fable_flow.md)—an open-source agentic AI pipeline for book production—has transformed what's possible for independent children's book publishing. What began as a single manually-produced title has grown into a multimedia series with professional illustration, narration, and multi-format distribution. The [journey from evaluating AI capabilities in 2023](../blog/posts/2025-12-07-from-evaluation-to-integration-my-ai-authorship-journey.md) to building production-grade AI-augmented workflows represents both a technical evolution and a reimagining of what independent authorship can achieve.
 
 ---
 
@@ -132,9 +143,14 @@ Three years later, the series continues to evolve, balancing the realities of pr
 
 ### Blog Posts & Reflections
 
-- **[Launch Announcement: Beach Ride Quest](../blog/posts/2023-11-15-Curious-Cassie.md)** - Introducing the series and Book 1
-- **[ChatGPT vs Me: As a Children's Author](../blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md)** - Exploring AI's role in creative children's literature
-- **[Cassie 2.0 Vision](../blog/posts/2025-05-10-cassie-2.0.md)** - The future of the series with AI-augmented storytelling
+- **[From Evaluation to Integration](../blog/posts/2025-12-07-from-evaluation-to-integration-my-ai-authorship-journey.md)** - A two-year reflection on how AI crossed capability thresholds for meaningful creative augmentation, leading to the development of FableFlow (December 2025)
+- **[Cassie 2.0 Vision](../blog/posts/2025-05-10-cassie-2.0.md)** - The future of the series with AI-augmented storytelling (May 2025)
+- **[ChatGPT vs Me: As a Children's Author](../blog/posts/2023-01-01-ChatGPT_vs_me_kids_book_author.md)** - The original evaluation of AI content quality that established the baseline for later comparison (January 2023)
+- **[Launch Announcement: Beach Ride Quest](../blog/posts/2023-11-15-Curious-Cassie.md)** - Introducing the series and Book 1 (November 2023)
+
+### Related Projects
+
+- **[FableFlow](./fable_flow.md)** - The open-source AI pipeline powering Curious Cassie production
 
 ### Educational Use
 
@@ -149,9 +165,9 @@ Educators and parents are welcome to use *Curious Cassie* books to:
 
 ## Learn More
 
-- **Official Website:** [curiouscassie.github.io](https://curiouscassie.github.io/)
-- **Purchase Book 1:** Available through [Ingram distribution](https://www.ingramspark.com/) and major retailers
-- **Contact:** For educator inquiries, bulk orders, or collaboration opportunities, reach out via [email](mailto:suneetamall@gmail.com)
+- **Amazon Series:** [:fontawesome-brands-amazon: Curious Cassie Series on Amazon](https://www.amazon.com/dp/B0G5GNGGSN?binding=kindle_edition&ref=dbs_dp_rwt_sb_pc_tkin)
+- **FableFlow Interactive:** [:fontawesome-solid-book-open: Read all books online](https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures)
+- **Contact:** For educator inquiries, bulk orders, or collaboration opportunities, reach out via [email](mailto:curious.cassie.series@gmail.com)
 
 ---
 

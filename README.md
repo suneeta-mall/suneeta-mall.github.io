@@ -22,9 +22,3 @@ To launch mkdocs locally, follow these instructions:
 ```bash
 make serve
 ```
-
-# TODO
-- [] Add Dep and version lock upgrade
-- [] Use bib for references
-- [] Add annoucement of books https://squidfunk.github.io/mkdocs-material/setup/setting-up-the-header/
-- [] Format content with https://squidfunk.github.io/mkdocs-material/reference/admonitions/

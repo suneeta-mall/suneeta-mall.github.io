@@ -70,15 +70,15 @@ Explorations from earlier creative phases, spanning playful verse to deeper cont
 
 ## Complete Collection
 
-| Title | Date | Themes | Audio |
-|-------|------|--------|-------|
-| [Singularity](./singularity.md) | Sept 2024 | Empowerment, authenticity, technology | :material-music: |
-| [Life of AI Engineers](./life-of-ai-engineer.md) | June 2024 | AI, humor, technical life | :material-music: |
-| [My Little Butterfly](./my-little-butterfly.md) | Feb 2021 | Motherhood, education, growth | :material-music: |
-| [Breaking Thy Bias](./breaking-thy-bias.md) | Dec 2021 | Diversity, science, social justice | |
-| [Daminis](./daminis.md) | 2012 | Resilience | |
-| [One Bright Dawn](./one-bright-dawn.md) | 2010 | Hope, renewal | |
-| [Ain't No Dr. Seuss](./aint-no-dr-seuss.md) | 2010 | Playful, reflective | |
+| Title                                            | Date      | Themes                                | Audio            |
+| ------------------------------------------------ | --------- | ------------------------------------- | ---------------- |
+| [Singularity](./singularity.md)                  | Sept 2024 | Empowerment, authenticity, technology | :material-music: |
+| [Life of AI Engineers](./life-of-ai-engineer.md) | June 2024 | AI, humor, technical life             | :material-music: |
+| [My Little Butterfly](./my-little-butterfly.md)  | Feb 2021  | Motherhood, education, growth         | :material-music: |
+| [Breaking Thy Bias](./breaking-thy-bias.md)      | Dec 2021  | Diversity, science, social justice    |                  |
+| [Daminis](./daminis.md)                          | 2012      | Resilience                            |                  |
+| [One Bright Dawn](./one-bright-dawn.md)          | 2010      | Hope, renewal                         |                  |
+| [Ain't No Dr. Seuss](./aint-no-dr-seuss.md)      | 2010      | Playful, reflective                   |                  |
 
 ---
 
@@ -86,7 +86,7 @@ Explorations from earlier creative phases, spanning playful verse to deeper cont
 
 Poetry offers something that technical documentation cannot: space for ambiguity, emotion, and the messiness of human experience. These works don't aim to explain or solve—they explore, question, and occasionally celebrate the absurdities of working at the intersection of artificial intelligence and very real human challenges.
 
-If you're interested in how technical thinking influences creative writing (or vice versa), you might enjoy my blog posts on [Cassie 2.0](../blog/posts/2025-05-10-cassie-2.0.md) and [ChatGPT vs Me as a Children's Book Author](../blog/posts/2024-01-07-ChatGPT_vs_me_kids_book_author.md).
+If you're interested in how technical thinking influences creative writing (or vice versa), you might enjoy my blog posts on [Cassie 2.0](../blog/posts/2025-05-10-cassie-2.0.md) and [ChatGPT vs Me as a Children's Book Author](../blog/posts/2023-01-01-ChatGPT_vs_me_kids_book_author.md).
 
 ---
 

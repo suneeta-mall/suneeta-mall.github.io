@@ -8,7 +8,7 @@ categories:
   - LLM
   - Children's Books
   - Curious Cassie
-date: 2024-01-07
+date: 2023-01-01
 pin: true
 authors:
   - suneeta
@@ -22,7 +22,7 @@ I have to admit I have strongly resisted the urge to use it for purposes beyond 
 
 On a lighter note, selfishly speaking, I also fear depleting my creative and critical thinking abilities in favour of convenience and productivity. If Darwin’s theory is anything to go by, that’s one human talent we should preserve and reinforce, I think. Did I hear you say “But you can still be critical of the presented text?”? Sure, but we are also a Large Language Model in many ways :) - we get biased and we are lazy. Is not laziness the inspiration for many useful inventions of our times?
 
-As a mother of young kids and as someone who believes in lifelong learning, I made a [tiny effort](https://curiouscassie.github.io) last year to write chapter books for early readers covering the discoveries of the great scientists of our past and present. In my debut release, I featured Sir Isaac Newton’s discoveries in a book titled “Curious Cassie's beach ride quest: A Celebration of Isaac Newton's Discoveries”. I tested the book on a sample of 5 kids all ranging from 6-7 years and observed extreme enthusiasm and an increased number of questions thereafter. Mission accomplished, eh? 
+As a mother of young kids and as someone who believes in lifelong learning, I made a [tiny effort](https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures) last year to write chapter books for early readers covering the discoveries of the great scientists of our past and present. In my debut release, I featured Sir Isaac Newton’s discoveries in a book titled “Curious Cassie's beach ride quest: A Celebration of Isaac Newton's Discoveries”. I tested the book on a sample of 5 kids all ranging from 6-7 years and observed extreme enthusiasm and an increased number of questions thereafter. Mission accomplished, eh? 
 
 I failed this morning! I failed to resist the chatGPT urge to see what it would write instead. So here’s Me vs chatGPT, a debut author vs a stochastic parrot:
 
@@ -302,4 +302,4 @@ Thanks a lot for reading! If you ever see any value in spreading the word about 
 
 
 [ChatGPT]: https://openai.com/blog/chatgpt/
-[Cassies]: https://curiouscassie.github.io
+[Cassies]: https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures

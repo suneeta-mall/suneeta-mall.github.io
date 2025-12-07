@@ -7,7 +7,7 @@ date: 2023-11-12
 authors:
   - suneeta
 links:
-  - 2024-01-07-ChatGPT_vs_me_kids_book_author.md
+  - 2023-01-01-ChatGPT_vs_me_kids_book_author.md
   - ../../projects/curious_cassie.md
 tags:
   - blog
@@ -30,17 +30,17 @@ Join Cassie, Caleb, and their mom on an extraordinary adventure to the beach. Al
 
 **Publication Date**: 2023-11-12
 
-![Curious Cassie's Beach Ride Quest](../../resources/curious_cassie/curious_cassie_beach_ride.jpeg)
+![Curious Cassie's Beach Ride Quest](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/curious_cassie_beach_ride_quests/image_0.png)
 
-You might also enjoy reading [ChatGPT vs Me: As a Children's Author](2024-01-07-ChatGPT_vs_me_kids_book_author.md)
+You might also enjoy reading [ChatGPT vs Me: As a Children's Author](2023-01-01-ChatGPT_vs_me_kids_book_author.md)
 
 **Get your copy now**:
 
-Curious Cassie's Beach Ride Quest is available through [Ingram](https://www.ingramspark.com/). You can find it at your favorite book retailer. Here are direct links to Amazon:
+[:fontawesome-brands-amazon: Kindle](https://www.amazon.com/dp/B0D34RXR7S) | [:fontawesome-brands-amazon: Paperback](https://www.amazon.com/dp/0645696358)
 
-[:fontawesome-brands-aws: - Amazon](https://www.amazon.com/dp/B0BPQQPYD8) | [:fontawesome-brands-aws: - Amazon AU](https://www.amazon.com.au/dp/B0BPQQPYD8)
+**Read Online:** [:fontawesome-solid-book-open: FableFlow Interactive](https://suneeta-mall.github.io/fable-flow/books/curious_cassie/curious_cassie_beach_ride_quests/book/)
 
 ## Stay Connected!
 Connect with Cassie:
-[:fontawesome-solid-envelope:](mailto:curious.cassie.series@gmail.com) | [:fontawesome-solid-web:](https://curiouscassie.github.io) | [:fontawesome-brands-x-twitter:](https://twitter.com/CuriousCassie22)
+[:fontawesome-solid-envelope:](mailto:curious.cassie.series@gmail.com) | [:fontawesome-solid-book-open: FableFlow](https://suneeta-mall.github.io/fable-flow/curious-cassie/#cassies-adventures)
 
