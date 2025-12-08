@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#3F51B5;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#009688;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#1976D2;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="circuitGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#009688;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#00BCD4;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+
+    <!-- Neural network brain shape (simplified for favicon) -->
+    <path d="M8 6 Q5 4, 6 10 Q4 14, 8 16 Q5 18, 10 22 Q14 24, 18 22 Q22 18, 20 16 Q26 14, 22 10 Q24 4, 20 6 Q18 5, 16 6 Q12 5, 8 6 Z"
+          fill="url(#brainGradient)" opacity="0.9" />
+
+    <!-- Circuit nodes (simplified) -->
+    <circle cx="10" cy="8" r="1" fill="#00BCD4" />
+    <circle cx="16" cy="8" r="1" fill="#00BCD4" />
+    <circle cx="22" cy="8" r="1" fill="#00BCD4" />
+    <circle cx="10" cy="16" r="1" fill="#00BCD4" />
+    <circle cx="16" cy="15" r="1" fill="#00BCD4" />
+    <circle cx="22" cy="16" r="1" fill="#00BCD4" />
+
+    <!-- Neural connections (simplified) -->
+    <path d="M10 8 L16 8 L22 8 M16 8 L16 15 M10 8 L10 16 M22 8 L22 16"
+          stroke="url(#circuitGradient)" stroke-width="0.5" opacity="0.7" fill="none" />
+
+    <!-- Central processing unit -->
+    <rect x="13" y="12" width="6" height="6" rx="1" fill="url(#brainGradient)" opacity="0.9" />
+
+    <!-- SM initials (very small) -->
+    <g transform="translate(16, 26) scale(0.3)">
+        <!-- S -->
+        <path d="M-2 -4 C-2 -6, -6 -7, -6 -5 C-6 -3, -2 -2, -2 0 C-2 3, -6 4, -6 2"
+              fill="none" stroke="url(#brainGradient)" stroke-width="1" stroke-linecap="round" />
+        <!-- M -->
+        <path d="M1 5 L1 -4 M1 -4 L3 1 M3 1 L5 -4 M5 -4 L5 5"
+              fill="none" stroke="url(#brainGradient)" stroke-width="1" stroke-linecap="round" />
+    </g>
+</svg>

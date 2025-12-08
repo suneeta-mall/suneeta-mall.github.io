@@ -1,0 +1,393 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Suneeta Mall | Engineering and Data Science",
+    "home_page_url": "https://suneeta-mall.github.io/",
+    "feed_url": "https://suneeta-mall.github.io/feed_json_created.json",
+    "description": "Engineering and Data Science insights, tutorials, and projects",
+    "icon": null,
+    "authors": [],
+    "language": "en",
+    "items": [
+        {
+            "id": "https://suneeta-mall.github.io/blog/2025/12/07/from-evaluation-to-integration-how-ai-became-ready-for-childrens-book-production/",
+            "url": "https://suneeta-mall.github.io/blog/2025/12/07/from-evaluation-to-integration-how-ai-became-ready-for-childrens-book-production/",
+            "title": "From Evaluation to Integration: How AI Became Ready for Children's Book Production",
+            "content_html": "<h1>From Evaluation to Integration: How AI Became Ready for Children's Book Production</h1>\n<p><em>\"Clich\u00e9, my dear parrot! Clich\u00e9!\"</em></p>\n<p>That was my assessment in January ...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.349897+00:00",
+            "date_published": "2025-12-07T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "Agentic AI",
+                "Book",
+                "Children's Books",
+                "Curious Cassie",
+                "Generative AI",
+                "LLM",
+                "Machine Learning",
+                "agentic-pipelines",
+                "ai-authorship",
+                "children-literature",
+                "copyright",
+                "creative-ai",
+                "fable-flow"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2025/05/10/curious-cassie-20-revolutionizing-childrens-education-through-ai-powered-storytelling/",
+            "url": "https://suneeta-mall.github.io/blog/2025/05/10/curious-cassie-20-revolutionizing-childrens-education-through-ai-powered-storytelling/",
+            "title": "Curious Cassie 2.0: Revolutionizing Children's Education Through AI-Powered Storytelling",
+            "content_html": "<h1>Curious Cassie 2.0: Revolutionizing Children's Education Through AI-Powered Storytelling</h1>\n<h2>Table of Contents</h2>\n<ul>\n<li>[Curious Cassie 2.0: Revolutionizing Child...</li>\n</ul>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.313697+00:00",
+            "date_published": "2025-05-10T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "Book",
+                "Curious Cassie",
+                "Generative AI",
+                "LLM"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2024/05/30/deep-learning-at-scale/",
+            "url": "https://suneeta-mall.github.io/blog/2024/05/30/deep-learning-at-scale/",
+            "title": "Deep Learning at Scale",
+            "content_html": "<h1>Deep Learning at Scale - O'Reilly Book Launch</h1>\n<p>After two years of intensive work, I'm excited to announce the release of \"Deep Learning at Scale: At the In...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.297184+00:00",
+            "date_published": "2024-05-30T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Book",
+                "Deep Learning",
+                "Machine Learning",
+                "advanced",
+                "blog",
+                "deep-learning",
+                "machine-learning"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2023/11/12/hydra-pydantic-config-management/",
+            "url": "https://suneeta-mall.github.io/blog/2023/11/12/hydra-pydantic-config-management/",
+            "title": "Hydra Pydantic Config Management",
+            "content_html": "<h1>Pydra - Pydantic and Hydra for configuration management of model training experiments</h1>\n<p>How do you manage the configurations of your model training experime...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.175252+00:00",
+            "date_published": "2023-11-12T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Machine Learning",
+                "Software",
+                "blog",
+                "hydra",
+                "intermediate",
+                "machine-learning",
+                "pydantic",
+                "python"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2023/11/12/launch-of-curious-cassies-beach-ride-quest/",
+            "url": "https://suneeta-mall.github.io/blog/2023/11/12/launch-of-curious-cassies-beach-ride-quest/",
+            "title": "Launch of Curious Cassie's Beach Ride Quest",
+            "content_html": "<h1>Launch of Curious Cassie's Beach Ride Quest</h1>\n<p>We are thrilled to announce the launch of Curious Cassie's Beach Ride Quest - an exciting concept book from th...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.291938+00:00",
+            "date_published": "2023-11-12T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "Children's Books",
+                "Curious Cassie",
+                "beginner",
+                "blog",
+                "children-book",
+                "children-literature"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2023/01/01/chatgpt-vs-me-as-a-childrens-authors/",
+            "url": "https://suneeta-mall.github.io/blog/2023/01/01/chatgpt-vs-me-as-a-childrens-authors/",
+            "title": "ChatGPT vs Me: As a Children's Authors",
+            "content_html": "<h1>ChatGPT vs Me: As a Children's Authors</h1>\n<p>For all the right reasons, large language models have taken the world by storm! It\u2019s pretty impressive what [ChatGP...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.285571+00:00",
+            "date_published": "2023-01-01T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Book",
+                "Children's Books",
+                "Curious Cassie",
+                "Data-science",
+                "LLM",
+                "Machine Learning"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2022/06/09/feature-analysis---t-sne-vs-umap/",
+            "url": "https://suneeta-mall.github.io/blog/2022/06/09/feature-analysis---t-sne-vs-umap/",
+            "title": "Feature Analysis - t-SNE vs UMAP",
+            "content_html": "<h1>Review and comparison of two manifold learning algorithms: t-SNE and UMAP</h1>\n<p>What are manifold learning algorithms? What is t-SNE and UMAP? What are the diff...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.266516+00:00",
+            "date_published": "2022-06-09T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Data",
+                "Data-Centric-AI",
+                "Data-science",
+                "Machine Learning",
+                "PyTorch",
+                "UMAP",
+                "blog",
+                "data-science",
+                "feature-analysis",
+                "intermediate",
+                "t-SNE",
+                "tsne",
+                "umap"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2022/05/16/confident-learning-and-clean-data/",
+            "url": "https://suneeta-mall.github.io/blog/2022/05/16/confident-learning-and-clean-data/",
+            "title": "Confident Learning and Clean Data",
+            "content_html": "<h1>Confident Learning: Label errors are imperative! So what can you do?</h1>\n<p>What makes deep-learning so great, despite what you may have heard, is data! There i...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.223401+00:00",
+            "date_published": "2022-05-16T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Confident-Learning",
+                "Data",
+                "Data-Centric-AI",
+                "Deep-Learning",
+                "Machine Learning",
+                "PyTorch",
+                "blog",
+                "clean-lab",
+                "data-science",
+                "intermediate",
+                "machine-learning"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2021/12/31/data-in-deep-learning/",
+            "url": "https://suneeta-mall.github.io/blog/2021/12/31/data-in-deep-learning/",
+            "title": "Data in Deep Learning",
+            "content_html": "<h1>Review of recent advances in dealing with data size challenges in Deep Learning</h1>\n<p>The energy and excitement in machine learning and deep learning communitie...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.082163+00:00",
+            "date_published": "2021-12-31T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Data",
+                "Data-Centric-AI",
+                "Deep-Learning",
+                "Machine Learning",
+                "advanced",
+                "blog",
+                "data-science",
+                "deep-learning",
+                "machine-learning"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2021/03/14/wth-who-killed-my-pod---whodunit/",
+            "url": "https://suneeta-mall.github.io/blog/2021/03/14/wth-who-killed-my-pod---whodunit/",
+            "title": "WTH! Who killed my pod - Whodunit?",
+            "content_html": "<h1>Debugging OOMKilled Pods in Kubernetes: A Deep Dive</h1>\n<p>When I deployed a new application to our self-managed Kubernetes cluster, chaos ensued. Pods were bein...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.004997+00:00",
+            "date_published": "2021-03-14T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "Kubernetes",
+                "OOM"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/23/end-to-end-reproducible-machine-learning-pipelines-on-kubernetes/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/23/end-to-end-reproducible-machine-learning-pipelines-on-kubernetes/",
+            "title": "End-to-end reproducible Machine Learning pipelines on Kubernetes",
+            "content_html": "<h1>End-to-end reproducible Machine Learning pipelines on Kubernetes</h1>\n<p>This is [Part 3] - <strong>End-to-end reproducible Machine Learning pipelines on Kubernetes</strong> o...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:07.946794+00:00",
+            "date_published": "2019-12-23T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Kubernetes",
+                "Machine Learning",
+                "Reproducible-ml",
+                "blog",
+                "intermediate",
+                "k8s",
+                "kubernetes",
+                "machine-learning",
+                "reproducibility"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/23/replicability---an-extension-to-reproducibility/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/23/replicability---an-extension-to-reproducibility/",
+            "title": "Replicability - an extension to reproducibility",
+            "content_html": "<h1>Replicability - an extension to reproducibility</h1>\n<p>This is [Part 3] - <strong>End-to-end reproducible Machine Learning pipelines on Kubernetes</strong> of technical blog ...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:08.354963+00:00",
+            "date_published": "2019-12-23T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Kubernetes",
+                "Machine Learning",
+                "Reproducible-ml"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/22/reproducible-ml-with-tensorflow/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/22/reproducible-ml-with-tensorflow/",
+            "title": "Reproducible ML with TensorFlow",
+            "content_html": "<h1>Realizing reproducible Machine Learning - with Tensorflow</h1>\n<p>This is [Part 2] - <strong>Realizing reproducible Machine Learning - with Tensorflow</strong> of technical bl...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:07.917335+00:00",
+            "date_published": "2019-12-22T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Machine Learning",
+                "Reproducible-ml",
+                "blog",
+                "data-science",
+                "intermediate",
+                "machine-learning",
+                "reproducibility",
+                "tensorflow"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/21/reproducible-ml-research-in-industry/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/21/reproducible-ml-research-in-industry/",
+            "title": "Reproducible ML Research in Industry",
+            "content_html": "<h1>Reproducibility in Machine Learning - Research and Industry</h1>\n<p>This is [Part 1] - <strong>Reproducibility in Machine Learning - Research and Industry</strong> of technica...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:07.859473+00:00",
+            "date_published": "2019-12-21T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Machine Learning",
+                "Reproducible-ml",
+                "blog",
+                "data-science",
+                "intermediate",
+                "machine-learning",
+                "reproducibility"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/20/reproducibility-in-machine-learning-blog-series/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/20/reproducibility-in-machine-learning-blog-series/",
+            "title": "Reproducibility in Machine Learning blog series",
+            "content_html": "<h1>Reproducibility in Machine Learning blog series</h1>\n<p>This technical blog series titled \"Reproducibility in Machine Learning\" is going to be divided into three ...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:07.756459+00:00",
+            "date_published": "2019-12-20T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "AI",
+                "Kubernetes",
+                "Machine Learning",
+                "Reproducible-ml"
+            ]
+        },
+        {
+            "id": "https://suneeta-mall.github.io/blog/2019/12/01/reading-list/",
+            "url": "https://suneeta-mall.github.io/blog/2019/12/01/reading-list/",
+            "title": "Reading List",
+            "content_html": "<h1>Reading List</h1>\n<p>A curated collection of books that have shaped my thinking across technology, leadership, creativity, and life. These are books I've genuinel...</p>",
+            "image": null,
+            "date_modified": "2025-12-08T19:45:07.749998+00:00",
+            "date_published": "2019-12-01T00:00:00+00:00",
+            "authors": [
+                {
+                    "name": "Suneeta Mall"
+                }
+            ],
+            "tags": [
+                "Book",
+                "Data-science",
+                "Leadership",
+                "Machine Learning",
+                "Technology"
+            ]
+        }
+    ]
+}
